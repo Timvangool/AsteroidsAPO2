@@ -1,7 +1,8 @@
 GitHub regels
 
 Bij het commiten in de repositoris geldt de volgende conventie bij summary:
-<onderwerp in enkele woorden> <Versie van het product>
+<Datum van wanner het is toegevoegd/gewijzingt> <onderwerp in enkele woorden het liefst in het Engels> 
+<Versie van het product>
 Daarna bij description geef je een wat vollediger beschrijving van het bijgewerkte product.
 
 We gaan ook werken met branches omdat we zo gemakkelijker de code kunnen bijwerken.
