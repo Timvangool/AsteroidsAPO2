@@ -1,0 +1,16 @@
+GitHub regels
+
+Bij het commiten in de repositoris geldt de volgende conventie bij summary:
+<onderwerp in enkele woorden> <Versie van het product>
+Daarna bij description geef je een wat vollediger beschrijving van het bijgewerkte product.
+
+We gaan ook werken met branches omdat we zo gemakkelijker de code kunnen bijwerken.
+Een branch is een vertakking van de werkfolder, en is een soort testomgeving.
+In GitHub naast de knop “master” heb je een icon om een nieuwe branch toe te voegen. 
+Noem je branch: <naam>-Branch
+
+Kijk uit dat je niet in de masterbranch werkt, je kan dit gemakkelijk boven zien in 
+GitHub ofdat er “master” of jouw “<naam>-Branch” staat. 
+Uiteindelijk als je code klaar is en werkt gaan we jouw “<naam>-Branch” merge met de masterbranch. 
+Dit doe op de vollgende manier: klik op de “master” knop en klik daarna op de knop “Merge” 
+en zoek de bijbehorende branch om te merge met de masterbranch
