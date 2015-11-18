@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using Astroids.Classes;
 
 namespace Astroids
 {
@@ -18,11 +19,14 @@ namespace Astroids
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Player p;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
+            p = new Player();
         }
 
         /// <summary>
@@ -48,6 +52,7 @@ namespace Astroids
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            p.Load(Content);
         }
 
         /// <summary>
@@ -71,6 +76,7 @@ namespace Astroids
                 this.Exit();
 
             // TODO: Add your update logic here
+            p.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -82,6 +88,9 @@ namespace Astroids
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            spriteBatch.Begin();
+            p.Draw(spriteBatch);
+            spriteBatch.End();
 
             // TODO: Add your drawing code here
 
