@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{6DE71561-ED43-4D51-9737-F8CED9C6D238}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNAContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-29T14:25:48.3656335+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
