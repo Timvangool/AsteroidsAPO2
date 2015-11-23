@@ -20,7 +20,7 @@ namespace WiimoteTest2015
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         WiimoteHandler wm;
-        Vector2 pos = new Vector2(50, 50);
+        Rectangle pos = new Rectangle(50, 50, 50, 50);
         Texture2D sShip;
 
 
@@ -73,17 +73,18 @@ namespace WiimoteTest2015
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (wm.GetButtonsPressed().Contains("Home"))
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape) || wm.GetButtonsPressed().Contains("Home"))
                 this.Exit();
+            wm.GetButtonsPressed();
 
             // TODO: Add your update logic here
-            if (wm.GetButtonsPressed().Contains("Up"))
+            if (Keyboard.GetState().IsKeyDown(Keys.Left) || wm.GetButtonsPressed().Contains("Up"))
                 pos.X--;
-            if (wm.GetButtonsPressed().Contains("Down"))
+            if (Keyboard.GetState().IsKeyDown(Keys.Right) || wm.GetButtonsPressed().Contains("Down"))
                 pos.X++;
-            if (wm.GetButtonsPressed().Contains("Right"))
+            if (Keyboard.GetState().IsKeyDown(Keys.Up) || wm.GetButtonsPressed().Contains("Right"))
                 pos.Y--;
-            if (wm.GetButtonsPressed().Contains("Left"))
+            if (Keyboard.GetState().IsKeyDown(Keys.Down) || wm.GetButtonsPressed().Contains("Left"))
                 pos.Y++;
 
             base.Update(gameTime);

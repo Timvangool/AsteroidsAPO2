@@ -1,6 +1,0 @@
-c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\bin\x86\Debug\PhysicsFrameworkXNA.exe
-c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\bin\x86\Debug\PhysicsFrameworkXNA.pdb
-c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\obj\x86\Debug\PhysicsFrameworkXNA.exe
-c:\users\sietse\documents\visual studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\obj\x86\Debug\PhysicsFrameworkXNA.pdb
-C:\Users\Sietse\Documents\Visual Studio 2013\Projects\PhysicsFrameworkXNA\PhysicsFrameworkXNA\PhysicsFrameworkXNA\obj\x86\Debug\PhysicsFrameworkXNA.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1 @@
+C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015Content\obj\x86\Debug\WiimoteTest2015Content.contentprojResolveAssemblyReference.cache

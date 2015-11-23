@@ -10,16 +10,7 @@
       <Output>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\spaceship.xnb</Output>
       <Time>2015-11-19T11:54:38.5799863+01:00</Time>
     </Item>
-    <Item>
-      <Source>Controls.xml</Source>
-      <Name>Controls</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\Controls.xnb</Output>
-      <Time>0001-01-01T00:00:00</Time>
-    </Item>
-    <BuildSuccessful>false</BuildSuccessful>
+    <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{8EBDECBA-85DD-497D-9F8D-2C4BF4EA42BB}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
