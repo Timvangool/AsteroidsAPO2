@@ -76,16 +76,19 @@ namespace WiimoteTest2015
             if (Keyboard.GetState().IsKeyDown(Keys.Escape) || wm.GetButtonsPressed().Contains("Home"))
                 this.Exit();
             wm.GetButtonsPressed();
+            KeyboardHandler kh = new KeyboardHandler();
 
             // TODO: Add your update logic here
-            if (Keyboard.GetState().IsKeyDown(Keys.Left) || wm.GetButtonsPressed().Contains("Up"))
-                pos.X--;
-            if (Keyboard.GetState().IsKeyDown(Keys.Right) || wm.GetButtonsPressed().Contains("Down"))
-                pos.X++;
-            if (Keyboard.GetState().IsKeyDown(Keys.Up) || wm.GetButtonsPressed().Contains("Right"))
+            if (wm.GetButtonsPressed().Contains("Up") || kh.GetButtonsPressed().Contains("Up"))
                 pos.Y--;
-            if (Keyboard.GetState().IsKeyDown(Keys.Down) || wm.GetButtonsPressed().Contains("Left"))
+            if (wm.GetButtonsPressed().Contains("Down") || kh.GetButtonsPressed().Contains("Down"))
                 pos.Y++;
+            if (wm.GetButtonsPressed().Contains("Right") || kh.GetButtonsPressed().Contains("Right"))
+                pos.X++;
+            if (wm.GetButtonsPressed().Contains("Left") || kh.GetButtonsPressed().Contains("Left"))
+                pos.X--;
+            if (kh.GetButtonsPressed().Contains("Shoot") || wm.GetButtonsPressed().Contains("Shoot"))
+                System.Windows.Forms.MessageBox.Show("pew");
 
             base.Update(gameTime);
         }

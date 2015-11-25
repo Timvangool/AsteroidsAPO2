@@ -6,3 +6,14 @@ c:\users\jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTes
 c:\users\jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\WiimoteTest2015.pdb
 C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\spaceship.xnb
 C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\WiimoteTest2015.csprojResolveAssemblyReference.cache
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\spaceship.xnb
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\WiimoteTest2015.exe
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\WiimoteTest2015.pdb
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\WiimoteTest2015.exe
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\WiimoteTest2015.pdb
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\WiimoteTest2015.csprojResolveAssemblyReference.cache
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\KeyboardControls.txt
+C:\Users\Yannick\Desktop\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\WiimoteControls.txt
+C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\KeyboardControls.txt
+C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\WiimoteControls.txt

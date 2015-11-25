@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\spaceship.xnb</Output>
-      <Time>2015-11-19T11:54:38.5799863+01:00</Time>
+      <Output>C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\spaceship.xnb</Output>
+      <Time>2015-11-20T15:36:02.7345801+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +17,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Jeebes\documents\visual studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jeebes\Documents\Visual Studio 2013\Projects\WiimoteTest2015\WiimoteTest2015\WiimoteTest2015\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

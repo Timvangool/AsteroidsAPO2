@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Windows.Forms;
 using WiimoteLib;
 using System.Xml;
+using System.IO;
 
 using Microsoft.Xna.Framework.Input;
 
 namespace WiimoteTest2015
 {
     public class WiimoteHandler
-
     {
         List<Wiimote> wmList = new List<Wiimote>();
         WiimoteCollection WMC = new WiimoteCollection();
 
+        string[,] keyBinds;
 
         public WiimoteHandler()
         {
             ConnectWiimote();
-
+            keyBinds = GetKeyBinds();
         }
 
         private void ConnectWiimote()
@@ -30,86 +30,88 @@ namespace WiimoteTest2015
                 WMC.FindAllWiimotes();
                 int index = 1;
 
-                foreach(Wiimote wiimote in WMC)
+                foreach (Wiimote wiimote in WMC)
                 {
                     wiimote.Connect();
                     wiimote.SetLEDs(index++);
                     wmList.Add(wiimote);
                 }
             }
-            catch(WiimoteNotFoundException ex)
+            catch (WiimoteNotFoundException ex)
             {
-                MessageBox.Show("Wiimote not found: ", ex.Message);
+                System.Windows.Forms.MessageBox.Show("Wiimote not found: ", ex.Message);
             }
-            catch(WiimoteException ex)
+            catch (WiimoteException ex)
             {
-                MessageBox.Show("Wiimote error: ", ex.Message);
+                System.Windows.Forms.MessageBox.Show("Wiimote error: ", ex.Message);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                MessageBox.Show("Unknown error: ", ex.Message);
+                System.Windows.Forms.MessageBox.Show("Unknown error: ", ex.Message);
             }
         }
 
         public List<string> GetButtonsPressed()
         {
             List<string> btnsPressed = new List<string>();
-           
+            string[] wmButtonsPressed = new string[11]; //Up, Down, Left, Right, A, B, One, Two, Plus, Minus, Home
+            string[] keys = new string[10];
+
             foreach (Wiimote wm in wmList)
             {
                 if (wm.WiimoteState.ButtonState.Up)
-                {
-                    btnsPressed.Add("Up");
-                }
+                    wmButtonsPressed[0] = "Up";
                 if (wm.WiimoteState.ButtonState.Down)
-                {
-                    btnsPressed.Add("Down");
-                }
+                    wmButtonsPressed[1] = "Down";
                 if (wm.WiimoteState.ButtonState.Left)
-                {
-                    btnsPressed.Add("Left");
-                }
+                    wmButtonsPressed[2] = "Left";
                 if (wm.WiimoteState.ButtonState.Right)
-                {
-                    btnsPressed.Add("Right");
-                }
-                if (wm.WiimoteState.ButtonState.Home)
-                {
-                    btnsPressed.Add("Home");
-                }
+                    wmButtonsPressed[3] = "Right";
                 if (wm.WiimoteState.ButtonState.A)
-                {
-                    btnsPressed.Add("A");
-                }
+                    wmButtonsPressed[4] = "A";
                 if (wm.WiimoteState.ButtonState.B)
-                {
-                    btnsPressed.Add("B");
-                }
+                    wmButtonsPressed[5] = "B";
                 if (wm.WiimoteState.ButtonState.One)
-                {
-                    btnsPressed.Add("1");
-                }
+                    wmButtonsPressed[6] = "One";
                 if (wm.WiimoteState.ButtonState.Two)
-                {
-                    btnsPressed.Add("2");
-                }
+                    wmButtonsPressed[7] = "Two";
                 if (wm.WiimoteState.ButtonState.Plus)
-                {
-                    btnsPressed.Add("+");
-                }
+                    wmButtonsPressed[8] = "Plus";
                 if (wm.WiimoteState.ButtonState.Minus)
-                {
-                    btnsPressed.Add("-");
-                }                
+                    wmButtonsPressed[9] = "Minus";
+                if (wm.WiimoteState.ButtonState.Home)
+                    wmButtonsPressed[10] = "Home";
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                keys[i] = keyBinds[i, 1];
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (wmButtonsPressed.Contains(keys[i]))
+                    btnsPressed.Add(keyBinds[i, 0]);
             }
 
             return btnsPressed;
         }
+        private string[,] GetKeyBinds()
+        {
+            StreamReader sr = new StreamReader(@"Content\WiimoteControls.txt");
+            string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
+                                               { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
 
+            char separator = ':';
+            for (int i = 0; i <= 9; i++)
+            {
+                string temp = sr.ReadLine();
+                string[] tempArray = temp.Split(separator);
+                keyBinds[i, 1] = tempArray[1];
+            }
+
+            return keyBinds;
+        }
 
     }
 }
-
-
-
-
