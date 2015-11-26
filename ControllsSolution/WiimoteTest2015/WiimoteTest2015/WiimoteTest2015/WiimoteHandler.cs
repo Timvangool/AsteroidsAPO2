@@ -14,13 +14,15 @@ namespace WiimoteTest2015
     {
         List<Wiimote> wmList = new List<Wiimote>();
         WiimoteCollection WMC = new WiimoteCollection();
+        public bool[] connectedWMS = new bool[4];
+        string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
+                                               { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
 
-        string[,] keyBinds;
 
         public WiimoteHandler()
         {
             ConnectWiimote();
-            keyBinds = GetKeyBinds();
+            GetWMControls();
         }
 
         private void ConnectWiimote()
@@ -28,7 +30,7 @@ namespace WiimoteTest2015
             try
             {
                 WMC.FindAllWiimotes();
-                int index = 1;
+                int index = 2;
 
                 foreach (Wiimote wiimote in WMC)
                 {
@@ -49,6 +51,30 @@ namespace WiimoteTest2015
             {
                 System.Windows.Forms.MessageBox.Show("Unknown error: ", ex.Message);
             }
+        }
+
+        public bool CheckConnection()
+        {
+            WiimoteCollection wmc = new WiimoteCollection();
+            bool connected = true ;
+
+            foreach(Wiimote wm in wmList)
+            {
+                wmc.Add(wm);
+
+                try
+                {
+                    wmc.FindAllWiimotes();
+                    wm.Connect();
+                }
+                catch (WiimoteNotFoundException e)
+                {
+                    connected = false;
+                    System.Windows.Forms.MessageBox.Show(e.Message);
+                }
+            }
+
+            return connected;
         }
 
         public List<string> GetButtonsPressed()
@@ -96,11 +122,9 @@ namespace WiimoteTest2015
 
             return btnsPressed;
         }
-        private string[,] GetKeyBinds()
+        private void GetWMControls()
         {
             StreamReader sr = new StreamReader(@"Content\WiimoteControls.txt");
-            string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
-                                               { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
 
             char separator = ':';
             for (int i = 0; i <= 9; i++)
@@ -109,9 +133,6 @@ namespace WiimoteTest2015
                 string[] tempArray = temp.Split(separator);
                 keyBinds[i, 1] = tempArray[1];
             }
-
-            return keyBinds;
         }
-
     }
 }

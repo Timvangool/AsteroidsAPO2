@@ -15,14 +15,14 @@ namespace WiimoteTest2015
 {
     class KeyboardHandler
     {
-        string[,] keyBinds;// = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
-                           //                    { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
+        string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
+                                               { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
         public KeyboardHandler()
         {
-            keyBinds = GetKeyBinds(); 
+            GetKBControls();
         }        
         
-        public List<string> GetButtonsPressed()
+        public List<string> GetButtonsPressed(/*string[,] keyBinds*/)
         {
             List<string> btnsPressed = new List<string>();
             Keys[] kbState = Keyboard.GetState().GetPressedKeys();
@@ -39,15 +39,12 @@ namespace WiimoteTest2015
                 if (kbState.Contains(keys[i]))
                     btnsPressed.Add(keyBinds[i, 0]);
             }
-            GetKeyBinds();
+
             return btnsPressed;
         }
-
-        private string[,] GetKeyBinds()
+        private void GetKBControls()
         {
             StreamReader sr = new StreamReader(@"Content\KeyboardControls.txt");
-            string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
-                                               { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
 
             char separator = ':';
             for (int i = 0; i <= 9; i++)
@@ -56,8 +53,6 @@ namespace WiimoteTest2015
                 string[] tempArray = temp.Split(separator);
                 keyBinds[i, 1] = tempArray[1];
             }
-
-            return keyBinds;
         }
     }
 }

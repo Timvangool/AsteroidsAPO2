@@ -19,15 +19,17 @@ namespace WiimoteTest2015
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        WiimoteHandler wm;
         Rectangle pos = new Rectangle(50, 50, 50, 50);
         Texture2D sShip;
+
+        ControlHandler ch;
 
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
         }
 
         /// <summary>
@@ -40,7 +42,7 @@ namespace WiimoteTest2015
         {
             // TODO: Add your initialization logic here
             base.Initialize();
-            wm = new WiimoteHandler();
+            ch = new ControlHandler();
         }
 
         /// <summary>
@@ -73,22 +75,24 @@ namespace WiimoteTest2015
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape) || wm.GetButtonsPressed().Contains("Home"))
+            if (ch.GetInput().Contains("Home"))
                 this.Exit();
-            wm.GetButtonsPressed();
-            KeyboardHandler kh = new KeyboardHandler();
 
             // TODO: Add your update logic here
-            if (wm.GetButtonsPressed().Contains("Up") || kh.GetButtonsPressed().Contains("Up"))
+            if (ch.GetInput().Contains("Up"))
                 pos.Y--;
-            if (wm.GetButtonsPressed().Contains("Down") || kh.GetButtonsPressed().Contains("Down"))
+            if (ch.GetInput().Contains("Down"))
                 pos.Y++;
-            if (wm.GetButtonsPressed().Contains("Right") || kh.GetButtonsPressed().Contains("Right"))
+            if (ch.GetInput().Contains("Right"))
                 pos.X++;
-            if (wm.GetButtonsPressed().Contains("Left") || kh.GetButtonsPressed().Contains("Left"))
+            if (ch.GetInput().Contains("Left"))
                 pos.X--;
-            if (kh.GetButtonsPressed().Contains("Shoot") || wm.GetButtonsPressed().Contains("Shoot"))
+            if (ch.GetInput().Contains("Shoot"))
+            {
+                
                 System.Windows.Forms.MessageBox.Show("pew");
+
+            }
 
             base.Update(gameTime);
         }
@@ -105,7 +109,6 @@ namespace WiimoteTest2015
             spriteBatch.Begin();
             spriteBatch.Draw(sShip, pos, Color.White);
             spriteBatch.End();
-
 
             base.Draw(gameTime);
         }
