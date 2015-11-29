@@ -16,6 +16,12 @@ namespace Options_Menu
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        enum GameState
+        {
+            Menu,
+            Options
+        }
+        private GameState currentGameState = GameState.Options;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SpriteFont spriteFont;
@@ -49,18 +55,21 @@ namespace Options_Menu
 
         OptionsText oText;
         Texture2D txBackground;
+        Texture2D txBack;
         string textHeader;
         string textSound;
         string textResolution;
         string textAlias;
         string textAliasOn;
         string textAliasOff;
+        Vector2 posBack;
         Vector2 posHeader;
         Vector2 posSound;
         Vector2 posResolution;
         Vector2 posAlias;
         Vector2 posAliasOn;
         Vector2 posAliasOff;
+        Vector2 sizeBack;
 
         public Game1()
         {
@@ -135,19 +144,22 @@ namespace Options_Menu
             cbAlias = new TCheckBoxOption(graphics, checkedBox, unCheckedBox, posCheckBoxLeft, posCheckBoxRight, vecSizeCheckBox, stateCheckBox, Color.White);
 
             txBackground = Content.Load<Texture2D>("OptionsBG");
+            txBack = Content.Load<Texture2D>("Back");
             textHeader = "JUST ANOTHER OPTIONS MENU";
             textSound = "SOUND";
             textResolution = "RESOLUTION";
             textAlias = "ANTI ALIASING";
             textAliasOn = "ON";
             textAliasOff = "OFF";
+            posBack = new Vector2(2.4f, 1.7f);
             posHeader = new Vector2(3f, 5f);
             posSound = new Vector2(3.51f, 3.2f);
             posResolution = new Vector2(4.4f, 2.5f);
             posAlias = new Vector2(5.1f, 2f);
             posAliasOn = new Vector2(2.41f, 2f);
             posAliasOff = new Vector2(1.69f, 2f);
-            oText = new OptionsText(graphics, txBackground, spriteFont, textHeader, posHeader, textSound, posSound, textResolution, posResolution, textAlias, posAlias, textAliasOn, posAliasOn, textAliasOff, posAliasOff, Color.White);
+            sizeBack = new Vector2(65, 20);
+            oText = new OptionsText(graphics, txBackground, txBack, posBack, sizeBack, spriteFont, textHeader, posHeader, textSound, posSound, textResolution, posResolution, textAlias, posAlias, textAliasOn, posAliasOn, textAliasOff, posAliasOff, Color.White);
         }
 
         /// <summary>
@@ -171,18 +183,37 @@ namespace Options_Menu
                 this.Exit();
 
             // TODO: Add your update logic here
-            if(tResolution.GetResolutionChanged())
+            switch (currentGameState)
             {
-                tResolution.Init();
-                tSound.Init();
-                cbAlias.Init();
-                oText.Init();
+                case GameState.Menu:
+                    {
+                        break;
+                    }
+                case GameState.Options:
+                    {
+                        if (tResolution.GetResolutionChanged())
+                        {
+                            tResolution.Init();
+                            tSound.Init();
+                            cbAlias.Init();
+                            oText.Init();
+                        }
+                        MouseState mouse = Mouse.GetState();
+                        cbAlias.Update(mouse);
+                        tResolution.Update(mouse);
+                        tSound.Update(mouse);
+                        if (oText.Update(mouse))
+                        {
+                            currentGameState = GameState.Menu;
+                        }
+                        break;
+                    }
+                default:
+                    {
+                        break;
+                    }
             }
-            MouseState mouse = Mouse.GetState();
-            cbAlias.Update(mouse);
-            tResolution.Update(mouse);
 
-            tSound.Update(mouse);
             base.Update(gameTime);
         }
 
@@ -196,10 +227,26 @@ namespace Options_Menu
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            oText.Draw(spriteBatch);
-            cbAlias.Draw(spriteBatch);
-            tResolution.Draw(spriteBatch, spriteFont);
-            tSound.Draw(spriteBatch);
+            switch (currentGameState)
+            {
+                case GameState.Menu:
+                    {
+                        break;
+                    }
+                case GameState.Options:
+                    {
+                        oText.Draw(spriteBatch);
+                        cbAlias.Draw(spriteBatch);
+                        tResolution.Draw(spriteBatch, spriteFont);
+                        tSound.Draw(spriteBatch);
+                        break;
+                    }
+                default:
+                    {
+                        break;
+                    }
+            }
+
             spriteBatch.End();
             base.Draw(gameTime);
         }

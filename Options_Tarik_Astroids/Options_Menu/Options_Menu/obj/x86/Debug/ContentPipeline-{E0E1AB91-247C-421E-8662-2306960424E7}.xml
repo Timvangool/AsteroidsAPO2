@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
       <Time>2015-11-26T10:47:52.5907084+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
       <Time>2015-11-26T10:48:09.0889157+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
       <Time>2015-11-26T11:13:24.2518222+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowRight.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowRight.xnb</Output>
       <Time>2015-11-26T11:13:29.6751655+01:00</Time>
     </Item>
     <Item>
@@ -43,27 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
       <Time>2015-11-26T20:05:28.8871831+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MenuFont.spritefont</Source>
-      <Name>MenuFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2015-11-26T19:56:33.3582918+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Ismo_Kan_Niet_Hangen_Met_Je.mp3</Source>
-      <Name>Ismo_Kan_Niet_Hangen_Met_Je</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb</Output>
-      <Extra>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.wma</Extra>
-      <Time>2015-11-27T09:26:14.9967113+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBar.png</Source>
@@ -71,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBar.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBar.xnb</Output>
       <Time>2015-11-27T10:02:35.7146648+01:00</Time>
     </Item>
     <Item>
@@ -80,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
       <Time>2015-11-27T10:02:35.7302903+01:00</Time>
     </Item>
     <Item>
@@ -89,8 +70,36 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\OptionsBG.xnb</Output>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\OptionsBG.xnb</Output>
       <Time>2015-11-28T21:41:05.5615649+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Back.png</Source>
+      <Name>Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2015-11-29T22:33:07.3453126+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuFont.spritefont</Source>
+      <Name>MenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2015-11-26T19:56:33.3582918+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ismo_Kan_Niet_Hangen_Met_Je.mp3</Source>
+      <Name>Ismo_Kan_Niet_Hangen_Met_Je</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb</Output>
+      <Extra>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.wma</Extra>
+      <Time>2015-11-27T09:26:14.9967113+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -99,10 +108,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_MenuContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_MenuContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
