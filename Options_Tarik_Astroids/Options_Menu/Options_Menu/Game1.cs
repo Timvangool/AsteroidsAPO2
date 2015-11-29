@@ -151,14 +151,14 @@ namespace Options_Menu
             textAlias = "ANTI ALIASING";
             textAliasOn = "ON";
             textAliasOff = "OFF";
-            posBack = new Vector2(2.4f, 1.7f);
-            posHeader = new Vector2(3f, 5f);
+            posBack = new Vector2(2.13f, 1.7f);
+            posHeader = new Vector2(2.9f, 5f);
             posSound = new Vector2(3.51f, 3.2f);
             posResolution = new Vector2(4.4f, 2.5f);
             posAlias = new Vector2(5.1f, 2f);
             posAliasOn = new Vector2(2.41f, 2f);
             posAliasOff = new Vector2(1.69f, 2f);
-            sizeBack = new Vector2(65, 20);
+            sizeBack = new Vector2(70, 20);
             oText = new OptionsText(graphics, txBackground, txBack, posBack, sizeBack, spriteFont, textHeader, posHeader, textSound, posSound, textResolution, posResolution, textAlias, posAlias, textAliasOn, posAliasOn, textAliasOff, posAliasOff, Color.White);
         }
 
