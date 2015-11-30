@@ -1,0 +1,2 @@
+C:\test\Imagetest\Imagetest\ImagetestContent\obj\x86\Debug\ImagetestContent.contentprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Imagetest\Imagetest\ImagetestContent\obj\x86\Debug\ImagetestContent.contentprojResolveAssemblyReference.cache

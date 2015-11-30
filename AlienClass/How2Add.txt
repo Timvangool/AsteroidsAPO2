@@ -1,0 +1,8 @@
+1. Voeg de Alien en Bullet class aan het project toe
+2. ga naar Game1
+3. bovenaan de public class Game1, voeg "Alien alien;" toe
+4. bij Loadcontent(), voeg "alien = new Alien(Content.Load<Texture2D>("AlienShip"), new Vector2(50, 100), Vector2.Zero, 0f, 2f, Content.Load<Texture2D>("AlienBullet"));" toe
+5. bij Update(), voeg "alien.Update(gameTime);" toe
+6. bij Draw(), voeg "alien.Draw(spriteBatch);" toe
+
+Het zou nu een Alien moeten verschijnen.
