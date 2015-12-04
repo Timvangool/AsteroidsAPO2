@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Asteroid.png</Source>
+      <Name>Asteroid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\Asteroid.xnb</Output>
+      <Time>2015-11-23T12:30:02.6389108+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AsteroidLarge.png</Source>
+      <Name>AsteroidLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
+      <Time>2015-11-23T12:30:02.6439145+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AsteroidMedium.png</Source>
+      <Name>AsteroidMedium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
+      <Time>2015-11-23T12:30:02.647916+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AsteroidSmall.png</Source>
+      <Name>AsteroidSmall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
+      <Time>2015-11-23T12:30:02.6519182+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketFlying.png</Source>
+      <Name>RocketFlying</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
+      <Time>2015-11-25T10:02:43.0524088+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketIdle.png</Source>
+      <Name>RocketIdle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
+      <Time>2015-11-25T10:02:43.0564122+01:00</Time>
+    </Item>
+    <Item>
+      <Source>powerup.png</Source>
+      <Name>powerup</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\powerup.xnb</Output>
+      <Time>2015-11-26T11:41:38.9620885+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont.spritefont</Source>
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\SpriteFont.xnb</Output>
+      <Time>2015-12-02T09:24:44.1612304+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AsteroidExplosion.png</Source>
+      <Name>AsteroidExplosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\AsteroidExplosion.xnb</Output>
+      <Time>2015-12-02T10:01:44.3580617+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{27A6A513-8BDA-4CB8-B962-A0AB4C212044}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\StroidsContent\</RootDirectory>
+      <LoggerRootDirectory>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\</LoggerRootDirectory>
+      <IntermediateDirectory>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>q:\documenten\visual studio 2013\Projects\Stroids\Stroids\Stroids\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-12-08T14:03:20.0814419+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,8 @@
+Enum
+State loading
+
+Threads gebruiken in de applicatie om te kijken of het bezig is met laden van bestanden
+
+text "Loading..." / loadingbar of X totaal van geladen bestanden in %
+
+optioneel: Laat zien welk bestand er op dit moment verwerkt wordt
