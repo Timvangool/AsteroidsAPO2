@@ -1,7 +1,0 @@
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
-C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb

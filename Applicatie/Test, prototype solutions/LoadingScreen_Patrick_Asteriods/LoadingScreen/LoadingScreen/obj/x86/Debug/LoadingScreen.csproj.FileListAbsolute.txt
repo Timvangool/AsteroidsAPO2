@@ -1,0 +1,7 @@
+c:\users\patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\bin\x86\Debug\LoadingScreen.exe
+c:\users\patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\bin\x86\Debug\LoadingScreen.pdb
+c:\users\patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\obj\x86\Debug\LoadingScreen.exe
+c:\users\patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\obj\x86\Debug\LoadingScreen.pdb
+C:\Users\Patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\obj\x86\Debug\LoadingScreen.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\Vampyrium.xnb

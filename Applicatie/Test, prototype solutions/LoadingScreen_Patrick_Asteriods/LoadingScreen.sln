@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingScreen", "LoadingScreen\LoadingScreen\LoadingScreen.csproj", "{64D5B0BB-86E0-4192-A0CE-CAE3ADD31F32}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "LoadingScreenContent", "LoadingScreen\LoadingScreenContent\LoadingScreenContent.contentproj", "{4D036BD3-FC74-4A8C-9F86-5A5382C38289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64D5B0BB-86E0-4192-A0CE-CAE3ADD31F32}.Debug|x86.ActiveCfg = Debug|x86
+		{64D5B0BB-86E0-4192-A0CE-CAE3ADD31F32}.Debug|x86.Build.0 = Debug|x86
+		{64D5B0BB-86E0-4192-A0CE-CAE3ADD31F32}.Release|x86.ActiveCfg = Release|x86
+		{64D5B0BB-86E0-4192-A0CE-CAE3ADD31F32}.Release|x86.Build.0 = Release|x86
+		{4D036BD3-FC74-4A8C-9F86-5A5382C38289}.Debug|x86.ActiveCfg = Debug|x86
+		{4D036BD3-FC74-4A8C-9F86-5A5382C38289}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
