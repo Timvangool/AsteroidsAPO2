@@ -35,6 +35,10 @@ namespace Asteroids.Classes
             hitBox = new Rectangle();
         }
 
+        public void Load(ContentManager content)
+        {
+        }
+        
         abstract public void Load(ContentManager content, Vector2 direction);
 
         abstract public void Update(GameTime gameTime, Vector2 direction);

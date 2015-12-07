@@ -8,7 +8,7 @@ using System.IO;
 
 using Microsoft.Xna.Framework.Input;
 
-namespace Astroids.Classes
+namespace Asteroids.Classes
 {
     public class WiimoteHandler
     {

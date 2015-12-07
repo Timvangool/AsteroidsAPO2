@@ -32,3 +32,22 @@ C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\
 C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\RocketFlying.xnb
 C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\RocketIdle.xnb
 C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\Font.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\Score.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\loading-screen.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\LoadingScreen.exe
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\LoadingScreen.pdb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Debug\LoadingScreen.exe
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Debug\LoadingScreen.pdb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Debug\WiimoteLib.dll
