@@ -1,6 +1,6 @@
 using System;
 
-namespace LoadingScreen
+namespace Asteroids
 {
 #if WINDOWS || XBOX
     static class Program

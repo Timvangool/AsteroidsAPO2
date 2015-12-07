@@ -1,0 +1,19 @@
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\Segoe UI Mono.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\Font.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\Score.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\loading-screen.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\AsteroidLarge.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\AsteroidMedium.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\AsteroidSmall.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\LifeSprite.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\placeholderas.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\PlayerPlaceHolder.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\RocketBulllet.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\RocketFlying.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\RocketIdle.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\Content\SoundPlaceHolder.xnb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\LoadingScreen.exe
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\bin\x86\Release\LoadingScreen.pdb
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\obj\x86\Release\LoadingScreen.exe
+C:\Users\MEDION\Desktop\AsteriodsLoadingScreen\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreen\obj\x86\Release\LoadingScreen.pdb

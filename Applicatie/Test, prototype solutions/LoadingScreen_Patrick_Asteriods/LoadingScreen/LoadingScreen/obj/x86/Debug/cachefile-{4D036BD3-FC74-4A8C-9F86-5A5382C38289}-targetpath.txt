@@ -1,1 +1,14 @@
 Content\Segoe UI Mono.xnb
+Content\Font.xnb
+Content\Score.xnb
+Content\loading-screen.xnb
+Content\AsteroidLarge.xnb
+Content\AsteroidMedium.xnb
+Content\AsteroidSmall.xnb
+Content\LifeSprite.xnb
+Content\placeholderas.xnb
+Content\PlayerPlaceHolder.xnb
+Content\RocketBulllet.xnb
+Content\RocketFlying.xnb
+Content\RocketIdle.xnb
+Content\SoundPlaceHolder.xnb

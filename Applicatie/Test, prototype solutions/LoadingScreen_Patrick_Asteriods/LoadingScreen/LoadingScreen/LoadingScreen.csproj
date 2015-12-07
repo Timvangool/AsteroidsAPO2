@@ -72,9 +72,20 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asteriods.Classes\Asteroid.cs" />
+    <Compile Include="Asteriods.Classes\AstroidThom.cs" />
+    <Compile Include="Asteriods.Classes\BasicBullet.cs" />
+    <Compile Include="Asteriods.Classes\HUD.cs" />
+    <Compile Include="Asteriods.Classes\KeyboardHandler.cs" />
+    <Compile Include="Asteriods.Classes\Loader.cs" />
+    <Compile Include="Asteriods.Classes\LoadingScreen.cs" />
+    <Compile Include="Asteriods.Classes\Missile.cs" />
+    <Compile Include="Asteriods.Classes\Player.cs" />
+    <Compile Include="Game2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Asteriods.Classes\Program.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Asteriods.Classes\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

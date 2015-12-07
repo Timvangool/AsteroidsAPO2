@@ -1,1 +1,2 @@
 C:\Users\Patrick\documents\visual studio 2013\Projects\LoadingScreen\LoadingScreen\LoadingScreenContent\obj\x86\Debug\LoadingScreenContent.contentprojResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\Patrick_LoadingScreen_Asteriods2\LoadingScreen\LoadingScreenContent\obj\x86\Debug\LoadingScreenContent.contentprojResolveAssemblyReference.cache
