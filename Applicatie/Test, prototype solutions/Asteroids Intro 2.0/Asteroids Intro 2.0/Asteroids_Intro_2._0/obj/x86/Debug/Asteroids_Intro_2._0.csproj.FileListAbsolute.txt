@@ -1,0 +1,18 @@
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Asteroids_Intro_2._0.exe
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Asteroids_Intro_2._0.pdb
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Asteroids_Intro_2._0.csprojResolveAssemblyReference.cache
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Asteroids_Intro_2._0.exe
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Asteroids_Intro_2._0.pdb
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Content\Courier New.xnb
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Content\starfield.xnb
+c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Content\John Williams - Star Wars Main Theme (FULL).xnb
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Content\Courier New.xnb
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Content\starfield.xnb
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Content\John Williams - Star Wars Main Theme (FULL).xnb
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Asteroids_Intro_2._0.exe
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\bin\x86\Debug\Asteroids_Intro_2._0.pdb
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Asteroids_Intro_2._0.csprojResolveAssemblyReference.cache
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Asteroids_Intro_2._0.exe
+C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0\obj\x86\Debug\Asteroids_Intro_2._0.pdb
