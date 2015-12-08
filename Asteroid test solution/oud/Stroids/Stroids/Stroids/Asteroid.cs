@@ -14,7 +14,7 @@ namespace Stroids
     {
 
         private int posX, posY, size;
-        private double speed;
+        private float speed;
         private Vector2 pos , direction;
         private Rectangle hitBox;
 
@@ -36,7 +36,7 @@ namespace Stroids
             player = new Player();
         }
 
-        public Asteroid(Vector2 pos, int size, double speed, Vector2 direction)
+        public Asteroid(Vector2 pos, int size, float speed, Vector2 direction)
         {
             this.pos = pos;
             this.size = size;

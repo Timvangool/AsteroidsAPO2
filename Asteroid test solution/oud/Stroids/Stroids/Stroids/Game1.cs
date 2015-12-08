@@ -19,7 +19,7 @@ namespace Stroids
         Player player;
         private List<PowerUp> powerUp, powerUpKillList;
         private List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
-        private int screenWidth, screenHeight, numOfAsteroids, rnd1, rnd2;
+        private int screenWidth, screenHeight, numOfAsteroids;
         private Random rnd;
         LEVEL currentLevel;
         Vector2 dir;
@@ -77,58 +77,34 @@ namespace Stroids
             newAsteroidList.Clear();
             powerUp.Clear();
 
-            numOfAsteroids = 5;
+            numOfAsteroids = 5000;
 
-            screenHeight = graphics.PreferredBackBufferHeight;
-            screenWidth = graphics.PreferredBackBufferWidth;
             for (int i = 0; i < numOfAsteroids; i++)
             {
-                Random pfpasofkjdsaf = new Random();
-                int deeznuts = pfpasofkjdsaf.Next(1, 3);
-
-                switch (deeznuts)
-                {
-                    case 1:
-                        rnd2 = rnd.Next(0, screenHeight);
-                        rnd1 = rnd.Next(-100, 0);
-                        break;
-                    case 2:
-                        rnd2 = rnd.Next(screenHeight, screenHeight + 100);
-                        rnd1 = rnd.Next(0, screenWidth);
-                        break;
-                    case 3:
-             
-                        break;
-                    case 4:
-                        break;
-                    default:
-                        System.Windows.Forms.MessageBox.Show("oeps");
-                        rnd1 = 0;
-                        rnd2 = 0;
-                        break;
-                }
-                double speed = rnd.NextDouble() * 3 * Math.PI;
-                System.Threading.Thread.Sleep(1);
                 double angle = rnd.NextDouble() * 2 * Math.PI;
-                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), rnd.Next(1, 4), speed, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                asteroid.Add(new Asteroid(rnd.Next(-100, graphics.PreferredBackBufferWidth + 100), rnd.Next(-100, graphics.PreferredBackBufferHeight + 100), rnd.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+
+               foreach (Asteroid a in asteroid)
+               {
+ 
+               }
             }
         }
         #endregion
 
         #region Load/Unload content
         protected override void LoadContent()
-        {   
+        {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            player.Load(Content); 
+            player.Load(Content);
         }
 
         protected override void UnloadContent()
         {
             
         }
-            
         #endregion
-            
+
         #region Update
 
         protected override void Update(GameTime gameTime)
@@ -267,7 +243,7 @@ namespace Stroids
         }
         #endregion
 
-                #region Methods
+        #region Methods
 
         public void InitializeNewLevel()
         {
@@ -296,26 +272,8 @@ namespace Stroids
 
             for (int i = 0; i < numOfAsteroids; i++)
             {
-                
-            Random pfpasofkjdsaf = new Random();
-                int deeznuts = pfpasofkjdsaf.Next(1, 3);
-
-                switch (deeznuts)
-                {
-                    case 1:
-                        rnd2 = rnd.Next(0, screenHeight);
-                        rnd1 = rnd.Next(-100, 0);
-                        break;
-                    case 2:
-                        rnd2 = rnd.Next(screenHeight, screenHeight + 100);
-                        rnd1 = rnd.Next(0, screenWidth);
-                        break;
-                    default:
-                        break;
-                }
-                
                 double angle = rnd.NextDouble() * 2 * Math.PI;
-                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), rnd.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                asteroid.Add(new Asteroid(rnd.Next(-50 , graphics.PreferredBackBufferWidth + 50), rnd.Next(1, graphics.PreferredBackBufferHeight), rnd.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
             }
         }
 

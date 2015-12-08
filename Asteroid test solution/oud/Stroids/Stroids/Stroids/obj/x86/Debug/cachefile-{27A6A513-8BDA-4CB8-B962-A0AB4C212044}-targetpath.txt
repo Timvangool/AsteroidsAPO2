@@ -1,0 +1,10 @@
+Content\Asteroid.xnb
+Content\AsteroidLarge.xnb
+Content\AsteroidMedium.xnb
+Content\AsteroidSmall.xnb
+Content\RocketFlying.xnb
+Content\RocketIdle.xnb
+Content\powerup.xnb
+Content\SpriteFont.xnb
+Content\AsteroidExplosion.xnb
+Content\SmallAsteroidExplosion.xnb
