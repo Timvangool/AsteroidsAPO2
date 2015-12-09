@@ -19,7 +19,6 @@ namespace Asteroids
         ContentManager Content;
         SpriteFont spriteFont;
 
-        //ControlHandler ch;
         int selectedNumber = 0;
 
         bool boolResolution = false;
@@ -91,7 +90,6 @@ namespace Asteroids
             graphics.PreferMultiSampling = stateCheckBox;
             graphics.ApplyChanges();
             spriteFont = Content.Load<SpriteFont>("MenuFont");
-            //ch = new ControlHandler();
 
             txSoundBar = Content.Load<Texture2D>("SoundBar");
             txSoundBarCursor = Content.Load<Texture2D>("SoundBarCursor");

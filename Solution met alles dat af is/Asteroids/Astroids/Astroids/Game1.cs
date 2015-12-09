@@ -23,6 +23,7 @@ namespace Asteroids
         Player p;
         Random r;
         HUD hud;
+        Background background;
         OptionsMenu oMenu;
         AsteroidsIntro intro;
         List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
@@ -85,6 +86,7 @@ namespace Asteroids
             hud.Load(Content);
             intro.Load(Content, graphics);
             oMenu.Load();
+            background = new Background(GraphicsDevice, Content);
 
             foreach (Weapon wep in p.weapList)
             {
@@ -311,6 +313,7 @@ namespace Asteroids
                 case 3:
                     //The Game
                     spriteBatch.Begin();
+                    background.Draw(spriteBatch);
                     foreach (Weapon wep in p.weapList)
                     {
                         wep.Draw(spriteBatch);
@@ -353,7 +356,7 @@ namespace Asteroids
 
         public void LevelsIncrease()
         {
-            numOfAsteroids += r.Next(0, 3);
+            numOfAsteroids = (numOfAsteroids + r.Next(0, 3));
             hud.SetLevel(1);
             Initialize();
         }
