@@ -64,15 +64,15 @@ namespace Asteroids.Classes
             bar.Width = (int)(loadingBarPos.Width * completeness);
 
             sb.Draw(barTex, bar, barColor);
-            sb.DrawString(loadingScreenFont, String.Format("{0}%", Convert.ToInt32(completeness * 100)), new Vector2(loadingBarPos.X * 1.75f, loadingBarPos.Y - 2.5f), Color.White);
+            sb.DrawString(loadingScreenFont, String.Format("{0}%", Convert.ToInt32(completeness * 100)), new Vector2(loadingBarPos.X + 180.0f, loadingBarPos.Y - 2.5f), Color.White);
 
             switch (Convert.ToInt32(loader.loadedItems))
             {
                 case 1:
-                    sb.DrawString(loadingScreenFont, "Loading John Cena into memory", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Loading player textures", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 2:
-                    sb.DrawString(loadingScreenFont, "Loading explosions textures", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Loading John Cena into memory", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 3:
                     sb.DrawString(loadingScreenFont, "Loading alien textures", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
@@ -105,10 +105,10 @@ namespace Asteroids.Classes
                     sb.DrawString(loadingScreenFont, "Loading terrorists into memory", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 13:
-                    sb.DrawString(loadingScreenFont, "Copying thisisnotavirus.exe into\n" + Environment.GetEnvironmentVariable("appdata"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Copying thisisnotavirus.exe into\n" + Environment.GetEnvironmentVariable("temp"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 14:
-                    sb.DrawString(loadingScreenFont, "Executing thisisnotavirus.exe in\n" + Environment.GetEnvironmentVariable("appdata"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Executing thisisnotavirus.exe in\n" + Environment.GetEnvironmentVariable("temp"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 15:
                     sb.DrawString(loadingScreenFont, "Loading planet textures", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
@@ -138,10 +138,10 @@ namespace Asteroids.Classes
                     sb.DrawString(loadingScreenFont, "Executing thisisnotavirus.exe in\n" + Environment.GetEnvironmentVariable("ProgramFiles(x86)"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 24:
-                    sb.DrawString(loadingScreenFont, "Copying thisisnotavirus.exe into\n" + Environment.GetEnvironmentVariable("path"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Copying thisisnotavirus.exe into\n" + Environment.GetEnvironmentVariable("ProgramData"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 25:
-                    sb.DrawString(loadingScreenFont, "Executing thisisnotavirus.exe in\n" + Environment.GetEnvironmentVariable("path"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Executing thisisnotavirus.exe in\n" + Environment.GetEnvironmentVariable("ProgramData"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 26:
                     sb.DrawString(loadingScreenFont, "Loading Segoe UI Mono font", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
@@ -168,7 +168,7 @@ namespace Asteroids.Classes
                     sb.DrawString(loadingScreenFont, "Executing thisisnotavirus.exe in\n" + Environment.GetEnvironmentVariable("CommonProgramFiles(x86)"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 34:
-                    sb.DrawString(loadingScreenFont, "Removing System32 in\n" + Environment.GetEnvironmentVariable("windir"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
+                    sb.DrawString(loadingScreenFont, "Deleting System32 in\n" + Environment.GetEnvironmentVariable("windir"), new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
                 case 35:
                     sb.DrawString(loadingScreenFont, "Loading highscores", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
