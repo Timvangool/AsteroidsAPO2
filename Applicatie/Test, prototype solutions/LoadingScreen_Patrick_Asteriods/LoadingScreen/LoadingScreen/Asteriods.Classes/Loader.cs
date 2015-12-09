@@ -15,12 +15,11 @@ namespace Asteroids.Classes
     class Loader : IEnumerable<float> 
     {
         ContentManager content;
-        public int loadedItems;
-        public int totalItems = 0;
-
         SpriteFont fontSegoeUIMono;
         SpriteFont scoreFont;
         SpriteFont loadingScreenFont;
+        public int loadedItems;
+        public int totalItems = 0;
 
         Player p = new Player();
         HUD hud = new HUD();
@@ -162,7 +161,6 @@ namespace Asteroids.Classes
                 if (result == System.Windows.Forms.DialogResult.OK)
                 {
                     Game1.ExitGame.Exit();
-                    //Debug.Assert(loadedItems == totalItems, "Components failed loading.\n", loadedCheckMessage);
                 }
             }
             yield return 1;

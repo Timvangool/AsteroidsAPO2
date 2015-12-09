@@ -49,7 +49,7 @@ namespace Asteroids.Classes
 
             Color screenBackgroundColor = topLeftPixelColor(backroundTex);
             Color barColor = Color.Red;
-            Color barBackgroundColor = Color.Blue;
+            Color barBackgroundColor = Color.DarkBlue;
             int barBackgroundExpand = 2;
             sb.GraphicsDevice.Clear(screenBackgroundColor);
             sb.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
@@ -65,8 +65,9 @@ namespace Asteroids.Classes
 
             sb.Draw(barTex, bar, barColor);
             sb.DrawString(loadingScreenFont, String.Format("{0}%", Convert.ToInt32(completeness * 100)), new Vector2(loadingBarPos.X + 180.0f, loadingBarPos.Y - 2.5f), Color.White);
+            //sb.DrawString(loadingScreenFont, String.Format("{0:0.00}%", Convert.ToDouble(completeness * 100)), new Vector2(loadingBarPos.X + 180.0f, loadingBarPos.Y - 2.5f), Color.White);
 
-            switch (Convert.ToInt32(loader.loadedItems))
+            switch (loader.loadedItems)
             {
                 case 1:
                     sb.DrawString(loadingScreenFont, "Loading player textures", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
