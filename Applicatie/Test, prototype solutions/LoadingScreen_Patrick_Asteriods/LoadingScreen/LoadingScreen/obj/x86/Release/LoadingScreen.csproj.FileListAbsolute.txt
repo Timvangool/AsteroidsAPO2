@@ -36,3 +36,5 @@ C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solut
 C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Release\LoadingScreen.exe
 C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Release\LoadingScreen.pdb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\bin\x86\Release\Content\LoadingScreen.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreen\obj\x86\Release\LoadingScreen.csprojResolveAssemblyReference.cache

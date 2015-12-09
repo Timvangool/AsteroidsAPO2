@@ -15,18 +15,20 @@ namespace Asteroids.Classes
     class Loader : IEnumerable<float> 
     {
         ContentManager content;
-        int loadedItems = 0;
-        int totalItems = 0;
+        public int loadedItems;
+        public int totalItems = 0;
 
         SpriteFont fontSegoeUIMono;
-        SpriteFont fontImpact;
+        SpriteFont scoreFont;
+        SpriteFont loadingScreenFont;
+
         Player p = new Player();
         HUD hud = new HUD();
         BasicBullet basicBullet = new BasicBullet();
         Missile missile = new Missile();
         Asteroid ast = new Asteroid();
 
-        public Loader(ContentManager content) 
+        public Loader(ContentManager content)
         {
             this.content = content;
         }
@@ -38,66 +40,83 @@ namespace Asteroids.Classes
 
         public IEnumerator<float> GetEnumerator() 
         {
-            totalItems = 30;
-
-            Debug.WriteLine("Loading player textures");
+            totalItems = 35;
             p = PlayerTexture("player textures");
+            yield return progress();
+#if FakeLoading
+            yield return progress();
+            Thread.Sleep(500);
+            yield return progress();
+            Thread.Sleep(500);
+            yield return progress();
+            Thread.Sleep(500);
+            yield return progress();
+#endif
 
-            Debug.WriteLine("Loading basic bullet textures");
             basicBullet = BasicBulletTexture("basic bullet textures");
             yield return progress();
 #if FakeLoading
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
 #endif
-            Debug.WriteLine("Loading missile textures");
             missile = MissileTexture("missile textures");
             yield return progress();
 #if FakeLoading
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
 #endif
-            Debug.WriteLine("Loading asteroid textures");
             ast = asteroidTexture("asteroid textures");
             yield return progress();
 #if FakeLoading
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
 #endif
-
-            Debug.WriteLine("Loading HUD");
             hud = IHUD("HUD");
             yield return progress();
 #if FakeLoading
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
 #endif
-
-            Debug.WriteLine("Loading Segoe UI Mono font");
             fontSegoeUIMono = content.Load<SpriteFont>("Font");
             yield return progress();
 #if FakeLoading
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
 #endif
-
-            Debug.WriteLine("Loading Impact font");
-            fontImpact = content.Load<SpriteFont>("Score");
+            scoreFont = content.Load<SpriteFont>("Score");
             yield return progress();
 #if FakeLoading
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
+            Thread.Sleep(500);
             yield return progress();
 #endif
 
@@ -172,7 +191,7 @@ namespace Asteroids.Classes
 #if FakeLoading
         void actBusy(int howBusy) 
         {
-            Thread.Sleep(500*howBusy);
+            Thread.Sleep(300 * howBusy);
         }
 #endif
     }

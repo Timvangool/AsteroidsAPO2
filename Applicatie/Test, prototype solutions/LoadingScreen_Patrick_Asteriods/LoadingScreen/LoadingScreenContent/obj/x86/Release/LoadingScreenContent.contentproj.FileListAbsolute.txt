@@ -1,0 +1,1 @@
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\LoadingScreen_Patrick_Asteriods\LoadingScreen\LoadingScreenContent\obj\x86\Release\LoadingScreenContent.contentprojResolveAssemblyReference.cache
