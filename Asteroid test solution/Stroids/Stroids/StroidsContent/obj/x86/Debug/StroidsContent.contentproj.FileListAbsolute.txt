@@ -1,1 +1,2 @@
 q:\documenten\visual studio 2013\Projects\Stroids\Stroids\StroidsContent\obj\x86\Debug\StroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Asteroid test solution\Stroids\Stroids\StroidsContent\obj\x86\Debug\StroidsContent.contentprojResolveAssemblyReference.cache

@@ -100,6 +100,123 @@
       <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
       <Time>2015-12-02T11:52:21.5048115+01:00</Time>
     </Item>
+    <Item>
+      <Source>starfield.png</Source>
+      <Name>starfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
+      <Time>2015-12-08T11:53:49.0867234+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Courier New.spritefont</Source>
+      <Name>Courier New</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
+      <Time>2015-12-08T11:53:48.6179178+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ArrowLeft.png</Source>
+      <Name>ArrowLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
+      <Time>2015-12-09T09:20:10.1455176+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ArrowRight.png</Source>
+      <Name>ArrowRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
+      <Time>2015-12-09T09:20:10.1611426+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Back.png</Source>
+      <Name>Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2015-12-09T09:20:10.1611426+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CheckboxFalse.png</Source>
+      <Name>CheckboxFalse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
+      <Time>2015-12-09T09:20:10.1611426+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CheckboxTrue.png</Source>
+      <Name>CheckboxTrue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
+      <Time>2015-12-09T09:20:12.5361791+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OptionsBG.png</Source>
+      <Name>OptionsBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
+      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ResolutionBar.png</Source>
+      <Name>ResolutionBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
+      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SelectArrow.png</Source>
+      <Name>SelectArrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
+      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundBar.png</Source>
+      <Name>SoundBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
+      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundBarCursor.png</Source>
+      <Name>SoundBarCursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
+      <Time>2015-12-09T09:20:12.5674217+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuFont.spritefont</Source>
+      <Name>MenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2015-12-09T09:20:12.5361791+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{BC4B5906-18DE-4717-9E5B-8A55B4D41F46}</ContentProjectGUID>

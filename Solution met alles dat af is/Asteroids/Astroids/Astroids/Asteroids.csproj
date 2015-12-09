@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Asteroid.cs" />
+    <Compile Include="Classes\AsteroidsIntro.cs" />
     <Compile Include="Classes\AstroidThom.cs" />
     <Compile Include="Classes\BasicBullet.cs" />
     <Compile Include="Classes\ControlHandler.cs" />
@@ -84,7 +85,13 @@
     <Compile Include="Classes\HUD.cs" />
     <Compile Include="Classes\KeyboardHandler.cs" />
     <Compile Include="Classes\Missile.cs" />
+    <Compile Include="Classes\OptionsMenu.cs" />
+    <Compile Include="Classes\OptionsText.cs" />
     <Compile Include="Classes\Player.cs" />
+    <Compile Include="Classes\SpritesheedLoader.cs" />
+    <Compile Include="Classes\TCheckBoxOption.cs" />
+    <Compile Include="Classes\TResolutionOption.cs" />
+    <Compile Include="Classes\TSoundOption.cs" />
     <Compile Include="Classes\Weapon.cs" />
     <Compile Include="Classes\WiimoteHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

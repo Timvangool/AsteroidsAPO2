@@ -29,13 +29,10 @@ namespace Asteroids.Classes
             List<string> wmInput;
             List<string> kbInput;
 
-         //   if (wmHandler.CheckConnection())
-            {
             wmInput = wmHandler.GetButtonsPressed();
             foreach (string input in wmInput)
             {
                 allInput.Add(input);
-            }
             }
 
             kbInput = kbHandler.GetButtonsPressed();

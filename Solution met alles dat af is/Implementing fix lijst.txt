@@ -1,0 +1,6 @@
+Asteroid amounts fixen,
+spritesheet fixen,
+introspawn fixen bij verschillende resoluties,
+fullscreen asteroid spawns en boundaries zijn ded,
+hud niet op full screen ingesteld,
+options menu moet nog verbeterd worden zodat je niet steeds een messagebox krijgt als je naar een ander menu/volgend level gaat,

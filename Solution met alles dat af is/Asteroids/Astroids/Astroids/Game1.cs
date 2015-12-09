@@ -22,6 +22,8 @@ namespace Asteroids
         Player p;
         Random r;
         HUD hud;
+        OptionsMenu oMenu;
+        AsteroidsIntro intro;
         List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
         List<Weapon> killListWep;
         Vector2 dir;
@@ -41,8 +43,10 @@ namespace Asteroids
             r = new Random();
             p = new Player();
             hud = new HUD();
+            oMenu = new OptionsMenu(graphics, Content);
+            intro = new AsteroidsIntro();
             numOfAsteroids = 3;
-            currentGameState = 3;
+            currentGameState = 1;
         }
 
         /// <summary>
@@ -53,7 +57,6 @@ namespace Asteroids
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
             asteroidKillList = new List<Asteroid>();
             asteroid = new List<Asteroid>();
             newAsteroidList = new List<Asteroid>();
@@ -78,6 +81,8 @@ namespace Asteroids
 
             p.Load(Content);
             hud.Load(Content);
+            intro.Load(Content, graphics);
+            oMenu.Load();
 
             foreach (Weapon wep in p.weapList)
             {
@@ -106,6 +111,19 @@ namespace Asteroids
                 this.Exit();
 
             gsm.GameStateChanger(currentGameState);
+
+            if (currentGameState == 1)
+            {
+                if (Keyboard.GetState().IsKeyDown(Keys.E))
+                {
+                    currentGameState = 3;
+                }
+                else
+                {
+                    intro.IntroText();
+                }
+            }
+
             if (currentGameState == 3)
             {
                 p.Update(gameTime);
@@ -252,6 +270,18 @@ namespace Asteroids
                 }
             }
 
+            if (currentGameState == 5)
+            {
+                if (Keyboard.GetState().IsKeyDown(Keys.F))
+                {
+                    currentGameState = 2;
+                }
+                else
+                {
+                    oMenu.Update();
+                }
+            }
+
             base.Update(gameTime);
         }
                     
@@ -270,7 +300,7 @@ namespace Asteroids
             {
                 case 1:
                     //Intro
-
+                    intro.Draw(spriteBatch);
                     break;
                 case 2:
                     //Main Menu
@@ -297,7 +327,7 @@ namespace Asteroids
                     break;
                 case 5:
                     //Options
-
+                    oMenu.Draw(spriteBatch);
                     break;
                 case 6:
                     //Highscores

@@ -35,3 +35,16 @@ D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\
 D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
 D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb
