@@ -72,7 +72,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Net" />
     <Reference Include="WiimoteLib">
-      <HintPath>..\..\..\..\..\..\..\Desktop\WiimotLib_1.7\WiimoteLib.dll</HintPath>
+      <HintPath>..\..\..\..\..\WiimoteLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +84,7 @@
     <Compile Include="Classes\HUD.cs" />
     <Compile Include="Classes\KeyboardHandler.cs" />
     <Compile Include="Classes\Missile.cs" />
+    <Compile Include="Classes\Planet.cs" />
     <Compile Include="Classes\Player.cs" />
     <Compile Include="Classes\Star.cs" />
     <Compile Include="Classes\Weapon.cs" />

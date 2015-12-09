@@ -1,3 +1,4 @@
 C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
 C:\Users\Thom\Desktop\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
 C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache

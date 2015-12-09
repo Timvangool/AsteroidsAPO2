@@ -59,3 +59,29 @@ C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\As
 C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
 C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\WiimoteLib.dll

@@ -10,25 +10,20 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Astroids.Classes
 {
-    class Star
+    class Planet
     {
-        private Texture2D starTexture;
         private Vector2 location;
+        private Texture2D planetTexture;
         private GraphicsDevice graphicsManager;
         private Random rnd;
 
-        public Star(GraphicsDevice graphicsManager, ContentManager content, Random rnd)
+        public Planet(GraphicsDevice graphicsManager, ContentManager content, Random rnd)
         {
             this.graphicsManager = graphicsManager;
             this.rnd = rnd;
             //colour = Color.White;
             LoadTexture(content);
             SetRandomLocation();
-        }
-
-        public void Draw(SpriteBatch spriteBatch, Color color)
-        {
-            spriteBatch.Draw(starTexture, location, color);
         }
 
         public void SetRandomLocation()
@@ -38,6 +33,11 @@ namespace Astroids.Classes
             location = new Vector2(rnd.Next(0, screenWidth), rnd.Next(0, screenHeight));
         }
 
+        public void Draw(SpriteBatch spriteBatch, Color color)
+        {
+            spriteBatch.Draw(planetTexture, location, color);
+        }
+
         public void LoadTexture(ContentManager content)
         {
             int random = rnd.Next(0, 3);
@@ -45,15 +45,15 @@ namespace Astroids.Classes
             switch (random)
             {
                 case 0:
-                    starTexture = content.Load<Texture2D>("star1");
+                    planetTexture = content.Load<Texture2D>("Planet1");
                     break;
                 case 1:
-                    starTexture = content.Load<Texture2D>("star2");
+                    planetTexture = content.Load<Texture2D>("Planet2");
                     break;
                 case 2:
-                    starTexture = content.Load<Texture2D>("star3");
+                    planetTexture = content.Load<Texture2D>("Planet3");
                     break;
-            }   
+            }
         }
     }
 }

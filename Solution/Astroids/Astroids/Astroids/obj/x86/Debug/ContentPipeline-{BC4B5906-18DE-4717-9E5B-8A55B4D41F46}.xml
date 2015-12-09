@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
+      <Time>2015-12-04T09:52:59.8815747+01:00</Time>
     </Item>
     <Item>
       <Source>placeholderas.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
+      <Time>2015-12-04T09:52:59.969165+01:00</Time>
     </Item>
     <Item>
       <Source>RocketIdle.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
+      <Time>2015-12-04T09:52:59.8875801+01:00</Time>
     </Item>
     <Item>
       <Source>RocketBulllet.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
+      <Time>2015-12-04T09:52:59.8845776+01:00</Time>
     </Item>
     <Item>
       <Source>RocketFlying.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
+      <Time>2015-12-04T09:52:59.886579+01:00</Time>
     </Item>
     <Item>
       <Source>LifeSprite.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
+      <Time>2015-12-04T09:52:59.8805744+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidLarge.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
+      <Time>2015-12-04T09:52:59.8715676+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidMedium.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
+      <Time>2015-12-04T09:52:59.8725687+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidSmall.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
+      <Time>2015-12-04T09:52:59.8745705+01:00</Time>
     </Item>
     <Item>
       <Source>star1.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
-      <Time>2015-12-02T11:29:47.2340765+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
+      <Time>2015-12-04T09:52:59.9711664+01:00</Time>
     </Item>
     <Item>
       <Source>star2.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
-      <Time>2015-12-02T11:29:47.2380778+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
+      <Time>2015-12-04T09:52:59.9721671+01:00</Time>
     </Item>
     <Item>
       <Source>star3.png</Source>
@@ -106,8 +106,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
-      <Time>2015-12-02T11:29:47.2425816+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
+      <Time>2015-12-04T09:52:59.9731674+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet1.png</Source>
+      <Name>Planet1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
+      <Time>2015-12-04T09:57:02.242016+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet2.png</Source>
+      <Name>Planet2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
+      <Time>2015-12-04T09:57:02.2440166+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet3.png</Source>
+      <Name>Planet3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
+      <Time>2015-12-04T09:57:02.246018+01:00</Time>
     </Item>
     <Item>
       <Source>SoundPlaceHolder.wav</Source>
@@ -115,8 +142,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
+      <Time>2015-12-04T09:52:59.9231331+01:00</Time>
     </Item>
     <Item>
       <Source>Score.spritefont</Source>
@@ -124,8 +151,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
-      <Time>2015-12-01T01:41:20+01:00</Time>
+      <Output>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
+      <Time>2015-12-04T09:52:59.8895811+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -134,10 +161,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\AstroidsContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2-Thom-Branch\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\AstroidsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Thijmen\Desktop\AsteroidsAPO2 - Local\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
