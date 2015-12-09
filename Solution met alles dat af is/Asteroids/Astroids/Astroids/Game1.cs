@@ -19,6 +19,7 @@ namespace Asteroids
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        ControlHandler ch;
         Player p;
         Random r;
         HUD hud;
@@ -40,6 +41,7 @@ namespace Asteroids
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";
+            ch = new ControlHandler();
             r = new Random();
             p = new Player();
             hud = new HUD();
@@ -126,7 +128,7 @@ namespace Asteroids
 
             if (currentGameState == 3)
             {
-                p.Update(gameTime);
+                p.Update(gameTime, ch);
                 p.CheckBoundries(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
                 hud.Update(gameTime);
 
@@ -278,7 +280,7 @@ namespace Asteroids
                 }
                 else
                 {
-                    oMenu.Update();
+                    oMenu.Update(ch);
                 }
             }
 

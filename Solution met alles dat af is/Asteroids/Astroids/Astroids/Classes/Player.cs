@@ -28,7 +28,6 @@ namespace Asteroids.Classes
         private int maxSpeed;
         public List<Weapon> weapList;
         private float delay, maxDelay;
-        private ControlHandler contHand;
         private Random r;
 
         //Texture2D test;
@@ -41,7 +40,6 @@ namespace Asteroids.Classes
             speed = 0;
             maxSpeed = 5;
             lives = 3;
-            contHand = new ControlHandler();
             weapList = new List<Weapon>();
             maxDelay = 25;
             delay = maxDelay;
@@ -90,7 +88,7 @@ namespace Asteroids.Classes
             playerPos = playerPos + (direction * speed);
         }
 
-        public void Update(GameTime gameTime)
+        public void Update(GameTime gameTime, ControlHandler contHand)
         {
             //Player movement
             if (contHand.GetInput().Contains("Up"))
