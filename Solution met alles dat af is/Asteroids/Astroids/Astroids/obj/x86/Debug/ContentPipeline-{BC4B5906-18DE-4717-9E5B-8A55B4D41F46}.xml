@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
       <Time>2015-12-02T11:52:21.5018086+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
       <Time>2015-12-02T11:52:21.5268263+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
       <Time>2015-12-02T11:52:21.5048115+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
       <Time>2015-12-02T11:52:21.5028093+01:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
       <Time>2015-12-02T11:52:21.5038155+01:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
       <Time>2015-12-02T11:52:21.5008079+01:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
       <Time>2015-12-02T11:52:21.4968055+01:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
       <Time>2015-12-02T11:52:21.4978058+01:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
       <Time>2015-12-02T11:52:21.4988069+01:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
       <Time>2015-12-09T09:20:10.1455176+01:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
       <Time>2015-12-09T09:20:10.1611426+01:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
       <Time>2015-12-09T09:20:10.1611426+01:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
       <Time>2015-12-09T09:20:10.1611426+01:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
       <Time>2015-12-09T09:20:12.5361791+01:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
       <Time>2015-12-08T11:53:49.0867234+01:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
       <Time>2015-12-09T09:20:12.5518484+01:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
       <Time>2015-12-09T09:20:12.5518484+01:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
       <Time>2015-12-09T09:20:12.5518484+01:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
       <Time>2015-12-09T09:20:12.5518484+01:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
       <Time>2015-12-09T09:20:12.5674217+01:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
       <Time>2015-12-09T10:46:23.1889967+01:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
       <Time>2015-12-09T10:46:23.2046239+01:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
       <Time>2015-12-09T10:46:23.6109233+01:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
       <Time>2015-12-09T10:46:23.6109233+01:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
       <Time>2015-12-09T10:46:23.6109233+01:00</Time>
     </Item>
     <Item>
@@ -232,7 +232,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
       <Time>2015-12-09T10:46:23.6265167+01:00</Time>
     </Item>
     <Item>
@@ -241,7 +241,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
       <Time>2015-12-02T11:52:21.5228242+01:00</Time>
     </Item>
     <Item>
@@ -250,7 +250,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
       <Time>2015-12-02T11:52:21.5048115+01:00</Time>
     </Item>
     <Item>
@@ -259,7 +259,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
       <Time>2015-12-08T11:53:48.6179178+01:00</Time>
     </Item>
     <Item>
@@ -268,8 +268,35 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
       <Time>2015-12-09T09:20:12.5361791+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LoadingScreen.spritefont</Source>
+      <Name>LoadingScreen</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
+      <Time>2015-12-10T09:47:28.126838+01:00</Time>
+    </Item>
+    <Item>
+      <Source>loading-screen.png</Source>
+      <Name>loading-screen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
+      <Time>2015-12-10T09:48:24.7296163+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2015-12-10T09:49:22.1768536+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -278,10 +305,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\AstroidsContent\</RootDirectory>
-      <LoggerRootDirectory>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\AstroidsContent\</RootDirectory>
+      <LoggerRootDirectory>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

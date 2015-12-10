@@ -25,6 +25,8 @@ namespace Asteroids
         HUD hud;
         Background background;
         OptionsMenu oMenu;
+        Loader loader;
+        LoadingScreen loadingScreen;
         AsteroidsIntro intro;
         List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
         List<Weapon> killListWep;
@@ -33,6 +35,11 @@ namespace Asteroids
         int playerLife;
         int numOfAsteroids;
         int currentGameState;
+        int rndNum;
+        int rnd1;
+        int rnd2;
+        int screenHeight;
+        int screenWidth;
 
         public Game1()
         {
@@ -48,8 +55,10 @@ namespace Asteroids
             hud = new HUD();
             oMenu = new OptionsMenu(graphics, Content);
             intro = new AsteroidsIntro();
+            screenHeight = graphics.PreferredBackBufferHeight;
+            screenWidth = graphics.PreferredBackBufferWidth;
             numOfAsteroids = 3;
-            currentGameState = 1;
+            currentGameState = 8;
         }
 
         /// <summary>
@@ -66,10 +75,31 @@ namespace Asteroids
             killListWep = new List<Weapon>();
             for (int i = 0; i < numOfAsteroids; i++)
             {
+                rndNum = r.Next(1, 3);
+
+                switch (rndNum)
+                {
+                    case 1:
+                        rnd2 = r.Next(0, screenHeight);
+                        rnd1 = r.Next(-100, 0);
+                        break;
+                    case 2:
+                        rnd2 = r.Next(screenHeight, screenHeight + 100);
+                        rnd1 = r.Next(0, screenWidth);
+                        break;
+                    default:
+                        System.Windows.Forms.MessageBox.Show("oeps");
+                        rnd1 = 0;
+                        rnd2 = 0;
+                        break;
+                }
+                double speed = r.NextDouble() * 3 * Math.PI;
+                System.Threading.Thread.Sleep(1);
                 double angle = r.NextDouble() * 2 * Math.PI;
-                asteroid.Add(new Asteroid(r.Next(1, graphics.PreferredBackBufferWidth), r.Next(1, graphics.PreferredBackBufferHeight), r.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), r.Next(1, 4), (float)speed, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
             }
 
+            loader = new Loader(this.Content);
             base.Initialize();
         }
 
@@ -87,6 +117,7 @@ namespace Asteroids
             intro.Load(Content, graphics);
             oMenu.Load();
             background = new Background(GraphicsDevice, Content);
+            loadingScreen = new LoadingScreen(Content, graphics.GraphicsDevice);
 
             foreach (Weapon wep in p.weapList)
             {
@@ -137,7 +168,7 @@ namespace Asteroids
                 foreach (Asteroid a in asteroid)
                 {
                     a.Update(gameTime);
-                    a.CheckBoundries(graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
+                    a.CheckBoundries(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
 
                     if (p.GetPlayerHitbox().Intersects(a.GetAsteroidHitbox()))
                     {
@@ -286,6 +317,20 @@ namespace Asteroids
                 }
             }
 
+            if (currentGameState == 8)
+            {
+                if (loadingScreen != null)
+                {
+                    IsFixedTimeStep = false;
+                    loader = loadingScreen.Update();
+                    if (loader != null)
+                    {
+                        loadingScreen = null;
+                        IsFixedTimeStep = true;
+                    }
+                }
+            }
+
             base.Update(gameTime);
         }
                     
@@ -304,7 +349,10 @@ namespace Asteroids
             {
                 case 1:
                     //Intro
+                    spriteBatch.Begin();
+                    background.Draw(spriteBatch);
                     intro.Draw(spriteBatch);
+                    spriteBatch.End();
                     break;
                 case 2:
                     //Main Menu
@@ -344,7 +392,14 @@ namespace Asteroids
                     break;
                 case 8:
                     //Loading Screen
-
+                    if (loadingScreen != null)
+                    {
+                        loadingScreen.Draw();
+                    }
+                    else
+                    {
+                        currentGameState = 1;
+                    }
                     break;
                 default:
 
@@ -356,7 +411,7 @@ namespace Asteroids
 
         public void LevelsIncrease()
         {
-            numOfAsteroids = (numOfAsteroids + r.Next(0, 3));
+            numOfAsteroids += r.Next(0, 3);
             hud.SetLevel(1);
             Initialize();
         }

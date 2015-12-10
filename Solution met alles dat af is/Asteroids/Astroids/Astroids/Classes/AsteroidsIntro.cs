@@ -24,12 +24,6 @@ namespace Asteroids.Classes
         Vector2 fontOriginTitle;
         Vector2 fontOrigin;
 
-        //Starfield Back Ground
-        Texture2D txBackground;
-        Vector2 posBackground;
-        Vector2 sizeBackground;
-        Rectangle recBackground;
-
         public AsteroidsIntro()
         {
 
@@ -38,18 +32,11 @@ namespace Asteroids.Classes
         public void Load(ContentManager content, GraphicsDeviceManager graphics)
         {
             fontType = content.Load<SpriteFont>("Courier New");
-
-            //Background
-            txBackground = content.Load<Texture2D>("starfield");
-            posBackground = new Vector2(2.0f, 2.0f);
-            sizeBackground = new Vector2(20.0f, 20.0f);
-            recBackground = new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
-
             //Text
-            fontOriginTitle.Y = -270f;
+            fontOriginTitle.Y = -270;
             fontOriginTitle.X = graphics.GraphicsDevice.Viewport.Width / 3;
 
-            fontOrigin.Y = -300f;
+            fontOrigin.Y = -300;
             fontOrigin.X = graphics.GraphicsDevice.Viewport.Width / 2.6f;
             fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
                 graphics.GraphicsDevice.Viewport.Height / 2);
@@ -161,13 +148,9 @@ is to press E
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Begin();
-            //Draw Background
-            spriteBatch.Draw(txBackground, recBackground, Color.White);
             //Draw String
             spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
             spriteBatch.DrawString(fontType, output, fontPos, Color.Yellow, 0, fontOrigin, 1.0f, SpriteEffects.None, 0.65f);
-            spriteBatch.End();
         }
     }
 }

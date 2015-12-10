@@ -78,13 +78,14 @@
   <ItemGroup>
     <Compile Include="Classes\Asteroid.cs" />
     <Compile Include="Classes\AsteroidsIntro.cs" />
-    <Compile Include="Classes\AstroidThom.cs" />
     <Compile Include="Classes\Background.cs" />
     <Compile Include="Classes\BasicBullet.cs" />
     <Compile Include="Classes\ControlHandler.cs" />
     <Compile Include="Classes\GamestateManager.cs" />
     <Compile Include="Classes\HUD.cs" />
     <Compile Include="Classes\KeyboardHandler.cs" />
+    <Compile Include="Classes\Loader.cs" />
+    <Compile Include="Classes\LoadingScreen.cs" />
     <Compile Include="Classes\Missile.cs" />
     <Compile Include="Classes\OptionsMenu.cs" />
     <Compile Include="Classes\OptionsText.cs" />

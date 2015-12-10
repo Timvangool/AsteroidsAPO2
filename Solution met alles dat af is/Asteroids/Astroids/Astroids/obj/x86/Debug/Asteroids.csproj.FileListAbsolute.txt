@@ -86,3 +86,12 @@ D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids
 D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
 D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb
