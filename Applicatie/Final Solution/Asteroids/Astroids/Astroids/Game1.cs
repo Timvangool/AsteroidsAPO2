@@ -151,6 +151,7 @@ namespace Asteroids
 
             if (currentGameState == 1)
             {
+                intro.Update();
                 if (Keyboard.GetState().IsKeyDown(Keys.E))
                 {
                     currentGameState = 3;

@@ -29,6 +29,15 @@ namespace Asteroids.Classes
 
         }
 
+        public void Update()
+        {
+            if (Keyboard.GetState().IsKeyDown(Keys.Down))
+            {
+                fontPosTitle.Y -= 1.5f;
+                fontPos.Y -= 1.5f;
+            }
+        }
+
         public void Load(ContentManager content, GraphicsDeviceManager graphics)
         {
             fontType = content.Load<SpriteFont>("Courier New");
