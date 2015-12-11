@@ -1,0 +1,173 @@
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\WiimoteLib.dll
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\Thom\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\Dave\Desktop\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LargeAsteroidExplosionspritesheet.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MediumAsteroidExplosionspritesheet.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE1.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE2.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE3.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE4.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE5.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE6.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE7.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE1.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE2.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE3.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE4.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE5.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE6.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\1.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\2.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\3.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\4.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\5.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\6.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R01.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R02.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R03.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R04.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R05.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R06.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R07.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R08.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R09.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R10.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R11.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R12.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R13.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R14.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R15.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R16.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R17.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R18.xnb
