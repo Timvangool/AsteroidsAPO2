@@ -33,10 +33,10 @@ namespace Asteroids.Classes
         {
             fontType = content.Load<SpriteFont>("Courier New");
             //Text
-            fontOriginTitle.Y = -270;
+            fontOriginTitle.Y = -graphics.GraphicsDevice.Viewport.Height / 2 - 20;
             fontOriginTitle.X = graphics.GraphicsDevice.Viewport.Width / 3;
 
-            fontOrigin.Y = -300;
+            fontOrigin.Y = -graphics.GraphicsDevice.Viewport.Height / 2 - 40;
             fontOrigin.X = graphics.GraphicsDevice.Viewport.Width / 2.6f;
             fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
                 graphics.GraphicsDevice.Viewport.Height / 2);
@@ -151,6 +151,7 @@ is to press E
             //Draw String
             spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
             spriteBatch.DrawString(fontType, output, fontPos, Color.Yellow, 0, fontOrigin, 1.0f, SpriteEffects.None, 0.65f);
+            spriteBatch.DrawString(fontType, fontPos.Y.ToString(), new Vector2(10, 10), Color.White);
         }
     }
 }

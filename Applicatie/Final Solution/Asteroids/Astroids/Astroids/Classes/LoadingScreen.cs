@@ -13,7 +13,6 @@ namespace Asteroids.Classes
         SpriteBatch sb;
         IEnumerator<float> enumerator;
         Texture2D barTex;
-        Texture2D backroundTex;
         SpriteFont loadingScreenFont;
 
         public LoadingScreen(ContentManager content, GraphicsDevice gd) 
@@ -22,7 +21,6 @@ namespace Asteroids.Classes
             sb = new SpriteBatch(gd);
             enumerator = loader.GetEnumerator();
 
-            backroundTex = content.Load<Texture2D>("loading-screen");
             loadingScreenFont = content.Load<SpriteFont>("LoadingScreen");
             barTex = new Texture2D(gd, 1, 1);
             uint[] texData = { 0xffffffff };
@@ -35,25 +33,19 @@ namespace Asteroids.Classes
             return incomplete ? null : loader;
         }
 
-        public void Draw() 
+        public void Draw(SpriteBatch sb) 
         {
             Rectangle screenRect = new Rectangle(0, 0, sb.GraphicsDevice.Viewport.Width, sb.GraphicsDevice.Viewport.Height);
-            Vector2 backroundTexPos = new Vector2(screenRect.Center.X - backroundTex.Width/2, screenRect.Center.Y - backroundTex.Height/2);
 
             Rectangle loadingBarPos = new Rectangle();
             loadingBarPos.Width = 400;
             loadingBarPos.Height = 20;
-            loadingBarPos.X = backroundTex.Width / 2 - loadingBarPos.Width / 2;
-            loadingBarPos.Y = 240;
-            loadingBarPos.Offset((int)backroundTexPos.X, (int)backroundTexPos.Y);
+            loadingBarPos.X = sb.GraphicsDevice.Viewport.Width / 2 - loadingBarPos.Width / 2;
+            loadingBarPos.Y = sb.GraphicsDevice.Viewport.Height / 2 - loadingBarPos.Height / 2;
 
-            Color screenBackgroundColor = topLeftPixelColor(backroundTex);
             Color barColor = Color.Red;
             Color barBackgroundColor = Color.DarkBlue;
             int barBackgroundExpand = 2;
-            sb.GraphicsDevice.Clear(screenBackgroundColor);
-            sb.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
-            sb.Draw(backroundTex, backroundTexPos, Color.White);
 
             Rectangle barBackground = loadingBarPos;
             barBackground.Inflate(barBackgroundExpand, barBackgroundExpand);
@@ -179,8 +171,6 @@ namespace Asteroids.Classes
                     sb.DrawString(loadingScreenFont, "Trying to extract files, please wait", new Vector2(loadingBarPos.X * 1.0f, loadingBarPos.Y + 25f), Color.White);
                     break;
             }
-
-            sb.End();
         }
 
         Color topLeftPixelColor(Texture2D tex) 

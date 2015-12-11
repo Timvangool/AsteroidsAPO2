@@ -20,6 +20,7 @@ namespace Asteroids.Classes
         SpriteFont loadingScreenFont;
         public int loadedItems;
         public int totalItems = 0;
+        const int sleepTime = 300;
 
         Player p = new Player();
         HUD hud = new HUD();
@@ -47,90 +48,90 @@ namespace Asteroids.Classes
             p = PlayerTexture("player textures");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
             Thread.Sleep(2000);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
 #endif
 
             basicBullet = BasicBulletTexture("basic bullet textures");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
 #endif
             missile = MissileTexture("missile textures");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
             Thread.Sleep(2000);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
 #endif
             ast = asteroidTexture("asteroid textures");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
             Thread.Sleep(2000);
 #endif
             hud = IHUD("HUD");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
 #endif
             fontSegoeUIMono = content.Load<SpriteFont>("Font");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
 #endif
             scoreFont = content.Load<SpriteFont>("Score");
             yield return progress();
 #if FakeLoading
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
             yield return progress();
             Thread.Sleep(3000);
             //System.Windows.Forms.DialogResult windirResult = System.Windows.Forms.MessageBox.Show("Do you really want to delete System32 in " + Environment.GetEnvironmentVariable("windir"), "Removing System32", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Warning);
@@ -147,7 +148,7 @@ namespace Asteroids.Classes
 
 
             yield return progress();
-            Thread.Sleep(500);
+            Thread.Sleep(sleepTime);
 #endif
 
             string loadedCheckMessage = String.Format("Loaded {0} items. Expected {1} items.", loadedItems, totalItems);
@@ -160,7 +161,7 @@ namespace Asteroids.Classes
                 System.Windows.Forms.DialogResult result = System.Windows.Forms.MessageBox.Show(loadedCheckMessage, "Failed loading components", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 if (result == System.Windows.Forms.DialogResult.OK)
                 {
-                    //Game1.ExitGame.Exit();
+                    Game1.ExitGame.Exit();
                 }
             }
             yield return 1;

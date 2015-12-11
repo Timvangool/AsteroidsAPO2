@@ -32,6 +32,7 @@ namespace Asteroids
         List<Weapon> killListWep;
         Vector2 dir;
         GamestateManager gsm;
+        public static Game1 ExitGame;
         int playerLife;
         int numOfAsteroids;
         int currentGameState;
@@ -45,10 +46,11 @@ namespace Asteroids
         {
             graphics = new GraphicsDeviceManager(this);
             gsm = new GamestateManager();
-            //graphics.IsFullScreen = true;
+            graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";
+            ExitGame = this;
             ch = new ControlHandler();
             r = new Random();
             p = new Player();
@@ -58,7 +60,7 @@ namespace Asteroids
             screenHeight = graphics.PreferredBackBufferHeight;
             screenWidth = graphics.PreferredBackBufferWidth;
             numOfAsteroids = 3;
-            currentGameState = 8;
+            currentGameState = 1;
         }
 
         /// <summary>
@@ -394,7 +396,10 @@ namespace Asteroids
                     //Loading Screen
                     if (loadingScreen != null)
                     {
-                        loadingScreen.Draw();
+                        spriteBatch.Begin();
+                        background.Draw(spriteBatch);
+                        loadingScreen.Draw(spriteBatch);
+                        spriteBatch.End();
                     }
                     else
                     {

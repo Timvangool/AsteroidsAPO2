@@ -236,6 +236,15 @@
       <Time>2015-12-09T10:46:23.6265167+01:00</Time>
     </Item>
     <Item>
+      <Source>loading-screen.png</Source>
+      <Name>loading-screen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
+      <Time>2015-12-10T09:48:24.7296163+01:00</Time>
+    </Item>
+    <Item>
       <Source>SoundPlaceHolder.wav</Source>
       <Name>SoundPlaceHolder</Name>
       <Importer>WavImporter</Importer>
@@ -279,15 +288,6 @@
       <Options>None</Options>
       <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
       <Time>2015-12-10T09:47:28.126838+01:00</Time>
-    </Item>
-    <Item>
-      <Source>loading-screen.png</Source>
-      <Name>loading-screen</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
-      <Time>2015-12-10T09:48:24.7296163+01:00</Time>
     </Item>
     <Item>
       <Source>Font.spritefont</Source>
