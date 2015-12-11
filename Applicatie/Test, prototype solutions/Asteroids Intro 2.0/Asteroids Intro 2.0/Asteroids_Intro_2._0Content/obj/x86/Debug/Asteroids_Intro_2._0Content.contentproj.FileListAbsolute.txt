@@ -1,2 +1,3 @@
 c:\users\keese_000\documents\visual studio 2013\Projects\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0Content\obj\x86\Debug\Asteroids_Intro_2._0Content.contentprojResolveAssemblyReference.cache
 C:\Users\Yannick\Desktop\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0Content\obj\x86\Debug\Asteroids_Intro_2._0Content.contentprojResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Asteroids Intro 2.0\Asteroids Intro 2.0\Asteroids_Intro_2._0Content\obj\x86\Debug\Asteroids_Intro_2._0Content.contentprojResolveAssemblyReference.cache

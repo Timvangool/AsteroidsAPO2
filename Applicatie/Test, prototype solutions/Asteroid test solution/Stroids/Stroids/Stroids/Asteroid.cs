@@ -14,7 +14,7 @@ namespace Stroids
     {
 
         private int posX, posY, size;
-        private float speed;
+        private double speed;
         private Vector2 pos , direction;
         private Rectangle hitBox;
 
@@ -29,6 +29,16 @@ namespace Stroids
         {
             this.posX = posX;
             this.posY = posY;
+            this.size = size;
+            this.speed = speed;
+            this.direction = direction;
+
+            player = new Player();
+        }
+
+        public Asteroid(Vector2 pos, int size, double speed, Vector2 direction)
+        {
+            this.pos = pos;
             this.size = size;
             this.speed = speed;
             this.direction = direction;
@@ -98,13 +108,13 @@ namespace Stroids
             return hitBox;
         }
 
-        public int getXPos()
+        public int GetXPos()
         {
             int temp = Convert.ToInt32(pos.X);
             return temp;
         }
 
-        public int getYPos()
+        public int GetYPos()
         {
             int temp = Convert.ToInt32(pos.Y);
             return temp;

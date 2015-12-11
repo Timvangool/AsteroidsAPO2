@@ -96,9 +96,9 @@ namespace Stroids
 
         public void DrawPlayer(SpriteBatch batch, ContentManager content)
         {
-            batch.Draw(content.Load<Texture2D>("RocketIdle"), new Rectangle((int)pos.X, (int)pos.Y, 50, 50), null, Color.White, angle, origin, SpriteEffects.None, 0.0f);
+            batch.Draw(content.Load<Texture2D>("RocketIdle"), new Rectangle((int)pos.X, (int)pos.Y, 50, 50), null, Color.Fuchsia, angle, origin, SpriteEffects.None, 0.0f);
         }
-
+            
         public void CheckBoundries(int scrnWidth, int scrnHeight)
         {
             if (pos.Y <= 0)

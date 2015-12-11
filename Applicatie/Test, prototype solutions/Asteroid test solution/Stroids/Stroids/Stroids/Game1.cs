@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using AnimatedSprite;
 
 namespace Stroids
 {
@@ -18,17 +19,11 @@ namespace Stroids
         Player player;
         private List<PowerUp> powerUp, powerUpKillList;
         private List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
-        private int screenWidth, screenHeight, numOfAsteroids;
+        private int screenWidth, screenHeight, numOfAsteroids, rnd1, rnd2;
         private Random rnd;
         LEVEL currentLevel;
         Vector2 dir;
         Texture2D texture;
-        private AnimatedTexture SpriteTexture;
-        private const float Rotation = 0;
-        private const float Scale = 2.0f;
-        private const float Depth = 0.5f;
-        private const int frames = 4;
-        private const int framesPerSec = 2;
 
 
         public enum LEVEL
@@ -38,6 +33,7 @@ namespace Stroids
             LEVEL3,
             LEVEL4
         }
+        
         #region Constructors
         public Game1()
         {
@@ -50,7 +46,6 @@ namespace Stroids
             asteroid = new List<Asteroid>();
             newAsteroidList = new List<Asteroid>();
             powerUp = new List<PowerUp>();
-            SpriteTexture = new AnimatedTexture();
             powerUpKillList = new List<PowerUp>();
         }
         #endregion
@@ -72,7 +67,7 @@ namespace Stroids
             {
                 p.SetPos(new Vector2(0, 0));
                 p.SetTexture(Content.Load<Texture2D>("powerup"));
-                p.SetType(1);
+                p.SetType(1); 
                 p.SetIsVisable(true);
             }
 
@@ -82,55 +77,65 @@ namespace Stroids
             newAsteroidList.Clear();
             powerUp.Clear();
 
+            numOfAsteroids = 5;
 
-            switch (currentLevel)
-            {
-                case LEVEL.LEVEL1:
-                    numOfAsteroids = 5;
-                    break;
-                case LEVEL.LEVEL2:
-                    numOfAsteroids = 10;
-                    break;
-                case LEVEL.LEVEL3:
-                    numOfAsteroids = 15;
-                    break;
-                case LEVEL.LEVEL4:
-                    numOfAsteroids = 20;
-                    break;
-                default:
-                    break;
-            }
-
+            screenHeight = graphics.PreferredBackBufferHeight;
+            screenWidth = graphics.PreferredBackBufferWidth;
             for (int i = 0; i < numOfAsteroids; i++)
             {
+                Random pfpasofkjdsaf = new Random();
+                int deeznuts = pfpasofkjdsaf.Next(1, 3);
+
+                switch (deeznuts)
+                {
+                    case 1:
+                        rnd2 = rnd.Next(0, screenHeight);
+                        rnd1 = rnd.Next(-100, 0);
+                        break;
+                    case 2:
+                        rnd2 = rnd.Next(screenHeight, screenHeight + 100);
+                        rnd1 = rnd.Next(0, screenWidth);
+                        break;
+                    case 3:
+             
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        System.Windows.Forms.MessageBox.Show("oeps");
+                        rnd1 = 0;
+                        rnd2 = 0;
+                        break;
+                }
+                double speed = rnd.NextDouble() * 3 * Math.PI;
+                System.Threading.Thread.Sleep(1);
                 double angle = rnd.NextDouble() * 2 * Math.PI;
-                asteroid.Add(new Asteroid(rnd.Next(-50, graphics.PreferredBackBufferWidth + 50), rnd.Next(-50, graphics.PreferredBackBufferHeight + 50), rnd.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), rnd.Next(1, 4), speed, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
             }
         }
         #endregion
 
         #region Load/Unload content
         protected override void LoadContent()
-        {
+        {   
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            SpriteTexture.Load(Content, "AsteroidExplosion", frames, framesPerSec);
-            player.Load(Content);
+            player.Load(Content); 
         }
 
         protected override void UnloadContent()
         {
-
+            
         }
+            
         #endregion
-
+            
         #region Update
 
         protected override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
 
-            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            SpriteTexture.UpdateFrame(elapsed);
+            float elapsed = (float)gameTime.ElapsedGameTime.TotalMilliseconds;
 
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
             {
@@ -161,10 +166,7 @@ namespace Stroids
                     {
                         case 1:
                             numOfAsteroids -= 1;
-                            Vector2 temp = new Vector2((float)ast.getXPos(), (float)ast.getYPos());
-                                spriteBatch.Begin();
-                                SpriteTexture.DrawFrame(spriteBatch, temp);
-                                spriteBatch.End();
+                            Vector2 temp = new Vector2((float)ast.GetXPos(), (float)ast.GetYPos());
                             asteroidKillList.Add(ast);
                             break;
                         case 2:
@@ -172,7 +174,7 @@ namespace Stroids
                             for (int i = 0; i < 2; i++)
                             {
                                 double angle = rnd.NextDouble() * 2 * Math.PI;
-                                newAsteroidList.Add(new Asteroid(ast.getXPos(), ast.getYPos(), 1, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                                newAsteroidList.Add(new Asteroid(new Vector2(ast.GetXPos(), ast.GetYPos()), 1, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
                                 numOfAsteroids += 1;
                             }
                             asteroidKillList.Add(ast);
@@ -182,7 +184,7 @@ namespace Stroids
                             for (int i = 0; i < 2; i++)
                             {
                                 double angle = rnd.NextDouble() * 2 * Math.PI;
-                                newAsteroidList.Add(new Asteroid(ast.getXPos(), ast.getYPos(), 2, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                                newAsteroidList.Add(new Asteroid(new Vector2(ast.GetXPos(), ast.GetYPos()), 2, 3.0f,  dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
                                 numOfAsteroids += 1;
                             }
                             asteroidKillList.Add(ast);
@@ -237,6 +239,7 @@ namespace Stroids
                 }
             }
         }
+
         #endregion
 
         #region Draw
@@ -264,7 +267,7 @@ namespace Stroids
         }
         #endregion
 
-        #region Methods
+                #region Methods
 
         public void InitializeNewLevel()
         {
@@ -276,16 +279,16 @@ namespace Stroids
             switch (currentLevel)
             {
                 case LEVEL.LEVEL1:
-                    numOfAsteroids = 5;
+                    numOfAsteroids = 5000;
                     break;
                 case LEVEL.LEVEL2:
-                    numOfAsteroids = 10;
+                    numOfAsteroids = 10000;
                     break;
                 case LEVEL.LEVEL3:
-                    numOfAsteroids = 15;
+                    numOfAsteroids = 15000;
                     break;
                 case LEVEL.LEVEL4:
-                    numOfAsteroids = 20;
+                    numOfAsteroids = 20000;
                     break;
                 default:
                     break;
@@ -293,8 +296,26 @@ namespace Stroids
 
             for (int i = 0; i < numOfAsteroids; i++)
             {
+                
+            Random pfpasofkjdsaf = new Random();
+                int deeznuts = pfpasofkjdsaf.Next(1, 3);
+
+                switch (deeznuts)
+                {
+                    case 1:
+                        rnd2 = rnd.Next(0, screenHeight);
+                        rnd1 = rnd.Next(-100, 0);
+                        break;
+                    case 2:
+                        rnd2 = rnd.Next(screenHeight, screenHeight + 100);
+                        rnd1 = rnd.Next(0, screenWidth);
+                        break;
+                    default:
+                        break;
+                }
+                
                 double angle = rnd.NextDouble() * 2 * Math.PI;
-                asteroid.Add(new Asteroid(rnd.Next(-50 , graphics.PreferredBackBufferWidth + 50), rnd.Next(1, graphics.PreferredBackBufferHeight), rnd.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), rnd.Next(1, 4), 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
             }
         }
 

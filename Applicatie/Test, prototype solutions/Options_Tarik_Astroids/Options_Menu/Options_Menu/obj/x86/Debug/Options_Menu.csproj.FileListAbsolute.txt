@@ -82,3 +82,21 @@ C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Men
 C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.exe
 C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.pdb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxTrue.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxFalse.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowLeft.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowRight.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ResolutionBar.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBar.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBarCursor.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\OptionsBG.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Back.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\MenuFont.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.wma
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.exe
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.pdb
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.exe
+C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.pdb
