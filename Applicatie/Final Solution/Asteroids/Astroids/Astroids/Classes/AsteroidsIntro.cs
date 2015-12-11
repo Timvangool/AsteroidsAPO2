@@ -51,30 +51,24 @@ namespace Asteroids.Classes
                 fontPos.Y -= 0.5f;
 
                 output = @"
-A long time ago in a galaxy 
-far, far away....
 
-There was a 2nd Corporal Space 
-Meteor Destroyer called Dimitri.
-He lived on Spacestation DS9.
-He had a normal life and a 
-normal job.
-But then the station got attacked
-by aliens.
-The space station slowly got
-destroyed.
-But Dimitri escaped
-from the station in a small
-spaceship.
-Now Dimitri is on his way
-to another Space Staion/Planet
-in search for safety.
 
-Will he survive the dangers
-of outer space?
+2nd Corporal Dimitri had just gotten the word
+That spacestation DS9 was being attacked by Aliens
 
-And will he ever see 
-civilisation again?
+The Aliens had used their advanced technology
+To slingshot a whole belt of astroids
+into the spacestation: DS9
+
+It is now Dimitri's job to destroy the astroids
+And any alien blocking his path
+before the Astroids reach the spacestation
+
+Dimitri retracted his landing gear
+and took off into the distance
+
+Will he save DS9?
+Will he return safely?
 
 
 
@@ -126,23 +120,16 @@ screen.
 
 
 
-Congratulations!!!
-You've endured the Waiting
-Exam!!!!
-
-You are now ready to play a
-game full of awesomeness
-and Spaceness
-
 Good luck, we'll see you on 
 the other side.
 
 
 
 
-System Message: 
-The key to exit this video 
-is to press E
+Oh... yeah... In case you haven't tried 
+every key on your keyboard yet..
+
+To skip this press E
 ";
         }
 
