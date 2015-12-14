@@ -63,18 +63,18 @@ namespace Asteroids.Classes
 
 
 2nd Corporal Dimitri had just gotten the word
-That spacestation DS9 was being attacked by Aliens
+That spacestation DS9 was being attacked by aliens.
 
-The Aliens had used their advanced technology
+The Aliens had used their advanced technology.
 To slingshot a whole belt of astroids
-into the spacestation: DS9
+into the spacestation: DS9.
 
-It is now Dimitri's job to destroy the astroids
+It is now Dimitri's job to destroy the astroids.
 And any alien blocking his path
-before the Astroids reach the spacestation
+before the Astroids reach the spacestation.
 
 Dimitri retracted his landing gear
-and took off into the distance
+and took off into the distance.
 
 Will he save DS9?
 Will he return safely?
