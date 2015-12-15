@@ -18,7 +18,7 @@ namespace Astroids.Classes
         private SpritesheetLoader rocketExplodeSprite;
         private Texture2D playerTextureIdle, playerTextureMoving, defaultTexture, bulletTexture;
         private float speed;
-        private Vector2 playerPos;
+        private Vector2 playerPos; 
         private Vector2 origin;
         private Vector2 bulletDirection;
         private SoundEffect sound;

@@ -23,12 +23,6 @@ namespace Astroids.Classes
         private float speed;
         private Vector2 pos , direction;
         private Rectangle hitBox;
-        //Texture2D AsteroidExplosion;
-        
-        //Rectangle sourcerect;
-        //float elapsed;
-        //float delay = 50;
-        //int frames = 0;
 
         public Asteroid()
         {
