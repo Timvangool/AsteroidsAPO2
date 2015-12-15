@@ -19,6 +19,7 @@ namespace Asteroids.Classes
         private float speed;
         private Vector2 playerPos;
         private Vector2 origin;
+        private Vector2 velocity;
         private Vector2 bulletDirection;
         private SoundEffect sound;
         private Rectangle hitBox;
@@ -60,32 +61,36 @@ namespace Asteroids.Classes
 
         public void Move()
         {
-            direction = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
-            direction.Normalize();
-            if (speed <= maxSpeed)
-            {
-                speed += 0.1F;
-            }
-            if (speed > maxSpeed)
-            {
-                speed = maxSpeed;
-            }
+            //velocity.X += 0.05f;
+            float mass = 100000;
+            // float r = 100;
+            //if (velocity.Length() == 0.0f)
+            //    r = 10000f;
+            //else
+            //    r = velocity.Length();
+            //r = r * r;
+            float f = mass * 100.0001f;
+            float a = f / mass;
+            Vector2 dir = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
+            //dir.Normalize();
 
-            playerPos = playerPos + (direction * speed);
-            oldDirection = direction;
+            velocity += dir * a;
+            if (velocity.Length() > 3.0f)
+            {
+                velocity.Normalize();
+                velocity *= 3.0f;
+            }
         }
 
         public void SlowDown()
         {
-            if (speed > 0 && speed <= maxSpeed)
-            {
-                speed -= 0.1F;
-            }
-            else if(speed <= 0.0F)
-            {
-                speed = 0.0F;
-            }
-            playerPos = playerPos + (direction * speed);
+            Vector2 dir = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
+            dir.Normalize();
+
+            if (velocity.Length() <= 0)
+                velocity *= 0;
+            else
+                velocity *= 0.99f;
         }
 
         public void Update(GameTime gameTime, ControlHandler contHand)
@@ -124,6 +129,7 @@ namespace Asteroids.Classes
                     weapList.Add(Shoot(1));
                 }
             }
+            playerPos += velocity;
 
             hitBox = new Rectangle((int)(playerPos.X - (playerTextureIdle.Width / 2)), (int)(playerPos.Y - (playerTextureIdle.Height / 2)), playerTextureIdle.Width, playerTextureIdle.Height);
             contHand.SetWiimoteLeds(0, lives);
