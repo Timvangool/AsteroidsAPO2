@@ -1,0 +1,4 @@
+Als je iets wilt Committen in de GitHub, gelieve er dan bij zetten
+waar de CodeMaster de nieuwe code kan vinden. Scheelt weer tijd.
+
+Alvast bedankt
