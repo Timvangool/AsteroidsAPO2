@@ -1,3 +1,4 @@
 D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
 D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
 D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache

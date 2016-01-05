@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
-      <Time>2015-12-07T10:47:47.9802991+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
+      <Time>2016-01-04T09:06:11.4007907+01:00</Time>
     </Item>
     <Item>
       <Source>placeholderas.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
-      <Time>2015-12-07T10:47:48.0063159+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
+      <Time>2016-01-04T09:06:11.5426847+01:00</Time>
     </Item>
     <Item>
       <Source>RocketIdle.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
-      <Time>2015-12-07T10:47:47.9812993+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
+      <Time>2016-01-04T09:06:11.4488248+01:00</Time>
     </Item>
     <Item>
       <Source>RocketBulllet.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
-      <Time>2015-12-07T10:47:47.9802991+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
+      <Time>2016-01-04T09:06:11.4087968+01:00</Time>
     </Item>
     <Item>
       <Source>RocketFlying.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
-      <Time>2015-12-07T10:47:47.9812993+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
+      <Time>2016-01-04T09:06:11.4478245+01:00</Time>
     </Item>
     <Item>
       <Source>LifeSprite.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
-      <Time>2015-12-07T10:47:47.9792984+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
+      <Time>2016-01-04T09:06:11.3607635+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidLarge.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
-      <Time>2015-12-07T10:47:47.9772967+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
+      <Time>2016-01-04T09:06:11.3237372+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidMedium.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
-      <Time>2015-12-07T10:47:47.9772967+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
+      <Time>2016-01-04T09:06:11.3247376+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidSmall.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
-      <Time>2015-12-07T10:47:47.9782969+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
+      <Time>2016-01-04T09:06:11.3257379+01:00</Time>
     </Item>
     <Item>
       <Source>LargeAsteroidExplosionspritesheet.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LargeAsteroidExplosionspritesheet.xnb</Output>
-      <Time>2015-12-07T11:19:20.9971705+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LargeAsteroidExplosionspritesheet.xnb</Output>
+      <Time>2016-01-04T09:06:11.3517559+01:00</Time>
     </Item>
     <Item>
       <Source>MediumAsteroidExplosionspritesheet.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MediumAsteroidExplosionspritesheet.xnb</Output>
-      <Time>2015-12-08T11:43:41.1820536+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MediumAsteroidExplosionspritesheet.xnb</Output>
+      <Time>2016-01-04T09:06:11.3967879+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE1.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE1.xnb</Output>
-      <Time>2015-12-09T09:23:00.767695+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE1.xnb</Output>
+      <Time>2016-01-04T09:06:11.3327424+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE2.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE2.xnb</Output>
-      <Time>2015-12-09T09:23:00.773326+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE2.xnb</Output>
+      <Time>2016-01-04T09:06:11.3347458+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE3.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE3.xnb</Output>
-      <Time>2015-12-09T09:23:00.7813236+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE3.xnb</Output>
+      <Time>2016-01-04T09:06:11.3367457+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE4.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE4.xnb</Output>
-      <Time>2015-12-09T09:23:00.7917921+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE4.xnb</Output>
+      <Time>2016-01-04T09:06:11.3427499+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE5.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE5.xnb</Output>
-      <Time>2015-12-09T09:23:00.8077882+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE5.xnb</Output>
+      <Time>2016-01-04T09:06:11.343751+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE6.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE6.xnb</Output>
-      <Time>2015-12-09T09:23:00.7131212+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE6.xnb</Output>
+      <Time>2016-01-04T09:06:11.3467532+01:00</Time>
     </Item>
     <Item>
       <Source>LAExplosion\AE7.png</Source>
@@ -160,26 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE7.xnb</Output>
-      <Time>2015-12-09T09:23:00.7141137+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundPlaceHolder.wav</Source>
-      <Name>SoundPlaceHolder</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
-      <Time>2015-12-07T10:47:48.0013117+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Score.spritefont</Source>
-      <Name>Score</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
-      <Time>2015-12-07T10:47:47.9812993+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE7.xnb</Output>
+      <Time>2016-01-04T09:06:11.3487542+01:00</Time>
     </Item>
     <Item>
       <Source>MAExplosion\MAE1.png</Source>
@@ -187,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE1.xnb</Output>
-      <Time>2015-12-09T10:18:54.8415622+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE1.xnb</Output>
+      <Time>2016-01-04T09:06:11.3647656+01:00</Time>
     </Item>
     <Item>
       <Source>MAExplosion\MAE2.png</Source>
@@ -196,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE2.xnb</Output>
-      <Time>2015-12-09T10:18:54.8065125+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE2.xnb</Output>
+      <Time>2016-01-04T09:06:11.3677681+01:00</Time>
     </Item>
     <Item>
       <Source>MAExplosion\MAE3.png</Source>
@@ -205,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE3.xnb</Output>
-      <Time>2015-12-09T10:18:54.8163463+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE3.xnb</Output>
+      <Time>2016-01-04T09:06:11.3677681+01:00</Time>
     </Item>
     <Item>
       <Source>MAExplosion\MAE4.png</Source>
@@ -214,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE4.xnb</Output>
-      <Time>2015-12-09T10:18:54.8256089+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE4.xnb</Output>
+      <Time>2016-01-04T09:06:11.3737727+01:00</Time>
     </Item>
     <Item>
       <Source>MAExplosion\MAE5.png</Source>
@@ -223,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE5.xnb</Output>
-      <Time>2015-12-09T10:18:54.8345593+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE5.xnb</Output>
+      <Time>2016-01-04T09:06:11.3757734+01:00</Time>
     </Item>
     <Item>
       <Source>MAExplosion\MAE6.png</Source>
@@ -232,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE6.xnb</Output>
-      <Time>2015-12-09T10:18:54.8355591+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE6.xnb</Output>
+      <Time>2016-01-04T09:06:11.3777752+01:00</Time>
     </Item>
     <Item>
       <Source>SAExplosion\1.png</Source>
@@ -241,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\1.xnb</Output>
-      <Time>2015-12-09T10:19:09.6650093+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\1.xnb</Output>
+      <Time>2016-01-04T09:06:11.4508262+01:00</Time>
     </Item>
     <Item>
       <Source>SAExplosion\2.png</Source>
@@ -250,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\2.xnb</Output>
-      <Time>2015-12-09T10:19:09.667011+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\2.xnb</Output>
+      <Time>2016-01-04T09:06:11.4538323+01:00</Time>
     </Item>
     <Item>
       <Source>SAExplosion\3.png</Source>
@@ -259,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\3.xnb</Output>
-      <Time>2015-12-09T10:19:09.6680134+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\3.xnb</Output>
+      <Time>2016-01-04T09:06:11.457832+01:00</Time>
     </Item>
     <Item>
       <Source>SAExplosion\4.png</Source>
@@ -268,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\4.xnb</Output>
-      <Time>2015-12-09T10:19:09.6690128+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\4.xnb</Output>
+      <Time>2016-01-04T09:06:11.4588319+01:00</Time>
     </Item>
     <Item>
       <Source>SAExplosion\5.png</Source>
@@ -277,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\5.xnb</Output>
-      <Time>2015-12-09T10:19:09.7378229+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\5.xnb</Output>
+      <Time>2016-01-04T09:06:11.4608337+01:00</Time>
     </Item>
     <Item>
       <Source>SAExplosion\6.png</Source>
@@ -286,8 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\6.xnb</Output>
-      <Time>2015-12-09T10:19:09.7398285+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\6.xnb</Output>
+      <Time>2016-01-04T09:06:11.4618345+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R01.png</Source>
@@ -295,8 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R01.xnb</Output>
-      <Time>2015-12-09T12:09:40.5508197+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R01.xnb</Output>
+      <Time>2016-01-04T09:06:11.4117993+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R02.png</Source>
@@ -304,8 +286,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R02.xnb</Output>
-      <Time>2015-12-09T12:09:40.5518204+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R02.xnb</Output>
+      <Time>2016-01-04T09:06:11.4138004+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R03.png</Source>
@@ -313,8 +295,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R03.xnb</Output>
-      <Time>2015-12-09T12:09:40.5528206+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R03.xnb</Output>
+      <Time>2016-01-04T09:06:11.4148015+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R04.png</Source>
@@ -322,8 +304,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R04.xnb</Output>
-      <Time>2015-12-09T12:09:40.5538209+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R04.xnb</Output>
+      <Time>2016-01-04T09:06:11.4168025+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R05.png</Source>
@@ -331,8 +313,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R05.xnb</Output>
-      <Time>2015-12-09T12:09:40.5548215+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R05.xnb</Output>
+      <Time>2016-01-04T09:06:11.4178032+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R06.png</Source>
@@ -340,8 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R06.xnb</Output>
-      <Time>2015-12-09T12:09:40.5558222+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R06.xnb</Output>
+      <Time>2016-01-04T09:06:11.4208061+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R07.png</Source>
@@ -349,8 +331,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R07.xnb</Output>
-      <Time>2015-12-09T12:09:40.5568233+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R07.xnb</Output>
+      <Time>2016-01-04T09:06:11.4238079+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R08.png</Source>
@@ -358,8 +340,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R08.xnb</Output>
-      <Time>2015-12-09T12:09:40.5849757+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R08.xnb</Output>
+      <Time>2016-01-04T09:06:11.4258093+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R09.png</Source>
@@ -367,8 +349,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R09.xnb</Output>
-      <Time>2015-12-09T12:09:40.5869881+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R09.xnb</Output>
+      <Time>2016-01-04T09:06:11.42681+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R10.png</Source>
@@ -376,8 +358,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R10.xnb</Output>
-      <Time>2015-12-09T12:09:40.6057194+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R10.xnb</Output>
+      <Time>2016-01-04T09:06:11.4288114+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R11.png</Source>
@@ -385,8 +367,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R11.xnb</Output>
-      <Time>2015-12-09T12:09:40.6748763+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R11.xnb</Output>
+      <Time>2016-01-04T09:06:11.4328139+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R12.png</Source>
@@ -394,8 +376,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R12.xnb</Output>
-      <Time>2015-12-09T12:09:40.6838827+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R12.xnb</Output>
+      <Time>2016-01-04T09:06:11.4338146+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R13.png</Source>
@@ -403,8 +385,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R13.xnb</Output>
-      <Time>2015-12-09T12:09:40.6928908+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R13.xnb</Output>
+      <Time>2016-01-04T09:06:11.4348153+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R14.png</Source>
@@ -412,8 +394,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R14.xnb</Output>
-      <Time>2015-12-09T12:09:40.7089019+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R14.xnb</Output>
+      <Time>2016-01-04T09:06:11.4408199+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R15.png</Source>
@@ -421,8 +403,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R15.xnb</Output>
-      <Time>2015-12-09T12:09:40.7179053+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R15.xnb</Output>
+      <Time>2016-01-04T09:06:11.442821+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R16.png</Source>
@@ -430,8 +412,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R16.xnb</Output>
-      <Time>2015-12-09T12:09:40.7481492+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R16.xnb</Output>
+      <Time>2016-01-04T09:06:11.4438217+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R17.png</Source>
@@ -439,8 +421,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R17.xnb</Output>
-      <Time>2015-12-09T12:09:40.7571548+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R17.xnb</Output>
+      <Time>2016-01-04T09:06:11.4448224+01:00</Time>
     </Item>
     <Item>
       <Source>RocketExplosion\R18.png</Source>
@@ -448,8 +430,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R18.xnb</Output>
-      <Time>2015-12-09T12:09:40.5508197+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R18.xnb</Output>
+      <Time>2016-01-04T09:06:11.4468234+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundPlaceHolder.wav</Source>
+      <Name>SoundPlaceHolder</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
+      <Time>2016-01-04T09:06:11.5178742+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Score.spritefont</Source>
+      <Name>Score</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
+      <Time>2016-01-04T09:06:11.4628352+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -458,10 +458,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\AstroidsContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\AstroidsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -490,7 +490,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-11-19T15:18:39.6139953+01:00</Value>
+        <Value>2015-12-04T10:19:32.9922071+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

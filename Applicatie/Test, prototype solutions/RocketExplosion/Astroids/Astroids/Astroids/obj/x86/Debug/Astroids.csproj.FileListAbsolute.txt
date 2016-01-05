@@ -171,3 +171,7 @@ C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R16.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R17.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R18.xnb
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.csprojResolveAssemblyReference.cache
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb

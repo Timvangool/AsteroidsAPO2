@@ -16,8 +16,6 @@ Content\LAExplosion\AE4.xnb
 Content\LAExplosion\AE5.xnb
 Content\LAExplosion\AE6.xnb
 Content\LAExplosion\AE7.xnb
-Content\SoundPlaceHolder.xnb
-Content\Score.xnb
 Content\MAExplosion\MAE1.xnb
 Content\MAExplosion\MAE2.xnb
 Content\MAExplosion\MAE3.xnb
@@ -48,5 +46,7 @@ Content\RocketExplosion\R15.xnb
 Content\RocketExplosion\R16.xnb
 Content\RocketExplosion\R17.xnb
 Content\RocketExplosion\R18.xnb
+Content\SoundPlaceHolder.xnb
+Content\Score.xnb
 Content\Keybindings\KeyboardControls.txt
 Content\Keybindings\WiimoteControls.txt

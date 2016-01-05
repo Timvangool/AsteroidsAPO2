@@ -5,3 +5,4 @@ C:\Users\Dave\Desktop\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsCo
 D:\School\Projecten\Asteroids\Gamestates solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
 D:\School\Projecten\Asteroids\Werkende alles solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\RocketExplosion\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
-      <Time>2015-12-02T11:52:21.5018086+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
+      <Time>2016-01-04T09:06:08.8392506+01:00</Time>
     </Item>
     <Item>
       <Source>placeholderas.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
-      <Time>2015-12-02T11:52:21.5268263+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
+      <Time>2016-01-04T09:06:08.917306+01:00</Time>
     </Item>
     <Item>
       <Source>RocketIdle.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
-      <Time>2015-12-02T11:52:21.5048115+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
+      <Time>2016-01-04T09:06:08.8442542+01:00</Time>
     </Item>
     <Item>
       <Source>RocketBulllet.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
-      <Time>2015-12-02T11:52:21.5028093+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
+      <Time>2016-01-04T09:06:08.8422524+01:00</Time>
     </Item>
     <Item>
       <Source>RocketFlying.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
-      <Time>2015-12-02T11:52:21.5038155+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
+      <Time>2016-01-04T09:06:08.8432535+01:00</Time>
     </Item>
     <Item>
       <Source>LifeSprite.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
-      <Time>2015-12-02T11:52:21.5008079+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
+      <Time>2016-01-04T09:06:08.8142325+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidLarge.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
-      <Time>2015-12-02T11:52:21.4968055+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
+      <Time>2016-01-04T09:06:08.795219+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidMedium.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
-      <Time>2015-12-02T11:52:21.4978058+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
+      <Time>2016-01-04T09:06:08.7972208+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidSmall.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
-      <Time>2015-12-02T11:52:21.4988069+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
+      <Time>2016-01-04T09:06:08.7982219+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowLeft.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
-      <Time>2015-12-09T09:20:10.1455176+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
+      <Time>2016-01-04T09:06:08.7922168+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowRight.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
-      <Time>2015-12-09T09:20:10.1611426+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
+      <Time>2016-01-04T09:06:08.7932172+01:00</Time>
     </Item>
     <Item>
       <Source>Back.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
-      <Time>2015-12-09T09:20:10.1611426+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2016-01-04T09:06:08.8022239+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxFalse.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
-      <Time>2015-12-09T09:20:10.1611426+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
+      <Time>2016-01-04T09:06:08.8042254+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxTrue.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
-      <Time>2015-12-09T09:20:12.5361791+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
+      <Time>2016-01-04T09:06:08.8062264+01:00</Time>
     </Item>
     <Item>
       <Source>starfield.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
-      <Time>2015-12-08T11:53:49.0867234+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
+      <Time>2016-01-04T09:06:08.926312+01:00</Time>
     </Item>
     <Item>
       <Source>OptionsBG.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
-      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
+      <Time>2016-01-04T09:06:08.8212374+01:00</Time>
     </Item>
     <Item>
       <Source>ResolutionBar.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
-      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
+      <Time>2016-01-04T09:06:08.8412516+01:00</Time>
     </Item>
     <Item>
       <Source>SelectArrow.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
-      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
+      <Time>2016-01-04T09:06:08.8472559+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBar.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
-      <Time>2015-12-09T09:20:12.5518484+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
+      <Time>2016-01-04T09:06:08.8492577+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBarCursor.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
-      <Time>2015-12-09T09:20:12.5674217+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
+      <Time>2016-01-04T09:06:08.8502584+01:00</Time>
     </Item>
     <Item>
       <Source>Planet1.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
-      <Time>2015-12-09T10:46:23.1889967+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
+      <Time>2016-01-04T09:06:08.8232385+01:00</Time>
     </Item>
     <Item>
       <Source>Planet2.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
-      <Time>2015-12-09T10:46:23.2046239+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
+      <Time>2016-01-04T09:06:08.8272417+01:00</Time>
     </Item>
     <Item>
       <Source>Planet3.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
-      <Time>2015-12-09T10:46:23.6109233+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
+      <Time>2016-01-04T09:06:08.8282428+01:00</Time>
     </Item>
     <Item>
       <Source>star1.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
-      <Time>2015-12-09T10:46:23.6109233+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
+      <Time>2016-01-04T09:06:08.9183063+01:00</Time>
     </Item>
     <Item>
       <Source>star2.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
-      <Time>2015-12-09T10:46:23.6109233+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
+      <Time>2016-01-04T09:06:08.919307+01:00</Time>
     </Item>
     <Item>
       <Source>star3.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
-      <Time>2015-12-09T10:46:23.6265167+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
+      <Time>2016-01-04T09:06:08.9213085+01:00</Time>
     </Item>
     <Item>
       <Source>loading-screen.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
-      <Time>2015-12-10T09:48:24.7296163+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
+      <Time>2016-01-04T09:06:08.9012946+01:00</Time>
     </Item>
     <Item>
       <Source>SoundPlaceHolder.wav</Source>
@@ -250,8 +250,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
-      <Time>2015-12-02T11:52:21.5228242+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
+      <Time>2016-01-04T09:06:08.8962954+01:00</Time>
     </Item>
     <Item>
       <Source>Score.spritefont</Source>
@@ -259,8 +259,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
-      <Time>2015-12-02T11:52:21.5048115+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
+      <Time>2016-01-04T09:06:08.8462556+01:00</Time>
     </Item>
     <Item>
       <Source>Courier New.spritefont</Source>
@@ -268,8 +268,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
-      <Time>2015-12-08T11:53:48.6179178+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
+      <Time>2016-01-04T09:06:08.8072275+01:00</Time>
     </Item>
     <Item>
       <Source>MenuFont.spritefont</Source>
@@ -277,8 +277,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2015-12-09T09:20:12.5361791+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2016-01-04T09:06:08.819236+01:00</Time>
     </Item>
     <Item>
       <Source>LoadingScreen.spritefont</Source>
@@ -286,8 +286,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
-      <Time>2015-12-10T09:47:28.126838+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
+      <Time>2016-01-04T09:06:08.8172346+01:00</Time>
     </Item>
     <Item>
       <Source>Font.spritefont</Source>
@@ -295,8 +295,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb</Output>
-      <Time>2015-12-10T09:49:22.1768536+01:00</Time>
+      <Output>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2016-01-04T09:06:08.8082282+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -305,10 +305,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\AstroidsContent\</RootDirectory>
-      <LoggerRootDirectory>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\AstroidsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullet spawn solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -336,8 +336,8 @@
         <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-11-17T10:54:47.9905723+01:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-12-04T10:19:32.9922071+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

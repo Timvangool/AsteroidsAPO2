@@ -136,3 +136,7 @@ D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astr
 D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
 D:\School\Projecten\Asteroids\Werkende combined solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullets solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Asteroids.csprojResolveAssemblyReference.cache
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullets solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullets solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
+C:\Users\keese_000\Documents\AsteroidsAPO2\Applicatie\Test, prototype solutions\Gefixte bullets solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
