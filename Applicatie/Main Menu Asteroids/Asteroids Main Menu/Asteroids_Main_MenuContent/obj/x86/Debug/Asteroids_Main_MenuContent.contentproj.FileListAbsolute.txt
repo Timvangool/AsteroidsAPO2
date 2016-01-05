@@ -1,0 +1,2 @@
+C:\Users\Tarik\Desktop\Main Menu Asteroids\Asteroids Main Menu\Asteroids_Main_MenuContent\obj\x86\Debug\Asteroids_Main_MenuContent.contentprojResolveAssemblyReference.cache
+C:\Users\Tarik\Desktop\Bureaublad\Main Menu Asteroids\Asteroids Main Menu\Asteroids_Main_MenuContent\obj\x86\Debug\Asteroids_Main_MenuContent.contentprojResolveAssemblyReference.cache
