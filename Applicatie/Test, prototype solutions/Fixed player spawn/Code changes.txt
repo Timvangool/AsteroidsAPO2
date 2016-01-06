@@ -1,0 +1,14 @@
+Game1:
+regel 118
+p.SetPlayerPos(spriteBatch);
+
+player:
+regel 42
+playerPos = new Vector2();
+
+regels 185 - 189
+public void SetPlayerPos(SpriteBatch sb)
+        {
+            playerPos.X = (sb.GraphicsDevice.Viewport.Width / 2) - hitboxWidth;
+            playerPos.Y = (sb.GraphicsDevice.Viewport.Height / 2) - hitboxHeight;
+        }
