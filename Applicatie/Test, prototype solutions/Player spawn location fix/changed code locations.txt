@@ -1,0 +1,6 @@
+Game1:
+regel 118
+
+player:
+regel 42
+regels 185 - 189
