@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroids_GameOverTarik", "Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik.csproj", "{86630C63-56C3-4AB2-BAA7-C82BA2542BCD}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Asteroids_GameOverTarikContent", "Asteroids_GameOverTarik\Asteroids_GameOverTarikContent\Asteroids_GameOverTarikContent.contentproj", "{602B1608-8B6F-4DC4-A3ED-381A3B16ACF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86630C63-56C3-4AB2-BAA7-C82BA2542BCD}.Debug|x86.ActiveCfg = Debug|x86
+		{86630C63-56C3-4AB2-BAA7-C82BA2542BCD}.Debug|x86.Build.0 = Debug|x86
+		{86630C63-56C3-4AB2-BAA7-C82BA2542BCD}.Release|x86.ActiveCfg = Release|x86
+		{86630C63-56C3-4AB2-BAA7-C82BA2542BCD}.Release|x86.Build.0 = Release|x86
+		{602B1608-8B6F-4DC4-A3ED-381A3B16ACF7}.Debug|x86.ActiveCfg = Debug|x86
+		{602B1608-8B6F-4DC4-A3ED-381A3B16ACF7}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
