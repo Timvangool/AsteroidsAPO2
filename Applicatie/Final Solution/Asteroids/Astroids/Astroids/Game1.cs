@@ -138,8 +138,9 @@ namespace Asteroids
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             p.Load(Content);
+            p.SetPlayerPos(spriteBatch);
             hud.Load(Content);
-            mainMenu = new MainMenu(Content, graphics, this);
+            mainMenu = new MainMenu(Content, graphics, ch);
             intro.Load(Content, graphics);
             oMenu.Load();
             mainMenu.Load(Content, graphicsDevice);
@@ -365,7 +366,7 @@ namespace Asteroids
                     numOfAsteroids = 5;
                     r = new Random();
                     p = new Player();
-                    hud = new HUD();
+                    hud = new HUD(graphics);
                     Initialize();
                     currentGameState = 3;
                 }

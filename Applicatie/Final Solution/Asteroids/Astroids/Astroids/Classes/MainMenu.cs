@@ -151,7 +151,7 @@ namespace Asteroids.Classes
         Vector2 posPlay, posOptions, posHighscores, posCredits, posExit, posTitleTop, posTitleMiddle, posTitleBottom;
         Vector2 posOriginPlay, posOriginOptions, posOriginHighscores, posOriginCredits, posOriginExit, posOriginTitleTop, posOriginTitleMiddle, posOriginTitleBottom;
 
-        public MainMenu(ContentManager Content, GraphicsDeviceManager graphics, Game game)
+        public MainMenu(ContentManager Content, GraphicsDeviceManager graphics, ControlHandler ch)
         {
 
             //Tarik Code:
@@ -161,7 +161,7 @@ namespace Asteroids.Classes
 
             this.graphics = graphics;
             this.Content = Content;
-            ch = new ControlHandler();
+            this.ch = ch;
             txSelectArrow = Content.Load<Texture2D>("SelectArrow");
 
             passed = true;

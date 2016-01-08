@@ -40,7 +40,7 @@ namespace Asteroids.Classes
 
         public Player()
         {
-            playerPos = new Vector2(200,200);
+            playerPos = new Vector2();
             speed = 0;
             maxSpeed = 5;
             lives = 3;
@@ -48,7 +48,6 @@ namespace Asteroids.Classes
             maxDelay = 0;
             delay = maxDelay;
             r = new Random();
-            bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
         }
 
         public void Load(ContentManager content)
@@ -57,10 +56,10 @@ namespace Asteroids.Classes
             defaultTexture = content.Load<Texture2D>("RocketIdle");
             playerTextureIdle = defaultTexture;
             bulletTexture = content.Load<Texture2D>("RocketBulllet");
-            //test = content.Load<Texture2D>("placeholderas");
             sound = content.Load<SoundEffect>("SoundPlaceHolder");
             origin.X = playerTextureIdle.Width / 2;
             origin.Y = playerTextureIdle.Height / 2;
+            bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
         }
 
         public void Move()
@@ -185,6 +184,12 @@ namespace Asteroids.Classes
                 return basic;
             }
             return null;
+        }
+
+        public void SetPlayerPos(SpriteBatch sb)
+        {
+            playerPos.X = (sb.GraphicsDevice.Viewport.Width / 2) - hitboxWidth;
+            playerPos.Y = (sb.GraphicsDevice.Viewport.Height / 2) - hitboxHeight;
         }
 
         public Vector2 GetDirection()
