@@ -16,20 +16,23 @@ namespace Asteroids.Classes
     {
         //variables
         private Texture2D playerTextureIdle, playerTextureMoving, defaultTexture, bulletTexture;
-        private float speed;
         private Vector2 playerPos;
+        private Vector2 tempPlayerPos;
         private Vector2 origin;
         private Vector2 velocity;
         private Vector2 bulletDirection;
         private SoundEffect sound;
         private Rectangle hitBox;
         private Vector2 oldDirection;
-        private int lives;
-        Vector2 direction;
-        private int maxSpeed;
+        private Vector2 direction;
         public List<Weapon> weapList;
-        private float delay, maxDelay;
         private Random r;
+        private float speed;
+        private int lives;
+        private float delay, maxDelay;
+        private int maxSpeed;
+        private int hitboxWidth;
+        private int hitboxHeight;
 
         //Texture2D test;
 
@@ -42,9 +45,10 @@ namespace Asteroids.Classes
             maxSpeed = 5;
             lives = 3;
             weapList = new List<Weapon>();
-            maxDelay = 25;
+            maxDelay = 0;
             delay = maxDelay;
             r = new Random();
+            bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
         }
 
         public void Load(ContentManager content)
@@ -171,7 +175,11 @@ namespace Asteroids.Classes
             {
                 BasicBullet basic = new BasicBullet();
                 basic.SetTexture(bulletTexture);
-                basic.SetPos(playerPos);
+                hitboxWidth = (basic.GetTextureWidth() / 2);
+                hitboxHeight = (basic.GetTextureHeight() / 2);
+                tempPlayerPos.X = (playerPos.X - hitboxWidth);
+                tempPlayerPos.Y = (playerPos.Y - hitboxHeight);
+                basic.SetPos(tempPlayerPos);
                 basic.SetDirection(bulletDirection);
                 delay = maxDelay;
                 return basic;

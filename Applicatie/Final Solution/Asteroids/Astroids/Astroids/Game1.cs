@@ -17,7 +17,14 @@ namespace Asteroids
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+
+        //TO DO: 
+        //Aliens moeten worden geImplementeerd met collision
+        
+        Alien alien;
+        BulletAlien bulletAlien;
         GraphicsDeviceManager graphics;
+        GraphicsDevice graphicsDevice;
         SpriteBatch spriteBatch;
         ControlHandler ch;
         Player p;
@@ -28,10 +35,14 @@ namespace Asteroids
         Loader loader;
         LoadingScreen loadingScreen;
         AsteroidsIntro intro;
+        MainMenu mainMenu;
+        GraphicsDevice graphicDevice;
         List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
         List<Weapon> killListWep;
-        Vector2 dir;
+        List<BulletAlien> alienBulletKillList, newAlienBulletList;
+        Vector2 dir, origin;
         GamestateManager gsm;
+        Texture2D texture;
         public static Game1 ExitGame;
         int playerLife;
         int numOfAsteroids;
@@ -41,12 +52,18 @@ namespace Asteroids
         int rnd2;
         int screenHeight;
         int screenWidth;
+        int activeTime;
+        string[] alienBulletArray;
+        float speed;
+        bool isOpen;
+        bool isKeyUp;
 
         public Game1()
         {
+            bulletAlien = new BulletAlien(texture, origin, dir, speed, activeTime);
             graphics = new GraphicsDeviceManager(this);
             gsm = new GamestateManager();
-            graphics.IsFullScreen = true;
+            //   graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";
@@ -54,9 +71,10 @@ namespace Asteroids
             ch = new ControlHandler();
             r = new Random();
             p = new Player();
-            hud = new HUD();
+            hud = new HUD(graphics);
             oMenu = new OptionsMenu(graphics, Content);
             intro = new AsteroidsIntro();
+            
             screenHeight = graphics.PreferredBackBufferHeight;
             screenWidth = graphics.PreferredBackBufferWidth;
             numOfAsteroids = 3;
@@ -71,10 +89,15 @@ namespace Asteroids
         /// </summary>
         protected override void Initialize()
         {
+            isOpen = false;
+            isKeyUp = false;
             asteroidKillList = new List<Asteroid>();
             asteroid = new List<Asteroid>();
             newAsteroidList = new List<Asteroid>();
             killListWep = new List<Weapon>();
+            alienBulletKillList = new List<BulletAlien>();
+            newAlienBulletList = new List<BulletAlien>();
+
             for (int i = 0; i < numOfAsteroids; i++)
             {
                 rndNum = r.Next(1, 3);
@@ -116,10 +139,13 @@ namespace Asteroids
 
             p.Load(Content);
             hud.Load(Content);
+            mainMenu = new MainMenu(Content, graphics, this);
             intro.Load(Content, graphics);
             oMenu.Load();
+            mainMenu.Load(Content, graphicsDevice);
             background = new Background(GraphicsDevice, Content);
             loadingScreen = new LoadingScreen(Content, graphics.GraphicsDevice);
+            alien = new Alien(Content.Load<Texture2D>("AlienShip"), new Vector2(50, 100), Vector2.Zero, 0f, 2f, Content.Load<Texture2D>("AlienBullet"));
 
             foreach (Weapon wep in p.weapList)
             {
@@ -149,12 +175,13 @@ namespace Asteroids
 
             gsm.GameStateChanger(currentGameState);
 
+            //Intro 
             if (currentGameState == 1)
             {
                 intro.Update();
                 if (Keyboard.GetState().IsKeyDown(Keys.E))
                 {
-                    currentGameState = 3;
+                    currentGameState = 2;
                 }
                 else
                 {
@@ -162,11 +189,27 @@ namespace Asteroids
                 }
             }
 
+            //MainMenu
+            if (currentGameState == 2)
+            {
+                mainMenu.Update(gameTime, graphicDevice);
+                mainMenu.PositionStrings();
+                mainMenu.MoveHighscores(gameTime);
+                currentGameState = mainMenu.GetCurrentGamestate();
+
+                if (mainMenu.GetExit() == true)
+                {
+                    this.Exit();
+                }
+            }
+
+            //Game itself
             if (currentGameState == 3)
             {
                 p.Update(gameTime, ch);
                 p.CheckBoundries(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
                 hud.Update(gameTime);
+                alien.Update(gameTime);
 
                 foreach (Asteroid a in asteroid)
                 {
@@ -212,6 +255,22 @@ namespace Asteroids
                     }
                 }
 
+                ////JOOOOO KIJK HIER ENS FF NAR JONGE
+                //foreach (BulletAlien b in alien.GetBulletList())
+                //{
+                //    if (p.GetPlayerHitbox().Intersects(bulletAlien.GetHitBoxBullet()))
+                //    {
+                //        p.SetLives((p.GetLife() - 1));
+                //        //alien.bullets.Remove(bulletAlien);
+                //        newAlienBulletList.Add(b);
+                //    }
+                //}
+
+                //foreach (BulletAlien b in newAlienBulletList)
+                //{
+                //    alien.GetBulletList().Remove(b);
+                //}
+
                 if (asteroid.Count == 0)
                 {
                     LevelsIncrease();
@@ -230,6 +289,7 @@ namespace Asteroids
                 asteroidKillList.Clear();
                 newAsteroidList.Clear();
 
+                //Shooting?
                 foreach (Weapon wep in p.weapList)
                 {
                     wep.Update(gameTime, wep.GetDirection());
@@ -253,6 +313,7 @@ namespace Asteroids
                                     hud.SetScore(10);
                                     numOfAsteroids -= 1;
                                     break;
+
                                 case 2:
                                     for (int i = 0; i < 2; i++)
                                     {
@@ -264,6 +325,7 @@ namespace Asteroids
                                     killListWep.Add(wep);
                                     hud.SetScore(25);
                                     break;
+
                                 case 3:
                                     for (int i = 0; i < 2; i++)
                                     {
@@ -275,8 +337,8 @@ namespace Asteroids
                                     killListWep.Add(wep);
                                     hud.SetScore(50);
                                     break;
-                                default:
 
+                                default:
                                     break;
                             }
                         }
@@ -295,6 +357,7 @@ namespace Asteroids
                 }
             }
 
+            
             if (currentGameState == 4)
             {
                 if (Keyboard.GetState().IsKeyDown(Keys.Enter))
@@ -308,18 +371,8 @@ namespace Asteroids
                 }
             }
 
-            if (currentGameState == 5)
-            {
-                if (Keyboard.GetState().IsKeyDown(Keys.F))
-                {
-                    currentGameState = 2;
-                }
-                else
-                {
-                    oMenu.Update(ch);
-                }
-            }
-
+            
+            //Loading Screen
             if (currentGameState == 8)
             {
                 if (loadingScreen != null)
@@ -344,7 +397,7 @@ namespace Asteroids
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Black);
+            graphics.GraphicsDevice.Clear(Color.Black);
 
             gsm.GameStateChanger(currentGameState);
 
@@ -352,15 +405,20 @@ namespace Asteroids
             {
                 case 1:
                     //Intro
+                        spriteBatch.Begin();
+                        background.Draw(spriteBatch);
+                        intro.Draw(spriteBatch);
+                        spriteBatch.End();                    
+                    break;
+
+                case 2:
                     spriteBatch.Begin();
                     background.Draw(spriteBatch);
-                    intro.Draw(spriteBatch);
+                    mainMenu.Draw(gameTime, graphics.GraphicsDevice, spriteBatch);
                     spriteBatch.End();
+                    currentGameState = mainMenu.GetCurrentGamestate();
                     break;
-                case 2:
-                    //Main Menu
 
-                    break;
                 case 3:
                     //The Game
                     spriteBatch.Begin();
@@ -373,21 +431,25 @@ namespace Asteroids
                     {
                         a.Draw(spriteBatch, Content);
                     }
+                    //alien.Draw(spriteBatch);
                     p.Draw(spriteBatch);
                     hud.Draw(spriteBatch, p.GetLife());
+                 
                     spriteBatch.End();
                     break;
+
                 case 4:
                     //Game Over
 
                     break;
-                case 5:
+
+                case 5: 
                     //Options
                     oMenu.Draw(spriteBatch);
                     break;
+
                 case 6:
                     //Highscores
-
                     break;
                 case 7:
                     //Keybindings

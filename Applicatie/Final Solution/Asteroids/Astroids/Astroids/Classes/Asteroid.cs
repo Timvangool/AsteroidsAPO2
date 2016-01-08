@@ -15,7 +15,7 @@ namespace Asteroids.Classes
 
         private int posX, posY, size;
         private float speed;
-        private Vector2 pos , direction;
+        private Vector2 pos, direction;
         private Rectangle hitBox;
 
         public Asteroid()
@@ -61,7 +61,7 @@ namespace Asteroids.Classes
                     hitBox = new Rectangle((int)pos.X, (int)pos.Y, 100, 100);
                     break;
                 default:
-                    
+
                     break;
             }
         }

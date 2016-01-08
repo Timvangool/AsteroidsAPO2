@@ -17,17 +17,12 @@ namespace Asteroids.Classes
         string output;
         string title;
         
-        ////Font Properties
+        //Font Properties
         SpriteFont fontType;
         Vector2 fontPos;
         Vector2 fontPosTitle;
         Vector2 fontOriginTitle;
         Vector2 fontOrigin;
-
-        public AsteroidsIntro()
-        {
-
-        }
 
         public void Update()
         {
@@ -47,9 +42,9 @@ namespace Asteroids.Classes
 
             fontOrigin.Y = -graphics.GraphicsDevice.Viewport.Height / 2 - 40;
             fontOrigin.X = graphics.GraphicsDevice.Viewport.Width / 2.6f;
-            fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
+            fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 75,
                 graphics.GraphicsDevice.Viewport.Height / 2);
-            fontPos = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
+            fontPos = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 30,
                 graphics.GraphicsDevice.Viewport.Height / 2);
         }
 
@@ -139,6 +134,16 @@ Oh... yeah... In case you haven't tried
 every key on your keyboard yet..
 
 To skip this press E
+
+
+
+
+
+
+
+
+
+It's also the only way to exit the intro.
 ";
         }
 
@@ -147,7 +152,6 @@ To skip this press E
             //Draw String
             spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
             spriteBatch.DrawString(fontType, output, fontPos, Color.Yellow, 0, fontOrigin, 1.0f, SpriteEffects.None, 0.65f);
-            spriteBatch.DrawString(fontType, fontPos.Y.ToString(), new Vector2(10, 10), Color.White);
         }
     }
 }
