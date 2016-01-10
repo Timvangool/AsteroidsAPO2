@@ -8,68 +8,107 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System.Threading;
 
 namespace Options_Menu
 {
     /// <summary>
     /// This is the main type for your game
     /// </summary>
+    /// 
+    enum GameState
+    {
+        Menu,
+        Options,
+        Keybindings
+    }
+
+    #region StructOptionsMain
+    public struct StructOptionsMain
+    {
+        GraphicsDeviceManager _graphics;
+        ContentManager _Content;
+        SpriteBatch _spriteBatch;
+        SpriteFont _spriteFont;
+        ControlHandler _ch;
+
+        public GraphicsDeviceManager Graphics
+        {
+            get
+            {
+                return _graphics;
+            }
+
+            set
+            {
+                _graphics = value;
+            }
+        }
+
+        public ContentManager Content
+        {
+            get
+            {
+                return _Content;
+            }
+
+            set
+            {
+                _Content = value;
+            }
+        }
+
+        public SpriteBatch SpriteBatch
+        {
+            get
+            {
+                return _spriteBatch;
+            }
+
+            set
+            {
+                _spriteBatch = value;
+            }
+        }
+
+        public SpriteFont SpriteFont
+        {
+            get
+            {
+                return _spriteFont;
+            }
+
+            set
+            {
+                _spriteFont = value;
+            }
+        }
+
+        internal ControlHandler Ch
+        {
+            get
+            {
+                return _ch;
+            }
+
+            set
+            {
+                _ch = value;
+            }
+        }
+    }
+    #endregion
+
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-        enum GameState
-        {
-            Menu,
-            Options
-        }
+        
+
         private GameState currentGameState = GameState.Options;
         GraphicsDeviceManager graphics;
+        ControlHandler ch;
+        OptionsMenu oMenu;
         SpriteBatch spriteBatch;
-        SpriteFont spriteFont;
-        Song song;
-
-        TResolutionOption tResolution;
-        Texture2D txResolutionBar;
-        Texture2D txArrowLeft;
-        Texture2D txArrowRight;
-        Vector2 posArrowLeft;
-        Vector2 posArrowRight;
-        Vector2 posResolutionBar;
-        Vector2 sizeArrow;
-        Vector2 sizeResolutionBar;
-
-        TCheckBoxOption cbAlias;
-        Texture2D checkedBox;
-        Texture2D unCheckedBox;
-        Vector2 posCheckBoxLeft;
-        Vector2 posCheckBoxRight;
-        Vector2 vecSizeCheckBox;
-        bool stateCheckBox = true;
-
-        TSoundOption tSound;
-        Texture2D txSoundBar;
-        Texture2D txSoundBarCursor;
-        Vector2 posSoundBar;
-        Vector2 posSoundBarCursor;
-        Vector2 sizeSoundBar;
-        Vector2 sizeSoundBarCursor;
-
-        OptionsText oText;
-        Texture2D txBackground;
-        Texture2D txBack;
-        string textHeader;
-        string textSound;
-        string textResolution;
-        string textAlias;
-        string textAliasOn;
-        string textAliasOff;
-        Vector2 posBack;
-        Vector2 posHeader;
-        Vector2 posSound;
-        Vector2 posResolution;
-        Vector2 posAlias;
-        Vector2 posAliasOn;
-        Vector2 posAliasOff;
-        Vector2 sizeBack;
+        StructOptionsMain structOptionsMain;
 
         public Game1()
         {
@@ -87,7 +126,7 @@ namespace Options_Menu
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-           
+
             base.Initialize();
         }
 
@@ -101,65 +140,22 @@ namespace Options_Menu
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            graphics.IsFullScreen = true;
-            graphics.PreferredBackBufferWidth = 1280;
-            graphics.PreferredBackBufferHeight = 720;
+            //graphics.IsFullScreen = true;
+            structOptionsMain = new StructOptionsMain();
+            ch = new ControlHandler();
 
-            graphics.PreferMultiSampling = stateCheckBox;
-            graphics.ApplyChanges();
+            structOptionsMain.Graphics = graphics;
+            structOptionsMain.Content = Content;
+            structOptionsMain.SpriteBatch = spriteBatch;
+            structOptionsMain.SpriteFont = Content.Load<SpriteFont>("MenuFont");
+            structOptionsMain.Ch = ch;
+            oMenu = new OptionsMenu(structOptionsMain);
+            graphics.PreferredBackBufferWidth = 1024;
+            graphics.PreferredBackBufferHeight = 576;
+            oMenu.Init();
+            
 
-            song = Content.Load<Song>("Ismo_Kan_Niet_Hangen_Met_Je");
-            MediaPlayer.Play(song);
-            MediaPlayer.Volume = 1f;
-            spriteFont = Content.Load<SpriteFont>("MenuFont");
-
-            txSoundBar = Content.Load<Texture2D>("SoundBar");
-            txSoundBarCursor = Content.Load<Texture2D>("SoundBarCursor");
-            txArrowLeft = Content.Load<Texture2D>("ArrowLeft");
-            txArrowRight = Content.Load<Texture2D>("ArrowRight");
-            posSoundBar = new Vector2(2.35f, 3f);
-            posSoundBarCursor = new Vector2(1.77f, 3.17f);
-            posArrowLeft = new Vector2(2.64f, 3.17f);
-            posArrowRight = new Vector2(1.67f, 3.17f);
-            sizeArrow = new Vector2(43, 35);
-            sizeSoundBar = new Vector2(204, 10);
-            sizeSoundBarCursor = new Vector2(22, 35);
-            tSound = new TSoundOption(graphics, txSoundBar, txSoundBarCursor, txArrowLeft, txArrowRight, posSoundBar, sizeSoundBar, sizeSoundBarCursor, posArrowLeft, posArrowRight, sizeArrow, Color.White);
-
-            txResolutionBar = Content.Load<Texture2D>("ResolutionBar");
-            txArrowLeft = Content.Load<Texture2D>("ArrowLeft");
-            txArrowRight = Content.Load<Texture2D>("ArrowRight");
-            posArrowLeft = new Vector2(2.64f, 2.5f);
-            posArrowRight = new Vector2(1.67f, 2.5f);
-            posResolutionBar = new Vector2(2.4f, 2.5f);
-            sizeArrow = new Vector2(43, 35);
-            sizeResolutionBar = new Vector2(229, 35);
-            tResolution = new TResolutionOption(graphics, txResolutionBar, txArrowLeft, txArrowRight, posResolutionBar, sizeResolutionBar, posArrowLeft, posArrowRight, sizeArrow, Color.White);
-
-            checkedBox = Content.Load<Texture2D>("CheckboxTrue");
-            unCheckedBox = Content.Load<Texture2D>("CheckboxFalse");
-            posCheckBoxLeft = new Vector2(2.63f, 2);
-            posCheckBoxRight = new Vector2(1.79f, 2);
-            vecSizeCheckBox = new Vector2(35, 35);
-            cbAlias = new TCheckBoxOption(graphics, checkedBox, unCheckedBox, posCheckBoxLeft, posCheckBoxRight, vecSizeCheckBox, stateCheckBox, Color.White);
-
-            txBackground = Content.Load<Texture2D>("OptionsBG");
-            txBack = Content.Load<Texture2D>("Back");
-            textHeader = "JUST ANOTHER OPTIONS MENU";
-            textSound = "SOUND";
-            textResolution = "RESOLUTION";
-            textAlias = "ANTI ALIASING";
-            textAliasOn = "ON";
-            textAliasOff = "OFF";
-            posBack = new Vector2(2.13f, 1.7f);
-            posHeader = new Vector2(2.9f, 5f);
-            posSound = new Vector2(3.51f, 3.2f);
-            posResolution = new Vector2(4.4f, 2.5f);
-            posAlias = new Vector2(5.1f, 2f);
-            posAliasOn = new Vector2(2.41f, 2f);
-            posAliasOff = new Vector2(1.69f, 2f);
-            sizeBack = new Vector2(70, 20);
-            oText = new OptionsText(graphics, txBackground, txBack, posBack, sizeBack, spriteFont, textHeader, posHeader, textSound, posSound, textResolution, posResolution, textAlias, posAlias, textAliasOn, posAliasOn, textAliasOff, posAliasOff, Color.White);
+            
         }
 
         /// <summary>
@@ -191,21 +187,7 @@ namespace Options_Menu
                     }
                 case GameState.Options:
                     {
-                        if (tResolution.GetResolutionChanged())
-                        {
-                            tResolution.Init();
-                            tSound.Init();
-                            cbAlias.Init();
-                            oText.Init();
-                        }
-                        MouseState mouse = Mouse.GetState();
-                        cbAlias.Update(mouse);
-                        tResolution.Update(mouse);
-                        tSound.Update(mouse);
-                        if (oText.Update(mouse))
-                        {
-                            currentGameState = GameState.Menu;
-                        }
+                        oMenu.Update(gameTime);
                         break;
                     }
                 default:
@@ -213,8 +195,8 @@ namespace Options_Menu
                         break;
                     }
             }
-
             base.Update(gameTime);
+            
         }
 
         /// <summary>
@@ -231,14 +213,29 @@ namespace Options_Menu
             {
                 case GameState.Menu:
                     {
+                        GraphicsDevice.Clear(Color.Black);
                         break;
                     }
                 case GameState.Options:
                     {
-                        oText.Draw(spriteBatch);
-                        cbAlias.Draw(spriteBatch);
-                        tResolution.Draw(spriteBatch, spriteFont);
-                        tSound.Draw(spriteBatch);
+                        oMenu.Draw(spriteBatch);
+                        if(oMenu.GetCurrentGameState() == 2)
+                        {
+                            currentGameState = GameState.Menu;
+                        }
+                        if (oMenu.GetCurrentGameState() == 5)
+                        {
+                            currentGameState = GameState.Options;
+                        }
+                        if (oMenu.GetCurrentGameState() == 7)
+                        {
+                            currentGameState = GameState.Keybindings;
+                        }
+                        break;
+                    }
+                case GameState.Keybindings:
+                    {
+                        GraphicsDevice.Clear(Color.Yellow);
                         break;
                     }
                 default:
