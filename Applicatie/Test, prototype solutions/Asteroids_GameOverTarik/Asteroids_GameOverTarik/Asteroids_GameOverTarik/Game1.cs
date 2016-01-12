@@ -89,7 +89,7 @@ namespace Asteroids_GameOverTarik
             {
                 case 3:
                     {
-                        gMenu.Update();
+                        gMenu.Update(gameTime);
                         break;
                     }
                 default:
