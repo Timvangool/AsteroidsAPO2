@@ -179,6 +179,7 @@ namespace Options_Menu
                 this.Exit();
 
             // TODO: Add your update logic here
+
             switch (currentGameState)
             {
                 case GameState.Menu:
@@ -187,7 +188,19 @@ namespace Options_Menu
                     }
                 case GameState.Options:
                     {
-                        oMenu.Update(gameTime);
+                        oMenu.Update(gameTime.TotalGameTime.TotalMilliseconds);
+                        if (oMenu.GetCurrentGameState() == 2)
+                        {
+                            currentGameState = GameState.Menu;
+                        }
+                        if (oMenu.GetCurrentGameState() == 5)
+                        {
+                            currentGameState = GameState.Options;
+                        }
+                        if (oMenu.GetCurrentGameState() == 7)
+                        {
+                            currentGameState = GameState.Keybindings;
+                        }
                         break;
                     }
                 default:
@@ -219,18 +232,7 @@ namespace Options_Menu
                 case GameState.Options:
                     {
                         oMenu.Draw(spriteBatch);
-                        if(oMenu.GetCurrentGameState() == 2)
-                        {
-                            currentGameState = GameState.Menu;
-                        }
-                        if (oMenu.GetCurrentGameState() == 5)
-                        {
-                            currentGameState = GameState.Options;
-                        }
-                        if (oMenu.GetCurrentGameState() == 7)
-                        {
-                            currentGameState = GameState.Keybindings;
-                        }
+
                         break;
                     }
                 case GameState.Keybindings:

@@ -56,8 +56,9 @@ namespace Options_Menu
         float graphicW;
         float graphicH;
         float scale;
-
         float newPos;
+
+        int menuState;
 
         public OptionsText(StructOptionsMain structOptionsMain, StructOptionsText structOptionsText)
         {
@@ -113,7 +114,7 @@ namespace Options_Menu
 
         public void UpdateSelect(int number)
         {
-            
+            menuState = number;
             switch (number)
             {
                 case 0:
@@ -143,6 +144,11 @@ namespace Options_Menu
                     }
             }
             recSelectArrow = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posSelectArrow.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / newPos), (int)sizeSelectArrow.X, (int)sizeSelectArrow.Y);
+        }
+
+        public int GetMenuState()
+        {
+            return menuState;
         }
 
         public int Update(MouseState mouse)

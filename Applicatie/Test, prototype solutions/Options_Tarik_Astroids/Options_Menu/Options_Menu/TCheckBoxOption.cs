@@ -29,7 +29,6 @@ namespace Options_Menu
         float sizeW;
         float sizeH;
         bool stateCheckBoxLeft = false;
-        //bool stateCheckBoxRight = true;
         bool mouseReleased = true;
 
         public TCheckBoxOption(StructOptionsMain structOptionsMain, StructCheckBox structCheckBox)
@@ -39,7 +38,6 @@ namespace Options_Menu
             this.txUnCheckedBox = structCheckBox.TxUnCheckedBox;
             if (stateCheckBoxLeft)
             {
-               // stateCheckBoxRight = false;
                 this.txCheckBoxLeft = txCheckedBox;
                 this.txCheckBoxRight = txUnCheckedBox;
             }
@@ -85,7 +83,6 @@ namespace Options_Menu
             if (stateCheckBoxLeft == true)
             {
                 stateCheckBoxLeft = false;
-                //stateCheckBoxRight = true;
                 txCheckBoxLeft = txUnCheckedBox;
                 txCheckBoxRight = txCheckedBox;
                 AntiAliasingCheck();
@@ -93,7 +90,6 @@ namespace Options_Menu
             else
             {
                 stateCheckBoxLeft = true;
-                //stateCheckBoxRight = false;
                 txCheckBoxLeft = txCheckedBox;
                 txCheckBoxRight = txUnCheckedBox;
                 AntiAliasingCheck();

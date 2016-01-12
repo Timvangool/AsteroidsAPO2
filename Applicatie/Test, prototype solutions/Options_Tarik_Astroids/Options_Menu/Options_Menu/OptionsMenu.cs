@@ -702,40 +702,20 @@ namespace Options_Menu
         GraphicsDeviceManager graphics;
         ContentManager Content;
         SpriteFont spriteFont;
-
         Song song;
-
         ControlHandler ch;
         int selectedNumber;
-        bool boolResolution = false;
-        bool boolBack = false;
-        bool boolAlias = false;
-        bool boolSound = false;
-        bool boolKeybindings = false;
         StructSound strucSound;
         StructResolution structResolution;
         StructCheckBox structCheckBox;
         StructOptionsText structOptionsText;
         MouseState mouse;
         TResolutionOption tResolution;
-
         TCheckBoxOption cbAlias;
-
-
         TSoundOption tSound;
-
-
         OptionsText oText;
-
-        
-        int sleepTimeLeftRight;
         int framesPassed;
-        int sleepTimeUpDown;
-        int sleepTimeCheckBox;
-        int sleepTimeResolution;
 
-        int timeSinceLastFrame = 0;
-        int millisecondsPerFrame = 50;
         public OptionsMenu(StructOptionsMain structOptionsMain)
         {
 
@@ -811,7 +791,7 @@ namespace Options_Menu
             structOptionsText.PosKeybindings = new Vector2(2.3f, 1.7f);
             structOptionsText.PosHeader = new Vector2(2.9f, 5f);
             structOptionsText.PosSelectArrow = new Vector2(18f, 3.3f);
-            structOptionsText.PosSound = new Vector2(3.51f, 3.2f);
+            structOptionsText.PosSound = new Vector2(3.75f, 3.2f);
             structOptionsText.PosResolution = new Vector2(5.2f, 2.5f);
             structOptionsText.PosAlias = new Vector2(6.9f, 2f);
             structOptionsText.PosAliasOn = new Vector2(2.35f, 2f);
@@ -821,207 +801,151 @@ namespace Options_Menu
             structOptionsText.SizeSelectArrow = new Vector2(46, 46);
             oText = new OptionsText(structOptionsMain, structOptionsText);
             //oText = new OptionsText(graphics, txBackground, txBack, posBack, sizeBack, txSelectArrow, posSelectArrow, sizeSelectArrow, spriteFont, textHeader, posHeader, textSound, posSound, textResolution, posResolution, textAlias, posAlias, textAliasOn, posAliasOn, textAliasOff, posAliasOff, Color.White);
-            sleepTimeLeftRight = 8;
             framesPassed = 0;
-            sleepTimeUpDown = 4;
-            sleepTimeCheckBox = 150;
-            sleepTimeResolution = 20;
             selectedNumber = 0;
             tResolution.ChangeResolution(new Vector2(1024, 576));
         }
 
-        public void Update(GameTime gameTime)
+        public void Update(double gameTime)
         {
-            timeSinceLastFrame += gameTime.ElapsedGameTime.Milliseconds;
-            if (timeSinceLastFrame > millisecondsPerFrame)
+            framesPassed++;
+            if(framesPassed % 7 == 0)
             {
-                timeSinceLastFrame -= millisecondsPerFrame;
-                framesPassed = 0;
                 if (ch.GetInput().Contains("Up"))
                 {
-                    switch (selectedNumber)
+                    if (selectedNumber > 0)
                     {
-                        case 0:
-                            {
-                                boolSound = true;
-                                boolResolution = false;
-                                boolAlias = false;
-                                boolKeybindings = false;
-                                boolBack = false;
-                                oText.UpdateSelect(0);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
-                        case 1:
-                            {
-                                selectedNumber--;
-                                boolSound = false;
-                                boolResolution = true;
-                                boolAlias = false;
-                                boolKeybindings = false;
-                                boolBack = false;
-                                oText.UpdateSelect(1);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
-                        case 2:
-                            {
-                                selectedNumber--;
-                                boolSound = false;
-                                boolResolution = false;
-                                boolAlias = true;
-                                boolKeybindings = false;
-                                boolBack = false;
-                                oText.UpdateSelect(2);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
-                        case 3:
-                            {
-                                selectedNumber--;
-                                boolSound = false;
-                                boolResolution = false;
-                                boolAlias = false;
-                                boolKeybindings = true;
-                                boolBack = false;
-                                oText.UpdateSelect(3);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
-                        case 4:
-                            {
-                                selectedNumber--;
-                                boolSound = false;
-                                boolResolution = false;
-                                boolAlias = false;
-                                boolKeybindings = false;
-                                boolBack = true;
-                                oText.UpdateSelect(4);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
+                        selectedNumber--;
+                        switch (selectedNumber)
+                        {
+                            case 0:
+                                {
+                                    oText.UpdateSelect(0);
+                                    break;
+                                }
+                            case 1:
+                                {
+                                    oText.UpdateSelect(1);
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    oText.UpdateSelect(2);
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    oText.UpdateSelect(3);
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    oText.UpdateSelect(4);
+                                    break;
+                                }
+                        }
                     }
                 }
 
                 else if (ch.GetInput().Contains("Down"))
                 {
-                    switch (selectedNumber)
+                    if (selectedNumber < 4)
+                    {
+                        selectedNumber++;
+                        switch (selectedNumber)
+                        {
+                            case 0:
+                                {
+                                    oText.UpdateSelect(0);
+                                    break;
+                                }
+                            case 1:
+                                {
+                                    oText.UpdateSelect(1);
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    oText.UpdateSelect(2);
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    oText.UpdateSelect(3);
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    oText.UpdateSelect(4);
+                                    break;
+                                }
+                        }
+                    }
+                    
+                }
+                else if (ch.GetInput().Contains("Left"))
+                {
+                    switch(oText.GetMenuState())
                     {
                         case 0:
                             {
-                                selectedNumber++;
-                                boolSound = true;
-                                boolResolution = false;
-                                boolAlias = false;
-                                boolKeybindings = false;
-                                boolBack = false;
-                                oText.UpdateSelect(0);
-                                Thread.Sleep(sleepTimeUpDown);
+                                tSound.SelectLeft();
                                 break;
                             }
                         case 1:
                             {
-                                selectedNumber++;
-                                boolSound = false;
-                                boolResolution = true;
-                                boolAlias = false;
-                                boolKeybindings = false;
-                                boolBack = false;
-                                oText.UpdateSelect(1);
-                                Thread.Sleep(sleepTimeUpDown);
+                                tResolution.SelectLeft();
                                 break;
                             }
                         case 2:
                             {
-                                selectedNumber++;
-                                boolSound = false;
-                                boolResolution = false;
-                                boolAlias = true;
-                                boolKeybindings = false;
-                                boolBack = false;
-                                oText.UpdateSelect(2);
-                                Thread.Sleep(sleepTimeUpDown);
+                                cbAlias.SelectLeftRight();
                                 break;
                             }
-                        case 3:
-                            {
-                                selectedNumber++;
-                                boolSound = false;
-                                boolResolution = false;
-                                boolAlias = false;
-                                boolKeybindings = true;
-                                boolBack = false;
-                                oText.UpdateSelect(3);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
-                        case 4:
-                            {
-                                boolSound = false;
-                                boolResolution = false;
-                                boolAlias = false;
-                                boolKeybindings = false;
-                                boolBack = true;
-                                oText.UpdateSelect(4);
-                                Thread.Sleep(sleepTimeUpDown);
-                                break;
-                            }
-
-                    }
-                }
-                else if (ch.GetInput().Contains("Left"))
-                {
-                    if (boolSound)
-                    {
-                        tSound.SelectLeft();
-                        Thread.Sleep(sleepTimeLeftRight);
-                    }
-                    if (boolResolution)
-                    {
-                        tResolution.SelectLeft();
-                        Thread.Sleep(sleepTimeResolution);
-                    }
-                    if (boolAlias)
-                    {
-                        cbAlias.SelectLeftRight();
-                        Thread.Sleep(sleepTimeCheckBox);
                     }
                 }
 
                 else if (ch.GetInput().Contains("Right"))
                 {
-                    if (boolSound)
+                    switch (oText.GetMenuState())
                     {
-                        tSound.SelectRight();
-                        Thread.Sleep(sleepTimeLeftRight);
+                        case 0:
+                            {
+                                tSound.SelectRight();
+                                break;
+                            }
+                        case 1:
+                            {
+                                tResolution.SelectRight();
+                                break;
+                            }
+                        case 2:
+                            {
+                                cbAlias.SelectLeftRight();
+                                break;
+                            }
                     }
-                    if (boolResolution)
-                    {
-                        tResolution.SelectRight();
-                        Thread.Sleep(sleepTimeResolution);
                     }
-                    if (boolAlias)
-                    {
-                        cbAlias.SelectLeftRight();
-                        Thread.Sleep(sleepTimeCheckBox);
-                    }
-                }
                 else if (ch.GetInput().Contains("Select"))
                 {
-                    if (boolBack)
+                    switch (oText.GetMenuState())
                     {
-                        currentGameState = 2;
-                    }
-                    if (boolKeybindings)
-                    {
-                        currentGameState = 7;
+                        case 3:
+                            {
+                                currentGameState = 7;
+                                break;
+                            }
+                        case 4:
+                            {
+                                currentGameState = 2;
+                                break;
+                            }
                     }
                 }
                 else if (ch.GetInput().Contains("Back"))
                 {
                     currentGameState = 2;
                 }
-
             }
             framesPassed++;
 
@@ -1045,7 +969,6 @@ namespace Options_Menu
             {
                 currentGameState = 7;
             }
-                
         }
         public void Draw(SpriteBatch spriteBatch)
         {
