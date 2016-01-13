@@ -7,6 +7,10 @@ Content\SoundBar.xnb
 Content\SoundBarCursor.xnb
 Content\OptionsBG.xnb
 Content\Back.xnb
+Content\Keybindings.xnb
+Content\SelectArrow.xnb
 Content\MenuFont.xnb
 Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb
 Content\Ismo_Kan_Niet_Hangen_Met_Je.wma
+Content\Keybindings\KeyboardControls.txt
+Content\Keybindings\WiimoteControls.txt

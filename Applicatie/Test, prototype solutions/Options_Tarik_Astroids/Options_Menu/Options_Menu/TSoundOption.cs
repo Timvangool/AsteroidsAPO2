@@ -35,31 +35,33 @@ namespace Options_Menu
         Rectangle recArrowLeft;
         Rectangle recArrowRight;
 
+        float sizeW;
+        float sizeH;
         float distance;
         float temp;
         float barCursorHeigthFloat;
         int barCursorHeigth;
         bool mouseReleased = true;
 
-        public TSoundOption(GraphicsDeviceManager graphics, Texture2D txSoundBar, Texture2D txBarCursor, Texture2D txArrowLeft, Texture2D txArrowRight, Vector2 posSoundBar, Vector2 sizeSoundBar, Vector2 sizeBarCursor, Vector2 posArrowLeft, Vector2 posArrowRight, Vector2 sizeArrow, Color col)
+        public TSoundOption(StructOptionsMain structOptionsMain, StructSound structSound)
         {
-            this.graphics = graphics;
+            this.graphics = structOptionsMain.Graphics;
 
-            this.txSoundBar = txSoundBar;
-            this.txBarCursor = txBarCursor;
-            this.txArrowLeft = txArrowLeft;
-            this.txArrowRight = txArrowRight;
+            this.txSoundBar = structSound.TxSoundBar;
+            this.txBarCursor = structSound.TxSoundBarCursor;
+            this.txArrowLeft = structSound.TxArrowLeft;
+            this.txArrowRight = structSound.TxArrowRight;
 
-            this.posSoundBar = posSoundBar;
-            this.posArrowLeft = posArrowLeft;
-            this.posArrowRight = posArrowRight;
+            this.posSoundBar = structSound.PosSoundBar;
+            this.posArrowLeft = structSound.PosArrowLeft;
+            this.posArrowRight = structSound.PosArrowRight;
 
-            this.sizeSoundBar = sizeSoundBar;
-            this.sizeBarCursor = sizeBarCursor;
-            this.sizeArrow = sizeArrow;
+            this.sizeSoundBar = structSound.SizeSoundBar;
+            this.sizeBarCursor = structSound.SizeSoundBarCursor;
+            this.sizeArrow = structSound.SizeArrow;
 
-            this.col = col;
-            barCursorHeigthFloat = posSoundBar.Y += 0.17f;
+            this.col = Color.White;
+            barCursorHeigthFloat = posSoundBar.Y += 0.30f;
             MakeResolutionArray();
             Init();
         }
@@ -73,15 +75,18 @@ namespace Options_Menu
 
         public void MakeResolutionArray()
         {
+            float soundBarW = recSoundBar.Width / 6;
             arVolumes = new float[][]
-        {
-            new float[] { DistanceCalculate(178f), 1f},
-            new float[] { DistanceCalculate(142.2f), 0.8f},
-            new float[] { DistanceCalculate(108.4f), 0.6f},
-            new float[] { DistanceCalculate(74.6f), 0.4f},
-            new float[] { DistanceCalculate(38.8f), 0.1f},
-            new float[] { DistanceCalculate(3f), 0f },
-        };
+            {
+            
+            new float[] { DistanceCalculate((soundBarW * 6) - 20f ), 1f},
+            new float[] { DistanceCalculate((soundBarW * 5) ), 0.8f},
+            new float[] { DistanceCalculate((soundBarW * 4) ), 0.6f},
+            new float[] { DistanceCalculate((soundBarW * 3) ), 0.4f},
+            new float[] { DistanceCalculate((soundBarW * 2) ), 0.2f},
+            new float[] { DistanceCalculate((soundBarW * 1) ), 0.1f},
+            new float[] { DistanceCalculate((soundBarW * 0) ), 0f},
+            };
         }
 
         public int BarCursorHeigthConvert()
@@ -89,16 +94,18 @@ namespace Options_Menu
 
             temp = graphics.PreferredBackBufferHeight / barCursorHeigthFloat;
 
-            barCursorHeigth = Convert.ToInt32(temp);
+            barCursorHeigth = Convert.ToInt32(temp - 17);
             return barCursorHeigth;
         }
         public void Init()
         {
+            sizeW = (graphics.PreferredBackBufferWidth / 900);
+            sizeH = (graphics.PreferredBackBufferHeight / 500);
             MakeResolutionArray();
-            recSoundBar = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posSoundBar.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posSoundBar.Y), (int)sizeSoundBar.X, (int)sizeSoundBar.Y);
-            recBarCursor = new Rectangle(Convert.ToInt32(arVolumes[arrayNumber][0]), BarCursorHeigthConvert(), (int)sizeBarCursor.X, (int)sizeBarCursor.Y);
-            recArrowLeft = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posArrowLeft.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posArrowLeft.Y), (int)sizeArrow.X, (int)sizeArrow.Y);
-            recArrowRight = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posArrowRight.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posArrowRight.Y), (int)sizeArrow.X, (int)sizeArrow.Y);
+            recSoundBar = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posSoundBar.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posSoundBar.Y), Convert.ToInt32(sizeW * sizeSoundBar.X), Convert.ToInt32(sizeH * sizeSoundBar.Y));
+            recBarCursor = new Rectangle(Convert.ToInt32(arVolumes[arrayNumber][0]), BarCursorHeigthConvert(), Convert.ToInt32(sizeW * sizeBarCursor.X), Convert.ToInt32(sizeH * sizeBarCursor.Y));
+            recArrowLeft = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posArrowLeft.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posArrowLeft.Y), Convert.ToInt32(sizeW * sizeArrow.X), Convert.ToInt32(sizeH * sizeArrow.Y));
+            recArrowRight = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posArrowRight.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posArrowRight.Y), Convert.ToInt32(sizeW * sizeArrow.X), Convert.ToInt32(sizeH * sizeArrow.Y));
         }
 
         public void ChangeVolume(float volume)
@@ -107,14 +114,34 @@ namespace Options_Menu
             graphics.ApplyChanges();
         }
 
+        public void SelectLeft()
+        {
+            if (arrayNumber != arVolumes.Count() - 1)
+            {
+                arrayNumber++;
+                MoveCurser(arVolumes[arrayNumber][0]);
+                ChangeVolume(arVolumes[arrayNumber][1]);
+            }
+        }
+
+        public void SelectRight()
+        {
+            if (arrayNumber != 0)
+            {
+                arrayNumber--;
+                MoveCurser(arVolumes[arrayNumber][0]);
+                ChangeVolume(arVolumes[arrayNumber][1]);
+            }
+        }
+
         public void MoveCurser(float x)
         {
-            recBarCursor = new Rectangle(Convert.ToInt32(arVolumes[arrayNumber][0]), BarCursorHeigthConvert(), (int)sizeBarCursor.X, (int)sizeBarCursor.Y);
+            recBarCursor = new Rectangle(Convert.ToInt32(arVolumes[arrayNumber][0]), BarCursorHeigthConvert(), recBarCursor.Width, recBarCursor.Height);
         }
 
         public void Update(MouseState mouse)
         {
-            Rectangle mouseRec = new Rectangle((int)mouse.X, (int)mouse.Y, (int)sizeArrow.X, (int)sizeArrow.Y);
+            Rectangle mouseRec = new Rectangle((int)mouse.X, (int)mouse.Y, recArrowLeft.Width, recArrowLeft.Height);
             if (recArrowLeft.Intersects(mouseRec))
             {
                 if (mouse.LeftButton == Microsoft.Xna.Framework.Input.ButtonState.Pressed && mouseReleased == true)

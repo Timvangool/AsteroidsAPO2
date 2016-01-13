@@ -71,8 +71,15 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Net" />
+    <Reference Include="WiimoteLib">
+      <HintPath>..\..\..\WiimotLib_1.7\WiimoteLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\ControlHandler.cs" />
+    <Compile Include="Controls\KeyboardHandler.cs" />
+    <Compile Include="Controls\WiimoteHandler.cs" />
+    <Compile Include="OptionsMenu.cs" />
     <Compile Include="OptionsText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />

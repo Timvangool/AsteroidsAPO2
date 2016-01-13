@@ -18,3 +18,15 @@ C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnRetry.xnb
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\TextGameOver.xnb
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnMainMenu.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnRetry.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\TextGameOver.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Asteroids_GameOverTarik.exe
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Asteroids_GameOverTarik.pdb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\Asteroids_GameOverTarik.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\Asteroids_GameOverTarik.exe
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\Asteroids_GameOverTarik.pdb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonDown.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb

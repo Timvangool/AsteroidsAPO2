@@ -16,6 +16,24 @@ namespace Asteroids_GameOverTarik
         ContentManager Content;
         int gameStateNumber;
 
+        int[] counter = new int[3] {0,0,0};
+        string EnterName;
+        Vector2 posEnterName;
+        float elapsed;
+
+        string[] Alphabet = new string[26];
+        string Name;
+        Vector2 posName;
+        int[] letter = new int[3] {0, 0, 0};
+
+        Texture2D BtnArrowUp;
+        Texture2D BtnArrowDown;
+        Rectangle[] recArrowUp = new Rectangle[3];
+        Rectangle[] recArrowDown = new Rectangle[3];
+        Vector2[] posArrowUp = new Vector2[3];
+        Vector2[] posArrowDown = new Vector2[3];
+        Vector2 sizeArrows;
+
         string textUpHeader;
         Vector2 posUpHeader;
 
@@ -53,13 +71,27 @@ namespace Asteroids_GameOverTarik
             this.Content = Content;
             this.textScore = textScore;
             gameStateNumber = 3;
-
         }
 
         public void Load()
         {
             spriteFont = Content.Load<SpriteFont>("MenuFont");
 
+            BtnArrowUp = Content.Load<Texture2D>("ArrowButtonUp");
+            BtnArrowDown = Content.Load<Texture2D>("ArrowButtonDown");
+            posArrowUp = new Vector2[]
+            {
+                new Vector2(1.56f,1.55f),
+                new Vector2(1.50f,1.55f),
+                new Vector2(1.45f,1.55f)
+            };
+            posArrowDown = new Vector2[]
+            {
+                new Vector2(1.56f,1.35f),
+                new Vector2(1.50f,1.35f),
+                new Vector2(1.45f,1.35f)
+            };
+            sizeArrows = new Vector2(13f, 40f);
             textUpHeader = "Just Another";
             posUpHeader = new Vector2(2.5f, 13f);
 
@@ -70,10 +102,16 @@ namespace Asteroids_GameOverTarik
             textDownHeader = "Screen";
             posDownHeader = new Vector2(2f, 2.2f);
 
+            EnterName = "Enter your name here:";
+            posEnterName = new Vector2(5.3f, 1.5f);
+
+            Alphabet = new string[] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+            Name = (Alphabet[0] + Alphabet[0] + Alphabet[0]);
+            posName = new Vector2(1.55f,1.5f);
+
             textUpScore = "Your Score:";
             posUpScore = new Vector2(2.5f, 1.7f);
-
-            posScore = new Vector2(2.5f, 1.5f);
+            posScore = new Vector2(1.55f, 1.675f);
 
             txMainMenu = Content.Load<Texture2D>("BtnMainMenu");
             posMainMenu = new Vector2(2f, 1.2f);
@@ -90,36 +128,40 @@ namespace Asteroids_GameOverTarik
             posDownHeader = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posDownHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posDownHeader.Y));
             posUpScore = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posUpScore.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posUpScore.Y));
             posScore = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posScore.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posScore.Y));
+            posEnterName = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posEnterName.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posEnterName.Y));
+            posName = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posName.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posName.Y));
 
             recHeader = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posHeader.Y), Convert.ToInt32(sizeHeader.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeHeader.Y / 900 * graphics.PreferredBackBufferHeight));
             recMainMenu = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posMainMenu.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posMainMenu.Y), Convert.ToInt32(sizeMainMenu.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeMainMenu.Y / 900 * graphics.PreferredBackBufferHeight));
             recRetry = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posRetry.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posRetry.Y), Convert.ToInt32(sizeRetry.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeRetry.Y / 900 * graphics.PreferredBackBufferHeight));
-            //recRetry = new Rectangle(400, 400, 5, txRetry.Height);
+            for (int i = 0; i < 3; i++)
+            {
+                recArrowUp[i] = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posArrowUp[i].X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posArrowUp[i].Y), Convert.ToInt32(sizeArrows.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeArrows.Y / 900 * graphics.PreferredBackBufferHeight));
+                recArrowDown[i] = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posArrowDown[i].X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posArrowDown[i].Y), Convert.ToInt32(sizeArrows.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeArrows.Y / 900 * graphics.PreferredBackBufferHeight));
+            }
         }
 
-        public void Update()
+        public void Update(GameTime gameTime)
         {
-
             MouseState mouse = Mouse.GetState();
             Point mousePoint = new Point(mouse.X, mouse.Y);
+            SelectName(mouse, mousePoint, gameTime);
             //Rectangle mouseRec = new Rectangle((int)mouse.X, (int)mouse.Y, 1,1);
             if (recRetry.Contains(mousePoint))
             {
                 if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
                 {
                     gameStateNumber = 2;
-                    mouseReleased = false;
+                    mouseReleased = false;           
                 }
-
             }
             if (recMainMenu.Contains(mousePoint))
             {
                 if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
                 {
                     gameStateNumber = 1;
-                    mouseReleased = false;
+                    mouseReleased = false; 
                 }
-
             }
             if (mouse.LeftButton == ButtonState.Released)
             {
@@ -127,14 +169,19 @@ namespace Asteroids_GameOverTarik
             }
         }
 
-
         public void Draw(SpriteBatch spriteBatch)
         {
 
             spriteBatch.DrawString(spriteFont, textUpHeader, posUpHeader, col);
             spriteBatch.Draw(txHeader, recHeader, col);
+            for (int i = 0; i < 3; i++)
+            {
+                spriteBatch.Draw(BtnArrowUp, recArrowUp[i], col);
+                spriteBatch.Draw(BtnArrowDown, recArrowDown[i], col);
+            }
             spriteBatch.DrawString(spriteFont, textDownHeader, posDownHeader, col, 0, new Vector2(0, 0), 0.7f, SpriteEffects.None, 0f);
-
+            spriteBatch.DrawString(spriteFont, EnterName, posEnterName, col);
+            spriteBatch.DrawString(spriteFont, Name, posName, col);
             spriteBatch.DrawString(spriteFont, textUpScore, posUpScore, col);
             spriteBatch.DrawString(spriteFont, textScore, posScore, col, 0, new Vector2(0, 0), 0.85f, SpriteEffects.None, 0f);
 
@@ -142,7 +189,31 @@ namespace Asteroids_GameOverTarik
             spriteBatch.Draw(txRetry, recRetry, col);
 
         }
-
+        public void SelectName(MouseState mouse, Point mousePoint, GameTime gameTime)
+        {
+            elapsed += gameTime.ElapsedGameTime.Milliseconds;
+            if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
+            {
+                if (elapsed > 190)
+                {
+                    elapsed = 0;
+                    for (int i = 0; i < 3; i++)
+                    {
+                        if (recArrowDown[i].Contains(mousePoint))
+                        {
+                            letter[i] = (counter[i]++) % Alphabet.Length;
+                        }
+                        else if (recArrowUp[i].Contains(mousePoint))
+                        {
+                            if (counter[i] < 0)
+                                counter[i] = Alphabet.Length - 1;
+                            letter[i] = counter[i]-- % Alphabet.Length;
+                        }
+                    }
+                    Name = Alphabet[letter[0]] + Alphabet[letter[1]] + Alphabet[letter[2]];
+                }
+            }
+        }
         public int getGameStateNumber()
         {
             return gameStateNumber;

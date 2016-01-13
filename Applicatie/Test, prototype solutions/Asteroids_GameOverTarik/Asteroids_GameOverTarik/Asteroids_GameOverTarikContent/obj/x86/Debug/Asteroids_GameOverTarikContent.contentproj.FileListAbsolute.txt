@@ -1,1 +1,2 @@
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarikContent\obj\x86\Debug\Asteroids_GameOverTarikContent.contentprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarikContent\obj\x86\Debug\Asteroids_GameOverTarikContent.contentprojResolveAssemblyReference.cache
