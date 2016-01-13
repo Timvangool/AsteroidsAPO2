@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 975844912;
+    Bank Last Revised High = 30493191;
+
+    Wave
+    {
+        Name = Large_Asteroid_Exploding;
+        File = Wave\SoundEffects\Large_Asteroid_Exploding.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 9517;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = Medium_Asteroid_Exploding;
+        File = Wave\SoundEffects\Medium_Asteroid_Exploding.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 10850;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = Menu_Click;
+        File = Wave\SoundEffects\Menu_Click.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 11988;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = Small_Asteroid_Exploding;
+        File = Wave\SoundEffects\Small_Asteroid_Exploding.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 9557;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = Spaceship_Exploding;
+        File = Wave\SoundEffects\Spaceship_Exploding.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1376256;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = SpaceShip_Firing;
+        File = Wave\SoundEffects\SpaceShip_Firing.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 52832;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = SpaceShip_Thrust;
+        File = Wave\SoundEffects\SpaceShip_Thrust.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 12611870;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+
+    Wave
+    {
+        Name = SpaceShip_Thrust_Alternative;
+        File = Wave\SoundEffects\SpaceShip_Thrust_Alternative.wav;
+        Build Settings Last Modified Low = 926360271;
+        Build Settings Last Modified High = 30493191;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 56;
+            Play Region Length = 3171;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2291244288;
+            Last Modified High = 30493097;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

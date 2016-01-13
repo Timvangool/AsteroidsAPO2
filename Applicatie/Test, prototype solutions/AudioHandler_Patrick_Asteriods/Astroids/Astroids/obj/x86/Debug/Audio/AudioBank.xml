@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+    Bank Last Revised Low = 2582251598;
+    Bank Last Revised High = 30492569;
+
+    Wave
+    {
+        Name = Intro_Ast;
+        File = Wave\Intro_Ast.wav;
+        Build Settings Last Modified Low = 3844454069;
+        Build Settings Last Modified High = 30492387;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 61510180;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1911937792;
+            Last Modified High = 30492048;
+        }
+    }
+
+    Wave
+    {
+        Name = MainGame_Ast;
+        File = Wave\MainGame_Ast.wav;
+        Build Settings Last Modified Low = 1347403837;
+        Build Settings Last Modified High = 30492362;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 59970420;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 696970496;
+            Last Modified High = 30492049;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

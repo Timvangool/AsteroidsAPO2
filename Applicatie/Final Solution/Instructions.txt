@@ -1,0 +1,5 @@
+Dit is de solution met alles wat we tot nu toe hebben er werkend in.
+Als je iets af hebt en het moet er in gestopt worden, zeg het tegen de codemanager,
+en zorg dat hij hetgene wat geimplementeerd moet worden krijgt.
+
+-De codemanager

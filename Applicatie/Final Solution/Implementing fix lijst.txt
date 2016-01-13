@@ -1,0 +1,5 @@
+spritesheet fixen,
+introspawn fixen bij verschillende resoluties,
+fullscreen asteroid spawns en boundaries zijn ded,
+hud niet op full screen ingesteld,
+back knop in options menu werkend krijgen,
