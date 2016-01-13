@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnMainMenu.xnb</Output>
-      <Time>2016-01-07T09:05:23.8150667+01:00</Time>
+      <Output>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnMainMenu.xnb</Output>
+      <Time>2016-01-08T09:50:27.7538245+01:00</Time>
     </Item>
     <Item>
       <Source>BtnRetry.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnRetry.xnb</Output>
-      <Time>2016-01-07T09:05:23.9082819+01:00</Time>
+      <Output>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnRetry.xnb</Output>
+      <Time>2016-01-08T09:50:27.7548248+01:00</Time>
     </Item>
     <Item>
       <Source>TextGameOver.png</Source>
@@ -25,17 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\TextGameOver.xnb</Output>
-      <Time>2016-01-07T09:05:24.1810479+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MenuFont.spritefont</Source>
-      <Name>MenuFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2016-01-07T09:05:23.9092847+01:00</Time>
+      <Output>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\TextGameOver.xnb</Output>
+      <Time>2016-01-08T09:50:27.755826+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowButtonDown.png</Source>
@@ -43,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonDown.xnb</Output>
-      <Time>2016-01-08T09:47:59.7016893+01:00</Time>
+      <Output>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonDown.xnb</Output>
+      <Time>2016-01-13T08:48:13.2835616+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowButtonUp.png</Source>
@@ -52,8 +43,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb</Output>
-      <Time>2016-01-12T10:23:22.3308827+01:00</Time>
+      <Output>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb</Output>
+      <Time>2016-01-13T08:48:13.2995857+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuFont.spritefont</Source>
+      <Name>MenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2016-01-08T09:50:27.7548248+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -62,10 +62,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarikContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarikContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -94,7 +94,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-11-19T15:18:39.6139953+01:00</Value>
+        <Value>2015-11-17T10:52:56.4184689+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
