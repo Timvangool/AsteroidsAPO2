@@ -22,8 +22,8 @@ namespace Asteroids.Classes
         public int totalItems = 0;
         const int sleepTime = 300;
 
-        Player p = new Player();
-        HUD hud = new HUD();
+        //Player p = new Player();
+       // HUD hud = new HUD();
         BasicBullet basicBullet = new BasicBullet();
         Missile missile = new Missile();
         Asteroid ast = new Asteroid();
@@ -45,7 +45,7 @@ namespace Asteroids.Classes
             totalItems = 35;
 
 #endif
-            p = PlayerTexture("player textures");
+            //p = PlayerTexture("player textures");
             yield return progress();
 #if FakeLoading
             Thread.Sleep(sleepTime);
@@ -98,7 +98,7 @@ namespace Asteroids.Classes
             yield return progress();
             Thread.Sleep(2000);
 #endif
-            hud = IHUD("HUD");
+            //hud = IHUD("HUD");
             yield return progress();
 #if FakeLoading
             Thread.Sleep(sleepTime);
@@ -178,7 +178,7 @@ namespace Asteroids.Classes
 #if FakeLoading
             actBusy(name.Length);
 #endif
-            p.Load(content);
+            //p.Load(content);
             return null;
         }
 
@@ -187,7 +187,7 @@ namespace Asteroids.Classes
 #if FakeLoading
             actBusy(name.Length);
 #endif
-            hud.Load(content);
+            //hud.Load(content);
             return null;
         }
 

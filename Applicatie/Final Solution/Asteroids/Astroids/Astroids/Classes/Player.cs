@@ -15,39 +15,39 @@ namespace Asteroids.Classes
     class Player
     {
         //variables
+        private SpritesheetLoader rocketExplodeSprite;
         private Texture2D playerTextureIdle, playerTextureMoving, defaultTexture, bulletTexture;
-        private Vector2 playerPos;
-        private Vector2 tempPlayerPos;
+        private Vector2 playerPos, tempPos;
         private Vector2 origin;
-        private Vector2 velocity;
         private Vector2 bulletDirection;
         private SoundEffect sound;
         private Rectangle hitBox;
-        private Vector2 oldDirection;
-        private Vector2 direction;
+        // private Vector2 oldDirection;
+        private int lives, hitBoxWidht, hitBoxHeight;
+        Vector2 direction;
         public List<Weapon> weapList;
-        private Random r;
-        private float speed;
-        private int lives;
         private float delay, maxDelay;
-        private int maxSpeed;
-        private int hitboxWidth;
-        private int hitboxHeight;
+        private ControlHandler contHand;
+        private Random r;
+        private bool GetHit;
+        private bool IsInAnimation;
+        private Vector2 velocity;
 
         //Texture2D test;
 
         private float rotationAngle;
 
-        public Player()
+        public Player(ControlHandler contHand)
         {
-            playerPos = new Vector2();
-            speed = 0;
-            maxSpeed = 5;
+            playerPos = new Vector2(250, 250);
             lives = 3;
             weapList = new List<Weapon>();
-            maxDelay = 0;
+            maxDelay = 25;
             delay = maxDelay;
             r = new Random();
+            GetHit = false;
+            IsInAnimation = false;
+            this.contHand = contHand;
         }
 
         public void Load(ContentManager content)
@@ -56,10 +56,19 @@ namespace Asteroids.Classes
             defaultTexture = content.Load<Texture2D>("RocketIdle");
             playerTextureIdle = defaultTexture;
             bulletTexture = content.Load<Texture2D>("RocketBulllet");
-            sound = content.Load<SoundEffect>("SoundPlaceHolder");
             origin.X = playerTextureIdle.Width / 2;
             origin.Y = playerTextureIdle.Height / 2;
+            rocketExplodeSprite = new SpritesheetLoader("RocketExplosion", false, 8, content);
             bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
+        }
+
+        public void Respawn()
+        {
+            lives -= 1;
+            GetHit = false;
+            playerPos = new Vector2(200, 200);
+            playerTextureIdle = defaultTexture;
+            IsInAnimation = false;
         }
 
         public void Move()
@@ -96,52 +105,74 @@ namespace Asteroids.Classes
                 velocity *= 0.99f;
         }
 
-        public void Update(GameTime gameTime, ControlHandler contHand)
+        public void Update(GameTime gameTime)
         {
-            //Player movement
-            if (contHand.GetInput().Contains("Up"))
+            if (lives > 0)
             {
-                Move();
-                playerTextureIdle = playerTextureMoving;
-            }
-            if (!contHand.GetInput().Contains("Up"))
-            {
-                SlowDown();
-                playerTextureIdle = defaultTexture;
-            }
-            if (contHand.GetInput().Contains("Right"))
-            {
-                rotationAngle = rotationAngle + 0.1f;
-                bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
-            }
-            if (contHand.GetInput().Contains("Left"))
-            {
-                rotationAngle = rotationAngle - 0.1f;
-                bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
-            }
-
-            if (delay > 0)
-            {
-                delay--;
-            }
-
-            if (delay <= 0)
-            {
-                if (contHand.GetInput().Contains("Shoot"))
+                if (IsInAnimation == false)
                 {
-                    weapList.Add(Shoot(1));
+                    //Player movement
+                    if (contHand.GetInput().Contains("Up"))
+                    {
+                        Move();
+                        playerTextureIdle = playerTextureMoving;
+                    }
+                    if (!contHand.GetInput().Contains("Up"))
+                    {
+                        SlowDown();
+                        playerTextureIdle = defaultTexture;
+                    }
+                    if (contHand.GetInput().Contains("Right"))
+                    {
+                        rotationAngle = rotationAngle + 0.1f;
+                        bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
+                    }
+                    if (contHand.GetInput().Contains("Left"))
+                    {
+                        rotationAngle = rotationAngle - 0.1f;
+                        bulletDirection = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
+                    }
+                    if (delay <= 0)
+                    {
+                        if (contHand.GetInput().Contains("Shoot"))
+                        {
+                            weapList.Add(Shoot(1));
+                        }
+                    }
                 }
-            }
-            playerPos += velocity;
 
-            hitBox = new Rectangle((int)(playerPos.X - (playerTextureIdle.Width / 2)), (int)(playerPos.Y - (playerTextureIdle.Height / 2)), playerTextureIdle.Width, playerTextureIdle.Height);
-            contHand.SetWiimoteLeds(0, lives);
+                if (GetHit)
+                {
+                    RocketExplosion();
+                }
+
+                if (delay > 0)
+                {
+                    delay--;
+                }
+
+
+                hitBox = new Rectangle((int)(playerPos.X - (playerTextureIdle.Width / 2)), (int)(playerPos.Y - (playerTextureIdle.Height / 2)), playerTextureIdle.Width, playerTextureIdle.Height);
+                playerPos += velocity;
+                contHand.SetWiimoteLeds(0, lives);
+            }
+        }
+        public void RocketExplosion()
+        {
+            IsInAnimation = true;
+            playerTextureIdle = rocketExplodeSprite.tx;
+            rocketExplodeSprite.GetNextSprite();
+            velocity = new Vector2(0, 0);
+
+            if (rocketExplodeSprite.isRunning == false)
+            {
+                Respawn();
+            }
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(playerTextureIdle, playerPos, null, Color.White, rotationAngle, origin, 1.0f, SpriteEffects.None, 0.0f);
-            //spriteBatch.Draw(test, hitBox, Color.White);
         }
 
         public void CheckBoundries(int scrnWidth, int scrnHeight)
@@ -157,8 +188,8 @@ namespace Asteroids.Classes
                 playerPos.Y = 0;
             }
             //left
-            if (playerPos.X <= 0 )
-            { 
+            if (playerPos.X <= 0)
+            {
                 playerPos.X = scrnWidth - 1;
             }
             //right
@@ -174,11 +205,11 @@ namespace Asteroids.Classes
             {
                 BasicBullet basic = new BasicBullet();
                 basic.SetTexture(bulletTexture);
-                hitboxWidth = (basic.GetTextureWidth() / 2);
-                hitboxHeight = (basic.GetTextureHeight() / 2);
-                tempPlayerPos.X = (playerPos.X - hitboxWidth);
-                tempPlayerPos.Y = (playerPos.Y - hitboxHeight);
-                basic.SetPos(tempPlayerPos);
+                hitBoxWidht = basic.GetTexture().Width / 2;
+                hitBoxHeight = basic.GetTexture().Height / 2;
+                tempPos.X = playerPos.X - hitBoxWidht;
+                tempPos.Y = playerPos.Y - hitBoxHeight;
+                basic.SetPos(tempPos);
                 basic.SetDirection(bulletDirection);
                 delay = maxDelay;
                 return basic;
@@ -188,8 +219,8 @@ namespace Asteroids.Classes
 
         public void SetPlayerPos(SpriteBatch sb)
         {
-            playerPos.X = (sb.GraphicsDevice.Viewport.Width / 2) - hitboxWidth;
-            playerPos.Y = (sb.GraphicsDevice.Viewport.Height / 2) - hitboxHeight;
+            playerPos.X = (sb.GraphicsDevice.Viewport.Width / 2) - hitBoxWidht;
+            playerPos.Y = (sb.GraphicsDevice.Viewport.Height / 2) - hitBoxHeight;
         }
 
         public Vector2 GetDirection()
@@ -202,14 +233,24 @@ namespace Asteroids.Classes
             return hitBox;
         }
 
-        public void SetLives(int lives)
+        public bool GetIsRunning()
         {
-            this.lives = lives;
+            return rocketExplodeSprite.isRunning;
+        }
+
+        public bool GetGetHit()
+        {
+            return GetHit;
         }
 
         public int GetLife()
         {
             return lives;
+        }
+
+        public void SetGetHit(bool getHit)
+        {
+            this.GetHit = getHit;
         }
     }
 }

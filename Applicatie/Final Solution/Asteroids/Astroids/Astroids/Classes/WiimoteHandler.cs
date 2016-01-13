@@ -18,6 +18,7 @@ namespace Asteroids.Classes
         string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
                                                { "Back", ""}, {"Shoot", ""}, {"VolUp", ""}, {"VolDown", ""}, {"Pause", ""} };
 
+
         public WiimoteHandler()
         {
             ConnectWiimote();

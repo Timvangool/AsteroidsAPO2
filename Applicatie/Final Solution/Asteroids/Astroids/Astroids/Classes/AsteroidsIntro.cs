@@ -17,12 +17,17 @@ namespace Asteroids.Classes
         string output;
         string title;
         
-        //Font Properties
+        ////Font Properties
         SpriteFont fontType;
         Vector2 fontPos;
         Vector2 fontPosTitle;
         Vector2 fontOriginTitle;
         Vector2 fontOrigin;
+
+        public AsteroidsIntro()
+        {
+
+        }
 
         public void Update()
         {
@@ -38,40 +43,42 @@ namespace Asteroids.Classes
             fontType = content.Load<SpriteFont>("Courier New");
             //Text
             fontOriginTitle.Y = -graphics.GraphicsDevice.Viewport.Height / 2 - 20;
-            fontOriginTitle.X = graphics.GraphicsDevice.Viewport.Width / 3;
+            fontOriginTitle.X = graphics.GraphicsDevice.Viewport.Width / 3 + 40;
 
             fontOrigin.Y = -graphics.GraphicsDevice.Viewport.Height / 2 - 40;
             fontOrigin.X = graphics.GraphicsDevice.Viewport.Width / 2.6f;
-            fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 75,
+            fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
                 graphics.GraphicsDevice.Viewport.Height / 2);
-            fontPos = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 30,
+            fontPos = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
                 graphics.GraphicsDevice.Viewport.Height / 2);
         }
 
         public void IntroText()
         {
-                title = "JUST ANOTHER ASTEROIDS GAME";
+                //title = "JUST ANOTHER ASTEROIDS GAME";
                 fontPosTitle.Y -= 0.5f;
                 fontPos.Y -= 0.5f;
 
                 output = @"
+JUST ANOTHER ASTEROIDS GAME
 
 
-2nd Corporal Dimitri had just gotten the word
-That spacestation DS9 was being attacked by aliens.
 
-The Aliens had used their advanced technology.
-To slingshot a whole belt of astroids
-into the spacestation: DS9.
+2nd Corporal Dimitri had just gotten word
+that spacestation DS9 was being attacked by aliens.
 
-It is now Dimitri's job to destroy the astroids.
-And any alien blocking his path
-before the Astroids reach the spacestation.
+The aliens are planning to use their advanced
+technology to direct asteroids towards
+spacestation DS9.
 
-Dimitri retracted his landing gear
-and took off into the distance.
+Now it´s Dimitri's job to destroy these astroids
+and any alien blocking his path,
+before the astroids reach the spacestation.
 
-Will he save DS9?
+Dimitri retracts his landing gear,
+and takes off into the distance.
+
+Will Dimitri save DS9?
 Will he return safely?
 
 
@@ -134,23 +141,13 @@ Oh... yeah... In case you haven't tried
 every key on your keyboard yet..
 
 To skip this press E
-
-
-
-
-
-
-
-
-
-It's also the only way to exit the intro.
 ";
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             //Draw String
-            spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
+            //spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
             spriteBatch.DrawString(fontType, output, fontPos, Color.Yellow, 0, fontOrigin, 1.0f, SpriteEffects.None, 0.65f);
         }
     }

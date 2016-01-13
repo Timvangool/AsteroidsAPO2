@@ -76,14 +76,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Alien.cs" />
     <Compile Include="Classes\Asteroid.cs" />
     <Compile Include="Classes\AsteroidsIntro.cs" />
     <Compile Include="Classes\Background.cs" />
     <Compile Include="Classes\BasicBullet.cs" />
-    <Compile Include="Classes\BulletAlien.cs" />
     <Compile Include="Classes\ControlHandler.cs" />
     <Compile Include="Classes\GamestateManager.cs" />
+    <Compile Include="Classes\Highscores.cs" />
     <Compile Include="Classes\HUD.cs" />
     <Compile Include="Classes\KeyboardHandler.cs" />
     <Compile Include="Classes\Loader.cs" />
@@ -139,12 +138,6 @@
       <ProductName>Windows Installer 4.5</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="AsteroidsClassDiagramV1_3.cd" />
-    <None Include="AsteroidsClassDiagramV1.cd" />
-    <None Include="AsteroidsClassDiagramV1_2.cd" />
-    <None Include="AsteroidsClassDiagramV1_4.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

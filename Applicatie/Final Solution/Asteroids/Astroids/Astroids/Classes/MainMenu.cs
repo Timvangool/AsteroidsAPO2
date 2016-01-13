@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Threading;
 
+
 namespace Asteroids.Classes
 {
     class MainMenu
@@ -89,12 +90,11 @@ namespace Asteroids.Classes
             }
         }
         #endregion
-
-        Game game;
-        public GraphicsDeviceManager graphics;
-        public SpriteBatch spriteBatch;
-        public StructOptionsMain structOptionsMain;
-        public GraphicsDevice graphicsDevice;
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+        StructOptionsMain structOptionsMain;
+        ContentManager Content;
+        Background background;
         //Control Classes
         ControlHandler ch;
 
@@ -123,20 +123,16 @@ namespace Asteroids.Classes
         Vector2 sizeSelectArrow;
         Rectangle recSelectArrow;
 
-        ContentManager Content;
 
-        int framesPassed;
-        int sleepTimeUpDown;
-        int selectedNumber;
-        int currentGameState;
+        int framesPassed, sleepTimeUpDown, selectedNumber, currentGameState;
+        bool exit;
+        bool isMouseVisible;
         bool boolPlay;
         bool boolOptions;
         bool boolHighscores;
         bool boolCredits;
         bool boolExit;
         bool passed;
-        bool isMouseVisible;
-        bool Exit;
 
         int timeSinceLastFrame = 0;
         int millisecondsPerFrame = 50;
@@ -151,24 +147,16 @@ namespace Asteroids.Classes
         Vector2 posPlay, posOptions, posHighscores, posCredits, posExit, posTitleTop, posTitleMiddle, posTitleBottom;
         Vector2 posOriginPlay, posOriginOptions, posOriginHighscores, posOriginCredits, posOriginExit, posOriginTitleTop, posOriginTitleMiddle, posOriginTitleBottom;
 
-        public MainMenu(ContentManager Content, GraphicsDeviceManager graphics, ControlHandler ch)
+        public MainMenu(ContentManager Content, GraphicsDevice graphicsDevice, ControlHandler ch)
         {
-
-            //Tarik Code:
-            // graphics.PreferredBackBufferHeight = 500;
-            // graphics.PreferredBackBufferWidth = 500;
-            // graphics.ApplyChanges();
-
-            this.graphics = graphics;
             this.Content = Content;
-            this.ch = ch;
-            txSelectArrow = Content.Load<Texture2D>("SelectArrow");
-
+            this.ch = ch;       
             passed = true;
+            background = new Background(graphicsDevice, Content);
             //posSelectArrow = new Vector2((int)GraphicsDevice.Viewport.Width / 4.5f, (int)graphics.GraphicsDevice.Viewport.Height / 2.5f);
-            sizeSelectArrow = new Vector2(graphics.PreferredBackBufferHeight / 900 * 30, graphics.PreferredBackBufferHeight / 500 * 30);
+            sizeSelectArrow = new Vector2(graphicsDevice.Viewport.Width / 900 * 30, graphicsDevice.Viewport.Height / 500 * 30);
             posSelectArrow = new Vector2(4.5f, 2.6f);
-            recSelectArrow = new Rectangle(graphics.PreferredBackBufferHeight / (int)posSelectArrow.X, graphics.PreferredBackBufferHeight / (int)posSelectArrow.Y, (int)sizeSelectArrow.X, (int)sizeSelectArrow.Y);
+            recSelectArrow = new Rectangle(graphicsDevice.Viewport.Width / (int)posSelectArrow.X, graphicsDevice.Viewport.Height / (int)posSelectArrow.Y, (int)sizeSelectArrow.X, (int)sizeSelectArrow.Y);
 
             framesPassed = 0;
             sleepTimeUpDown = 4;
@@ -189,29 +177,29 @@ namespace Asteroids.Classes
                 highPlayers[i] = "aaa";
                 highScores[i] = 0;
             }
+
         }
 
-        public void Load(ContentManager Content, GraphicsDevice graphics)
+        public void Load(GraphicsDevice graphicsDevice)
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            //spriteBatch = new SpriteBatch(graphics);
+            spriteBatch = new SpriteBatch(graphicsDevice);
 
             isMouseVisible = true;
             //FontType
+            txSelectArrow = Content.Load<Texture2D>("SelectArrow");
             fontType = Content.Load<SpriteFont>("Courier New");
             fontTypeTitle = Content.Load<SpriteFont>("Courier New");
             fontTypeHighscores = Content.Load<SpriteFont>("Courier New");
             //Possitions Strings
-            PositionStrings();
         }
 
-        public void UpdateSelect(int number, GraphicsDeviceManager graphics)
+        public void UpdateSelect(int number, GraphicsDevice graphicsDevice)
         {
 
             float newPos = posSelectArrow.Y;
             int newPosInt;
-            int graphicsH = graphics.PreferredBackBufferHeight;
-            int graphicsW = graphics.PreferredBackBufferHeight;
+            int graphicsH = graphicsDevice.Viewport.Height;
+            int graphicsW = graphicsDevice.Viewport.Width;
             switch (number)
             {
                 case 0:
@@ -244,22 +232,18 @@ namespace Asteroids.Classes
                         newPos = graphicsH / posSelectArrow.Y;
                         break;
                     }
-
             }
             newPosInt = Convert.ToInt32(newPos);
             //posSelectArrow = new Vector2((int)GraphicsDevice.Viewport.Width / 4.5f, (int)GraphicsDevice.Viewport.Height / newPos);
             recSelectArrow = new Rectangle(graphicsW / (int)posSelectArrow.X, newPosInt, (int)sizeSelectArrow.X, (int)sizeSelectArrow.Y);
-
         }
 
-        public void Update(GameTime gameTime, GraphicsDevice graphicDevice)
+        public void Update(GameTime gameTime, GraphicsDevice graphicsDevice)
         {
             switch (currentGameState)
             {
-                
                 case 2:
                     {
-                        
                         //Keybindings
                         timeSinceLastFrame += gameTime.ElapsedGameTime.Milliseconds;
                         if (timeSinceLastFrame > millisecondsPerFrame)
@@ -267,7 +251,7 @@ namespace Asteroids.Classes
                             timeSinceLastFrame -= millisecondsPerFrame;
                             if (passed)
                             {
-                                UpdateSelect(0, graphics);
+                                UpdateSelect(0, graphicsDevice);
                                 passed = false;
                             }
                             framesPassed = 0;
@@ -282,7 +266,7 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = false;
                                             boolExit = false;
-                                            UpdateSelect(0, graphics);
+                                            UpdateSelect(0, graphicsDevice);
 
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
@@ -295,7 +279,7 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = false;
                                             boolExit = false;
-                                            UpdateSelect(1, graphics);
+                                            UpdateSelect(1, graphicsDevice);
                                             // Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -307,7 +291,7 @@ namespace Asteroids.Classes
                                             boolHighscores = true;
                                             boolCredits = false;
                                             boolExit = false;
-                                            UpdateSelect(2, graphics);
+                                            UpdateSelect(2, graphicsDevice);
                                             // Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -319,7 +303,7 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = true;
                                             boolExit = false;
-                                            UpdateSelect(3, graphics);
+                                            UpdateSelect(3, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -331,14 +315,12 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = false;
                                             boolExit = true;
-                                            UpdateSelect(4, graphics);
+                                            UpdateSelect(4, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
                                 }
-
                             }
-
                             else if (ch.GetInput().Contains("Down"))
                             {
                                 switch (selectedNumber)
@@ -351,7 +333,7 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = false;
                                             boolExit = false;
-                                            UpdateSelect(0, graphics);
+                                            UpdateSelect(0, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -363,7 +345,7 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = false;
                                             boolExit = false;
-                                            UpdateSelect(1, graphics);
+                                            UpdateSelect(1, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -375,7 +357,7 @@ namespace Asteroids.Classes
                                             boolHighscores = true;
                                             boolCredits = false;
                                             boolExit = false;
-                                            UpdateSelect(2, graphics);
+                                            UpdateSelect(2, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -387,7 +369,7 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = true;
                                             boolExit = false;
-                                            UpdateSelect(3, graphics);
+                                            UpdateSelect(3, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
@@ -398,11 +380,10 @@ namespace Asteroids.Classes
                                             boolHighscores = false;
                                             boolCredits = false;
                                             boolExit = true;
-                                            UpdateSelect(4, graphics);
+                                            UpdateSelect(4, graphicsDevice);
                                             //Thread.Sleep(sleepTimeUpDown);
                                             break;
                                         }
-
                                 }
                             }
                             else if (ch.GetInput().Contains("Select"))
@@ -425,72 +406,66 @@ namespace Asteroids.Classes
                                 }
                                 else if (boolExit)
                                 {
-                                    Exit = true;
+                                    exit = true;
                                 }
                             }
                             else if (ch.GetInput().Contains("Back"))
                             {
-                                Exit = true;
+                                exit = true;
                             }
 
                         }
-                    //framesPassed++;
-                    //Highscores
-                    highscores = string.Format("1. {0},{1} \n2. {2},{3}\n3. {4},{5}\n4. {6},{7}\n5. {8},{9}\n6. {10},{11}\n7. {12},{13}\n8. {14},{15}\n9. {16},{17}\n10. {18},{19}",
-                        highPlayers[0], highScores[0], highPlayers[1], highScores[1], highPlayers[2], highScores[2], highPlayers[3], highScores[3], highPlayers[4], highScores[4], highPlayers[5], highScores[5], highPlayers[6], highScores[6], highPlayers[7], highScores[7], highPlayers[8], highScores[9], highPlayers[9], highScores[9]);
-
-                    //Movement Highscore Box
-                    MoveHighscores(gameTime);
-                    break;
-                }
+                        //framesPassed++;
+                        //Highscores
+                        highscores = string.Format("1. {0},{1} \n2. {2},{3}\n3. {4},{5}\n4. {6},{7}\n5. {8},{9}\n6. {10},{11}\n7. {12},{13}\n8. {14},{15}\n9. {16},{17}\n10. {18},{19}",
+                            highPlayers[0], highScores[0], highPlayers[1], highScores[1], highPlayers[2], highScores[2], highPlayers[3], highScores[3], highPlayers[4], highScores[4], highPlayers[5], highScores[5], highPlayers[6], highScores[6], highPlayers[7], highScores[7], highPlayers[8], highScores[9], highPlayers[9], highScores[9]);
+                        //Movement Highscore Box
+                        //MoveHighscores(gameTime, graphicsDevice);
+                        break;
+                    }
                 case 3:
-                {
-                    graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
                 case 4:
-                {
-                    graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
                 case 5:
-                {
-                        graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
                 case 6:
-                {
-                    graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
                 case 7:
-                {
-                    graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
                 case 8:
-                {
-                    graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
                 case 9:
-                {
-                    graphicDevice.Clear(Color.White); break;
-                }
+                    {
+                        graphicsDevice.Clear(Color.White); break;
+                    }
             }
-            
+            PositionStrings(graphicsDevice);
         }
 
-        public void Draw(GameTime gameTime, GraphicsDevice graphicsDevice, SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch)
         {
-            graphicsDevice.Clear(Color.CornflowerBlue);
-
+            //graphics.GraphicsDevice.Clear(Color.Black);
             // TODO: Add your drawing code here
-
             //Draw
             //spriteBatch.Begin();
             //Draw Background
-            graphicsDevice.Clear(Color.Black);
-            spriteBatch.Draw(txSelectArrow, recSelectArrow, Color.White);
             switch (currentGameState)
             {
                 case 2:
                     {
-
                         //Draw Highscore Box
                         spriteBatch.DrawString(fontTypeHighscores, highscores, posHighBox, Color.White, 0, new Vector2(50, 50), 1.0f, SpriteEffects.None, 0.65f);
 
@@ -504,97 +479,89 @@ namespace Asteroids.Classes
                         spriteBatch.DrawString(fontType, txtHighscores, posHighscores, Color.Yellow, 0, posOriginHighscores, 1.0f, SpriteEffects.None, 0.65f);
                         spriteBatch.DrawString(fontType, txtCredits, posCredits, Color.Yellow, 0, posOriginCredits, 1.0f, SpriteEffects.None, 0.65f);
                         spriteBatch.DrawString(fontType, txtExit, posExit, Color.Yellow, 0, posOriginExit, 1.0f, SpriteEffects.None, 0.65f);
-                        spriteBatch.DrawString(fontType, currentGameState.ToString(), posExit, Color.White, 0, posOriginExit, 1.0f, SpriteEffects.None, 0.65f);
-                        //Select Arrow
-                        
+
+                        //Tarik Code
+                        spriteBatch.Draw(txSelectArrow, recSelectArrow, Color.White);
                         break;
                     }
                 case 3:
                     {
-                        spriteBatch.DrawString(fontType, "Play", posCredits, Color.White, 0, posOriginCredits, 1.0f, SpriteEffects.None, 0.65f);
+                        currentGameState = 3;
                         break;
                     }
                 case 4:
                     {
+                        currentGameState = 4;
                         break;
                     }
                 case 5:
                     {
-                        spriteBatch.DrawString(fontType, "Options", posCredits, Color.White, 0, posOriginCredits, 1.0f, SpriteEffects.None, 0.65f);
+                        currentGameState = 5;
                         break;
                     }
                 case 6:
                     {
-                        spriteBatch.DrawString(fontType, "Highscore", posCredits, Color.White, 0, posOriginCredits, 1.0f, SpriteEffects.None, 0.65f);
+                        currentGameState = 6;
                         break;
                     }
             }
-
             //spriteBatch.End();
-
         }
 
-        public void PositionStrings()
+        public void PositionStrings(GraphicsDevice graphicsDevice)
         {
             //  Title
             //      top Part
             posOriginTitleTop.Y = 10.0f;
-            posOriginTitleTop.X = graphics.GraphicsDevice.Viewport.Width / 6;
-            posTitleTop = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2,
-               graphics.GraphicsDevice.Viewport.Height / 15);
+            posOriginTitleTop.X = graphicsDevice.Viewport.Width / 6;
+            posTitleTop = new Vector2(graphicsDevice.Viewport.Width / 2,
+               graphicsDevice.Viewport.Height / 15);
             //      middle Part
             posOriginTitleMiddle.Y = 20.0f;
-            posOriginTitleMiddle.X = graphics.GraphicsDevice.Viewport.Width / 8;
-            posTitleMiddle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2.1f,
-               graphics.GraphicsDevice.Viewport.Height / 5);
+            posOriginTitleMiddle.X = graphicsDevice.Viewport.Width / 8;
+            posTitleMiddle = new Vector2(graphicsDevice.Viewport.Width / 2.1f,
+               graphicsDevice.Viewport.Height / 5);
             //      bottom Part
             posOriginTitleBottom.Y = 30.0f;
-            posOriginTitleBottom.X = graphics.GraphicsDevice.Viewport.Width / 6;
-            posTitleBottom = new Vector2(graphics.GraphicsDevice.Viewport.Width / 1.68f,
-               graphics.GraphicsDevice.Viewport.Height / 3);
-
+            posOriginTitleBottom.X = graphicsDevice.Viewport.Width / 6;
+            posTitleBottom = new Vector2(graphicsDevice.Viewport.Width / 1.68f,
+               graphicsDevice.Viewport.Height / 3);
             //  Play
             posOriginPlay.Y = 50.0f;
-            posOriginPlay.X = graphics.GraphicsDevice.Viewport.Width / 2;
-            posPlay = new Vector2(graphics.GraphicsDevice.Viewport.Width / 1.07f,
-               graphics.GraphicsDevice.Viewport.Height / 2);
-
+            posOriginPlay.X = graphicsDevice.Viewport.Width / 2;
+            posPlay = new Vector2(graphicsDevice.Viewport.Width / 1.07f,
+               graphicsDevice.Viewport.Height / 2);
             //  Options
             posOriginOptions.Y = 60.0f;
-            posOriginOptions.X = graphics.GraphicsDevice.Viewport.Width / 2;
-            posOptions = new Vector2(graphics.GraphicsDevice.Viewport.Width / 1.12f,
-               graphics.GraphicsDevice.Viewport.Height / 1.70f);
-
+            posOriginOptions.X = graphicsDevice.Viewport.Width / 2;
+            posOptions = new Vector2(graphicsDevice.Viewport.Width / 1.12f,
+               graphicsDevice.Viewport.Height / 1.70f);
             //  Highscores
             posOriginHighscores.Y = 70.0f;
-            posOriginHighscores.X = graphics.GraphicsDevice.Viewport.Width / 2;
-            posHighscores = new Vector2(graphics.GraphicsDevice.Viewport.Width / 1.1745f,
-               graphics.GraphicsDevice.Viewport.Height / 1.45f);
-
+            posOriginHighscores.X = graphicsDevice.Viewport.Width / 2;
+            posHighscores = new Vector2(graphicsDevice.Viewport.Width / 1.1745f,
+               graphicsDevice.Viewport.Height / 1.45f);
             //  Credits
             posOriginCredits.Y = 90.0f;
-            posOriginCredits.X = graphics.GraphicsDevice.Viewport.Width / 2;
-            posCredits = new Vector2(graphics.GraphicsDevice.Viewport.Width / 1.12f,
-               graphics.GraphicsDevice.Viewport.Height / 1.25f);
-
+            posOriginCredits.X = graphicsDevice.Viewport.Width / 2;
+            posCredits = new Vector2(graphicsDevice.Viewport.Width / 1.12f,
+               graphicsDevice.Viewport.Height / 1.25f);
             //  Exit
             posOriginExit.Y = 100.0f;
-            posOriginExit.X = graphics.GraphicsDevice.Viewport.Width / 2;
-            posExit = new Vector2(graphics.GraphicsDevice.Viewport.Width / 1.065f,
-               graphics.GraphicsDevice.Viewport.Height / 1.14f);
-
+            posOriginExit.X = graphicsDevice.Viewport.Width / 2;
+            posExit = new Vector2(graphicsDevice.Viewport.Width / 1.065f,
+               graphicsDevice.Viewport.Height / 1.14f);
             //HighScore Box
             posHighBox.Y = 50f;
-            posOriginExit.X = graphics.GraphicsDevice.Viewport.Width / 2;
+            posOriginExit.X = graphicsDevice.Viewport.Width / 2;
             posHighBox = new Vector2(50.0f, 50.0f);
             speedBox = new Vector2(50.0f, 50.0f);
         }
 
-        public void MoveHighscores(GameTime gameTime)
+        public void MoveHighscores(GameTime gameTime, GraphicsDeviceManager graphics)
         {
             posHighBox +=
                 speedBox * (float)gameTime.ElapsedGameTime.TotalSeconds;
-
             int MaxX =
                 graphics.GraphicsDevice.Viewport.Width - 150;
             int MinX = 0;
@@ -603,39 +570,36 @@ namespace Asteroids.Classes
             int MinY = 0;
 
             // Check for bounce.
-            if (posHighBox.X < MaxX)
+            if (posHighBox.X > MaxX)
             {
                 speedBox.X *= -1;
                 posHighBox.X = MaxX;
             }
-
-            else if (posHighBox.X > MinX)
+            else if (posHighBox.X < MinX)
             {
                 speedBox.X *= -1;
                 posHighBox.X = MinX;
             }
-
-            if (posHighBox.Y < MaxY)
+            if (posHighBox.Y > MaxY)
             {
                 speedBox.Y *= -1;
                 posHighBox.Y = MaxY;
             }
-
-            else if (posHighBox.Y > MinY)
+            else if (posHighBox.Y < MinY)
             {
                 speedBox.Y *= -1;
                 posHighBox.Y = MinY;
             }
         }
 
-        public int GetCurrentGamestate()
+        public int GetCurrentGameState()
         {
             return currentGameState;
         }
 
         public bool GetExit()
         {
-            return Exit;
+            return exit;
         }
     }
 }

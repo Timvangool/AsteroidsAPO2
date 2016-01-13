@@ -19,28 +19,18 @@ namespace Asteroids.Classes
         private Rectangle wepBox;
         private Texture2D lifeSprite;
         private SpriteFont spriteFont;
-        private int level;
-        private GraphicsDeviceManager graphics;
+        private int level, screenWidht, screenHeight;
 
-        public HUD()
+        public HUD(int screenWidth, int screenHeight)
         {
             score = 0;
             life1 = new Vector2(50, 10);
             life2 = new Vector2(100, 10);
             life3 = new Vector2(150, 10);
-            wepBox = new Rectangle(250, 10, 500, 500);
+            wepBox = new Rectangle(250, 10,500, 500);
             level = 1;
-        }
-
-        public HUD(GraphicsDeviceManager graphics)
-        {
-            this.graphics = graphics;
-            score = 0;
-            life1 = new Vector2(50, 10);
-            life2 = new Vector2(100, 10);
-            life3 = new Vector2(150, 10);
-            wepBox = new Rectangle(250, 10, 500, 500);
-            level = 1;
+            this.screenHeight = screenHeight;
+            this.screenWidht = screenWidth;
         }
 
         public void Load(ContentManager content)
@@ -51,7 +41,7 @@ namespace Asteroids.Classes
 
         public void Update(GameTime gameTime)
         {
-
+ 
         }
 
         public void Draw(SpriteBatch spriteBatch, int playerLife)
@@ -72,8 +62,8 @@ namespace Asteroids.Classes
                 spriteBatch.Draw(lifeSprite, life1, Color.White);
             }
 
-            spriteBatch.DrawString(spriteFont, Convert.ToString(score), new Vector2(graphics.PreferredBackBufferWidth - 100, 10), Color.Red);
-            spriteBatch.DrawString(spriteFont, Convert.ToString("Level: " + level), new Vector2(graphics.PreferredBackBufferWidth - 100, 35), Color.Red);
+            spriteBatch.DrawString(spriteFont, Convert.ToString(score), new Vector2(screenWidht - 125, 10), Color.Red);
+            spriteBatch.DrawString(spriteFont, Convert.ToString("Level: " + level), new Vector2(screenWidht - 125, 35), Color.Red);
         }
 
         public void SetScore(int score)
