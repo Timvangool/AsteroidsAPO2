@@ -1,0 +1,180 @@
+toe tevoegen aan final solution
+
+class: AudioHandler.cs
+Map: audio
+
+Code in Game1.cs toe tevoegen
+
+Line 45 t/m 52
+bool isMenuSoundPlaying;
+bool isGameSoundPlaying;
+bool isAmbientSoundPlaying;
+bool isFiringSoundPlaying;
+bool isMenuClickSoundPlaying;
+bool isThrustSoundPlaying;
+float firingDelay;
+float thrustDelay;
+
+Line 73 t/m 80
+isMenuSoundPlaying = false;
+isGameSoundPlaying = false;
+isAmbientSoundPlaying = false;
+isFiringSoundPlaying = false;
+isMenuClickSoundPlaying = false;
+isThrustSoundPlaying = false;
+firingDelay = 25;
+thrustDelay = 15;
+
+Line 91 t/m 93
+audioHandler = new AudioHandler(this);
+audioHandler.Initialize();
+Components.Add(audioHandler);
+
+Line 169
+audioHandler.Update(gameTime);
+
+Line 204
+audioHandler.PlaySoundEffect("Small_Asteroid_Exploding");
+
+Line 216                                 
+audioHandler.PlaySoundEffect("Medium_Asteroid_Exploding");
+
+Line 228
+audioHandler.PlaySoundEffect("Large_Asteroid_Exploding");
+
+Line 275
+audioHandler.PlaySoundEffect("Small_Asteroid_Exploding");
+
+Line 288
+audioHandler.PlaySoundEffect("Medium_Asteroid_Exploding");
+
+Line 300
+audioHandler.PlaySoundEffect("Large_Asteroid_Exploding");
+
+Line 390 t/m 394
+                    if (isMenuSoundPlaying == false)
+                    {
+                        isMenuSoundPlaying = true;
+                        audioHandler.PlayBackgroundMusic("Menu_Background");
+                    }
+
+Line 398 t/m 402
+                    if (isMenuSoundPlaying == false)
+                    {
+                        isMenuSoundPlaying = true;
+                        audioHandler.PlayBackgroundMusic("Menu_Background");
+                    }
+
+Line 420 t/m 457
+                    if (Keyboard.GetState().IsKeyDown(Keys.Space))
+                    {
+                        if (isFiringSoundPlaying == false)
+	                    {
+                            if (firingDelay > 0)
+                            {
+                                firingDelay--;
+                            }
+
+                            if (firingDelay <= 0)
+                            {
+                                isFiringSoundPlaying = true;
+                                audioHandler.PlaySoundEffect("SpaceShip_Firing");
+                                firingDelay = 25;
+                            }
+                            isFiringSoundPlaying = false;
+	                    }
+                        isFiringSoundPlaying = false;
+                    }
+
+                    if (Keyboard.GetState().IsKeyDown(Keys.W))
+                    {
+                        if (isThrustSoundPlaying == false)
+                        {
+                            if (thrustDelay > 0)
+                            {
+                                thrustDelay--;
+                            }
+
+                            if (thrustDelay <= 0)
+                            {
+                                isThrustSoundPlaying = true;
+                                audioHandler.PlaySoundEffect("SpaceShip_Thrust_Alternative");
+                                thrustDelay = 15;
+                            }
+                            isThrustSoundPlaying = false;
+                        }
+                    }
+
+Line 459 t/m 471
+                    if (isMenuSoundPlaying == true)
+                    {
+                        isMenuSoundPlaying = false;
+                        if (isMenuSoundPlaying == false)
+                        {
+                            if (isGameSoundPlaying == false)
+                            {
+                                isGameSoundPlaying = true;
+                                //audioHandler.PlayBackgroundMusic("Ambient_Background");
+                                audioHandler.PlayBackgroundMusic("Game_Background");
+                            }
+                        }
+                    }
+
+Line 480 t/m 500
+                    if (Keyboard.GetState().IsKeyDown(Keys.Down) || Keyboard.GetState().IsKeyDown(Keys.Up))
+                    {
+                        if (isMenuSoundPlaying == false)
+                        {
+                            isMenuSoundPlaying = true;
+                            audioHandler.PlayBackgroundMusic("Menu_Click");
+                        }
+
+                        if (Keyboard.GetState().IsKeyDown(Keys.Down) || Keyboard.GetState().IsKeyDown(Keys.Up) || Keyboard.GetState().IsKeyDown(Keys.Right) || Keyboard.GetState().IsKeyDown(Keys.Left))
+                        {
+                            if (isMenuClickSoundPlaying == false)
+                            {
+                                isMenuClickSoundPlaying = true;
+                                audioHandler.PlaySoundEffect("Menu_Click");
+                            }
+                        }
+                        else
+                            isMenuClickSoundPlaying = false;
+                    }
+                    else
+                        isMenuSoundPlaying = false;
+
+Line 504 t/m 508
+                    if (isMenuSoundPlaying == false)
+                    {
+                        isMenuSoundPlaying = true;
+                        audioHandler.PlayBackgroundMusic("Menu_Background");
+                    }
+
+Line 512 t/m 527
+                    if (isMenuSoundPlaying == false)
+                    {
+                        isMenuSoundPlaying = true;
+                        audioHandler.PlayBackgroundMusic("Menu_Background");
+                    }
+
+                    if (Keyboard.GetState().IsKeyDown(Keys.Down) || Keyboard.GetState().IsKeyDown(Keys.Up))
+                    {
+                        if (isMenuClickSoundPlaying == false)
+                        {
+                            isMenuClickSoundPlaying = true;
+                            audioHandler.PlaySoundEffect("Menu_Click");
+                        }
+                    }
+                    else
+                        isMenuClickSoundPlaying = false;
+
+Line 542 t/m 546
+                    if (isMenuSoundPlaying == false)
+                    {
+                        isMenuSoundPlaying = true;
+                        audioHandler.PlayBackgroundMusic("Menu_Background");
+                    }
+
+Er mist de player explosion geluid, voeg dan in de Game1.cs de volgende regel toe waar de player explosion wordt uitgevoerd met de animatie ect.
+audioHandler.PlaySoundEffect("Spaceship_Exploding");
+

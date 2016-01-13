@@ -4,3 +4,4 @@ C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids
 C:\Users\timmie\Desktop\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
 C:\Users\Patrick\Downloads\AsteroidsAPO2-master\Applicatie\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
 C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\AudioHandler_Patrick_Asteriods\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache

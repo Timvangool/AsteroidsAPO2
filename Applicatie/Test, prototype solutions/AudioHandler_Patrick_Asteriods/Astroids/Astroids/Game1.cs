@@ -25,7 +25,7 @@ namespace Asteroids
         HUD hud;
         Background background;
         OptionsMenu oMenu;
-        private AudioHandler audioHandler;
+        AudioHandler audioHandler;
         Loader loader;
         LoadingScreen loadingScreen;
         AsteroidsIntro intro;
@@ -46,6 +46,7 @@ namespace Asteroids
         bool isGameSoundPlaying;
         bool isAmbientSoundPlaying;
         bool isFiringSoundPlaying;
+        bool isMenuClickSoundPlaying;
         bool isThrustSoundPlaying;
         float firingDelay;
         float thrustDelay;
@@ -68,11 +69,12 @@ namespace Asteroids
             screenHeight = graphics.PreferredBackBufferHeight;
             screenWidth = graphics.PreferredBackBufferWidth;
             numOfAsteroids = 3;
-            currentGameState = 1;
+            currentGameState = 8;
             isMenuSoundPlaying = false;
             isGameSoundPlaying = false;
             isAmbientSoundPlaying = false;
             isFiringSoundPlaying = false;
+            isMenuClickSoundPlaying = false;
             isThrustSoundPlaying = false;
             firingDelay = 25;
             thrustDelay = 15;
@@ -434,6 +436,7 @@ namespace Asteroids
 	                    }
                         isFiringSoundPlaying = false;
                     }
+
                     if (Keyboard.GetState().IsKeyDown(Keys.W))
                     {
                         if (isThrustSoundPlaying == false)
@@ -474,11 +477,27 @@ namespace Asteroids
                 case 5:
                     //Options
                     oMenu.Draw(spriteBatch);
-                    if (isMenuSoundPlaying == false)
+                    if (Keyboard.GetState().IsKeyDown(Keys.Down) || Keyboard.GetState().IsKeyDown(Keys.Up))
                     {
-                        isMenuSoundPlaying = true;
-                        audioHandler.PlayBackgroundMusic("Menu_Background");
+                        if (isMenuSoundPlaying == false)
+                        {
+                            isMenuSoundPlaying = true;
+                            audioHandler.PlayBackgroundMusic("Menu_Click");
+                        }
+
+                        if (Keyboard.GetState().IsKeyDown(Keys.Down) || Keyboard.GetState().IsKeyDown(Keys.Up) || Keyboard.GetState().IsKeyDown(Keys.Right) || Keyboard.GetState().IsKeyDown(Keys.Left))
+                        {
+                            if (isMenuClickSoundPlaying == false)
+                            {
+                                isMenuClickSoundPlaying = true;
+                                audioHandler.PlaySoundEffect("Menu_Click");
+                            }
+                        }
+                        else
+                            isMenuClickSoundPlaying = false;
                     }
+                    else
+                        isMenuSoundPlaying = false;
                     break;
                 case 6:
                     //Highscores
@@ -495,6 +514,17 @@ namespace Asteroids
                         isMenuSoundPlaying = true;
                         audioHandler.PlayBackgroundMusic("Menu_Background");
                     }
+
+                    if (Keyboard.GetState().IsKeyDown(Keys.Down) || Keyboard.GetState().IsKeyDown(Keys.Up))
+                    {
+                        if (isMenuClickSoundPlaying == false)
+                        {
+                            isMenuClickSoundPlaying = true;
+                            audioHandler.PlaySoundEffect("Menu_Click");
+                        }
+                    }
+                    else
+                        isMenuClickSoundPlaying = false;
                     break;
                 case 8:
                     //Loading Screen

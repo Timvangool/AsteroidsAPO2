@@ -17,14 +17,7 @@ namespace Asteroids
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-
-        //TO DO: 
-        //Aliens moeten worden geImplementeerd met collision
-        
-        Alien alien;
-        BulletAlien bulletAlien;
         GraphicsDeviceManager graphics;
-        GraphicsDevice graphicsDevice;
         SpriteBatch spriteBatch;
         ControlHandler ch;
         Player p;
@@ -36,14 +29,14 @@ namespace Asteroids
         LoadingScreen loadingScreen;
         AsteroidsIntro intro;
         MainMenu mainMenu;
-        GraphicsDevice graphicDevice;
         List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
         List<Weapon> killListWep;
-        List<BulletAlien> alienBulletKillList, newAlienBulletList;
-        Vector2 dir, origin;
+        Vector2 dir;
         GamestateManager gsm;
-        Texture2D texture;
+        Highscores scores;
         public static Game1 ExitGame;
+
+
         int playerLife;
         int numOfAsteroids;
         int currentGameState;
@@ -52,33 +45,30 @@ namespace Asteroids
         int rnd2;
         int screenHeight;
         int screenWidth;
-        int activeTime;
-        string[] alienBulletArray;
-        float speed;
-        bool isOpen;
-        bool isKeyUp;
 
         public Game1()
         {
-            bulletAlien = new BulletAlien(texture, origin, dir, speed, activeTime);
             graphics = new GraphicsDeviceManager(this);
             gsm = new GamestateManager();
-            //   graphics.IsFullScreen = true;
+            //graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";
             ExitGame = this;
             ch = new ControlHandler();
             r = new Random();
-            p = new Player();
-            hud = new HUD(graphics);
+            p = new Player(ch);
+            scores = new Highscores();
+
             oMenu = new OptionsMenu(graphics, Content);
             intro = new AsteroidsIntro();
+
             
             screenHeight = graphics.PreferredBackBufferHeight;
             screenWidth = graphics.PreferredBackBufferWidth;
+
             numOfAsteroids = 3;
-            currentGameState = 1;
+            currentGameState = 3;
         }
 
         /// <summary>
@@ -89,14 +79,12 @@ namespace Asteroids
         /// </summary>
         protected override void Initialize()
         {
-            isOpen = false;
-            isKeyUp = false;
             asteroidKillList = new List<Asteroid>();
             asteroid = new List<Asteroid>();
             newAsteroidList = new List<Asteroid>();
             killListWep = new List<Weapon>();
-            alienBulletKillList = new List<BulletAlien>();
-            newAlienBulletList = new List<BulletAlien>();
+            mainMenu = new MainMenu(Content, graphics.GraphicsDevice, ch);
+            hud = new HUD(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
 
             for (int i = 0; i < numOfAsteroids; i++)
             {
@@ -121,11 +109,40 @@ namespace Asteroids
                 double speed = r.NextDouble() * 3 * Math.PI;
                 System.Threading.Thread.Sleep(1);
                 double angle = r.NextDouble() * 2 * Math.PI;
-                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), r.Next(1, 4), (float)speed, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), r.Next(1, 4), (float)speed, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)), Content));
             }
 
             loader = new Loader(this.Content);
             base.Initialize();
+        }
+
+        public void ResetLevel()
+        {
+            for (int i = 0; i < numOfAsteroids; i++)
+            {
+                rndNum = r.Next(1, 3);
+
+                switch (rndNum)
+                {
+                    case 1:
+                        rnd2 = r.Next(0, screenHeight);
+                        rnd1 = r.Next(-100, 0);
+                        break;
+                    case 2:
+                        rnd2 = r.Next(screenHeight, screenHeight + 100);
+                        rnd1 = r.Next(0, screenWidth);
+                        break;
+                    default:
+                        System.Windows.Forms.MessageBox.Show("oeps");
+                        rnd1 = 0;
+                        rnd2 = 0;
+                        break;
+                }
+                double speed = r.NextDouble() * 3 * Math.PI;
+                System.Threading.Thread.Sleep(1);
+                double angle = r.NextDouble() * 2 * Math.PI;
+                asteroid.Add(new Asteroid(new Vector2(rnd1, rnd2), r.Next(1, 4), (float)speed, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)), Content));
+            }
         }
 
         /// <summary>
@@ -140,13 +157,11 @@ namespace Asteroids
             p.Load(Content);
             p.SetPlayerPos(spriteBatch);
             hud.Load(Content);
-            mainMenu = new MainMenu(Content, graphics, ch);
             intro.Load(Content, graphics);
             oMenu.Load();
-            mainMenu.Load(Content, graphicsDevice);
+            mainMenu.Load(graphics.GraphicsDevice);
             background = new Background(GraphicsDevice, Content);
             loadingScreen = new LoadingScreen(Content, graphics.GraphicsDevice);
-            alien = new Alien(Content.Load<Texture2D>("AlienShip"), new Vector2(50, 100), Vector2.Zero, 0f, 2f, Content.Load<Texture2D>("AlienBullet"));
 
             foreach (Weapon wep in p.weapList)
             {
@@ -172,11 +187,12 @@ namespace Asteroids
         {
             // Allows the game to exit
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
-                this.Exit();
-
+            {
+                 this.Exit();
+            }
+                
             gsm.GameStateChanger(currentGameState);
 
-            //Intro 
             if (currentGameState == 1)
             {
                 intro.Update();
@@ -190,27 +206,23 @@ namespace Asteroids
                 }
             }
 
-            //MainMenu
             if (currentGameState == 2)
             {
-                mainMenu.Update(gameTime, graphicDevice);
-                mainMenu.PositionStrings();
-                mainMenu.MoveHighscores(gameTime);
-                currentGameState = mainMenu.GetCurrentGamestate();
-
+               
+                mainMenu.Update(gameTime, graphics.GraphicsDevice);
+                mainMenu.PositionStrings(graphics.GraphicsDevice);
+                mainMenu.MoveHighscores(gameTime, graphics);
                 if (mainMenu.GetExit() == true)
                 {
                     this.Exit();
                 }
             }
 
-            //Game itself
             if (currentGameState == 3)
             {
-                p.Update(gameTime, ch);
+                p.Update(gameTime);
                 p.CheckBoundries(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
                 hud.Update(gameTime);
-                alien.Update(gameTime);
 
                 foreach (Asteroid a in asteroid)
                 {
@@ -224,53 +236,37 @@ namespace Asteroids
                             case 1:
                                 numOfAsteroids -= 1;
                                 Vector2 temp = new Vector2((float)a.GetXPos(), (float)a.GetYPos());
-                                asteroidKillList.Add(a);
-                                p.SetLives((p.GetLife() - 1));
                                 break;
                             case 2:
                                 numOfAsteroids -= 1;
                                 for (int i = 0; i < 2; i++)
                                 {
                                     double angle = r.NextDouble() * 2 * Math.PI;
-                                    newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 1, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                                    newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 1, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)), Content));
                                     numOfAsteroids += 1;
                                 }
-                                asteroidKillList.Add(a);
-                                p.SetLives((p.GetLife() - 1));
                                 break;
                             case 3:
                                 numOfAsteroids -= 1;
                                 for (int i = 0; i < 2; i++)
                                 {
                                     double angle = r.NextDouble() * 2 * Math.PI;
-                                    newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 2, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                                    newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 2, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)), Content));
                                     numOfAsteroids += 1;
                                 }
-                                asteroidKillList.Add(a);
-                                p.SetLives((p.GetLife() - 1));
                                 break;
                             default:
                                 System.Windows.Forms.MessageBox.Show("Oeps");
                                 break;
                         }
+                        p.SetGetHit(true);
+                        a.SetGetHit(true);
+                    }
+                    if (a.GetReadyToKill())
+                    {
+                        asteroidKillList.Add(a);
                     }
                 }
-
-                ////JOOOOO KIJK HIER ENS FF NAR JONGE
-                //foreach (BulletAlien b in alien.GetBulletList())
-                //{
-                //    if (p.GetPlayerHitbox().Intersects(bulletAlien.GetHitBoxBullet()))
-                //    {
-                //        p.SetLives((p.GetLife() - 1));
-                //        //alien.bullets.Remove(bulletAlien);
-                //        newAlienBulletList.Add(b);
-                //    }
-                //}
-
-                //foreach (BulletAlien b in newAlienBulletList)
-                //{
-                //    alien.GetBulletList().Remove(b);
-                //}
 
                 if (asteroid.Count == 0)
                 {
@@ -290,7 +286,6 @@ namespace Asteroids
                 asteroidKillList.Clear();
                 newAsteroidList.Clear();
 
-                //Shooting?
                 foreach (Weapon wep in p.weapList)
                 {
                     wep.Update(gameTime, wep.GetDirection());
@@ -309,39 +304,35 @@ namespace Asteroids
                             switch (a.GetSize())
                             {
                                 case 1:
-                                    asteroidKillList.Add(a);
                                     killListWep.Add(wep);
                                     hud.SetScore(10);
                                     numOfAsteroids -= 1;
                                     break;
-
                                 case 2:
                                     for (int i = 0; i < 2; i++)
                                     {
                                         double angle = r.NextDouble() * 2 * Math.PI;
-                                        newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 1, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                                        newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 1, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)), Content));
                                         numOfAsteroids += 1;
                                     }
-                                    asteroidKillList.Add(a);
                                     killListWep.Add(wep);
                                     hud.SetScore(25);
                                     break;
-
                                 case 3:
                                     for (int i = 0; i < 2; i++)
                                     {
                                         double angle = r.NextDouble() * 2 * Math.PI;
-                                        newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 2, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle))));
+                                        newAsteroidList.Add(new Asteroid(new Vector2(a.GetXPos(), a.GetYPos()), 2, 3.0f, dir = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)), Content));
                                         numOfAsteroids += 1;
                                     }
-                                    asteroidKillList.Add(a);
                                     killListWep.Add(wep);
                                     hud.SetScore(50);
                                     break;
-
                                 default:
+
                                     break;
                             }
+                            a.SetGetHit(true);
                         }
                     }
                 }
@@ -354,26 +345,42 @@ namespace Asteroids
                 playerLife = p.GetLife();
                 if (playerLife <= 0)
                 {
+
+                    scores.WriteHighscoreToFile(hud.GetScore(), "Skarin");
+                    scores.ReadHighscoresFromFile();
+                    scores.CutArray();
+                    scores.SortHighscores();
                     currentGameState = 4;
                 }
             }
 
-            
             if (currentGameState == 4)
             {
                 if (Keyboard.GetState().IsKeyDown(Keys.Enter))
                 {
                     numOfAsteroids = 5;
                     r = new Random();
-                    p = new Player();
-                    hud = new HUD(graphics);
+                    p = new Player(ch);
+                    hud = new HUD(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
                     Initialize();
                     currentGameState = 3;
                 }
             }
 
-            
-            //Loading Screen
+            if (currentGameState == 5)
+            {
+                if (Keyboard.GetState().IsKeyDown(Keys.F))
+                {
+                    currentGameState = 2;
+                }
+                else
+                {
+                    oMenu.Update(ch);
+                }
+            }
+
+
+            //hier zit een bug in < FIXED Thom 11-01-2015
             if (currentGameState == 8)
             {
                 if (loadingScreen != null)
@@ -382,7 +389,7 @@ namespace Asteroids
                     loader = loadingScreen.Update();
                     if (loader != null)
                     {
-                        loadingScreen = null;
+                        currentGameState = 1;
                         IsFixedTimeStep = true;
                     }
                 }
@@ -398,7 +405,7 @@ namespace Asteroids
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            graphics.GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Color.Black);
 
             gsm.GameStateChanger(currentGameState);
 
@@ -406,20 +413,22 @@ namespace Asteroids
             {
                 case 1:
                     //Intro
-                        spriteBatch.Begin();
-                        background.Draw(spriteBatch);
-                        intro.Draw(spriteBatch);
-                        spriteBatch.End();                    
-                    break;
-
-                case 2:
+                    intro.IntroText();
                     spriteBatch.Begin();
                     background.Draw(spriteBatch);
-                    mainMenu.Draw(gameTime, graphics.GraphicsDevice, spriteBatch);
+                    intro.Draw(spriteBatch);
                     spriteBatch.End();
-                    currentGameState = mainMenu.GetCurrentGamestate();
                     break;
-
+                case 2:
+                    //Main Menu
+                    spriteBatch.Begin();
+                    background.Draw(spriteBatch);
+                    mainMenu.Draw(spriteBatch);
+                    mainMenu.PositionStrings(graphics.GraphicsDevice);
+                    mainMenu.MoveHighscores(gameTime, graphics);
+                    currentGameState = mainMenu.GetCurrentGameState();
+                    spriteBatch.End();
+                    break;
                 case 3:
                     //The Game
                     spriteBatch.Begin();
@@ -432,25 +441,22 @@ namespace Asteroids
                     {
                         a.Draw(spriteBatch, Content);
                     }
-                    //alien.Draw(spriteBatch);
                     p.Draw(spriteBatch);
                     hud.Draw(spriteBatch, p.GetLife());
-                 
                     spriteBatch.End();
                     break;
-
                 case 4:
                     //Game Over
 
                     break;
-
-                case 5: 
+                case 5:
                     //Options
                     oMenu.Draw(spriteBatch);
+                    //currentGameState = oMenu.GetCurrentGameState();
                     break;
-
                 case 6:
                     //Highscores
+
                     break;
                 case 7:
                     //Keybindings
@@ -458,17 +464,10 @@ namespace Asteroids
                     break;
                 case 8:
                     //Loading Screen
-                    if (loadingScreen != null)
-                    {
-                        spriteBatch.Begin();
-                        background.Draw(spriteBatch);
-                        loadingScreen.Draw(spriteBatch);
-                        spriteBatch.End();
-                    }
-                    else
-                    {
-                        currentGameState = 1;
-                    }
+                    spriteBatch.Begin();
+                    background.Draw(spriteBatch);
+                    loadingScreen.Draw(spriteBatch);
+                    spriteBatch.End();
                     break;
                 default:
 
@@ -480,9 +479,11 @@ namespace Asteroids
 
         public void LevelsIncrease()
         {
-            numOfAsteroids += r.Next(0, 3);
+            numOfAsteroids += r.Next(0, 2);
             hud.SetLevel(1);
-            Initialize();
+            ResetLevel();
         }
+
+
     }
 }

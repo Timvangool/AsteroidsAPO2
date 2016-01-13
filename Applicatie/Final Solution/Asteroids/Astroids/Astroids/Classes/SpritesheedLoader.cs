@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Astroids.Classes
+namespace Asteroids.Classes
 {
     class SpritesheetLoader
     {
@@ -54,13 +54,14 @@ namespace Astroids.Classes
             }
             tx = textures[0];
 
-            error = content.Load<Texture2D>("error");
         }
 
 
         //FIX THIS LOGIC PLEASE
         public void GetNextSprite()
         {
+            isRunning = true;
+
             if (frameSkip == 0)
             {
                 if (!loopable)
@@ -72,7 +73,11 @@ namespace Astroids.Classes
                         frameSkip = frameSkipOld;
                     }
                     if (currentFrame == textures.Count)
+                    {
                         isRunning = false;
+                        currentFrame = 0;
+                    }
+
                 }
                 else
                 {

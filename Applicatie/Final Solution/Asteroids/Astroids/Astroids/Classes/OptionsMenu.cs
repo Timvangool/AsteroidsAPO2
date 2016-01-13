@@ -279,11 +279,13 @@ namespace Asteroids
                         tSound.SelectRight();
                         Thread.Sleep(sleepTimeLeftRight);
                     }
+
                     if (boolResolution)
                     {
                         tResolution.SelectRight();
                         Thread.Sleep(sleepTimeResolution);
                     }
+
                     if (boolAlias)
                     {
                         cbAlias.SelectLeftRight();
@@ -327,6 +329,11 @@ namespace Asteroids
             cbAlias.Draw(spriteBatch);
             tResolution.Draw(spriteBatch, spriteFont);
             tSound.Draw(spriteBatch);
+        }
+
+        public int GetCurrentGameState()
+        {
+            return currentGameState;
         }
     }
 }

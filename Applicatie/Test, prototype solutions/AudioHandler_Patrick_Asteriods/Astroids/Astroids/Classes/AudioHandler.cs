@@ -37,16 +37,16 @@ namespace Asteroids.Classes
 
         public void Load(ContentManager content)
         {
-            menuBackgroundMusic = content.Load<Song>("Audio\\Wave\\BackgroundMusic\\Menu_Background");
-            gameplayBackgroundMusic = content.Load<Song>("Audio\\Wave\\BackgroundMusic\\Game_Background");
-            AmbientBackgroundMusic = content.Load<Song>("Audio\\Wave\\BackgroundMusic\\Ambient_Background");
-            largeAsteroidExploding = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\Large_Asteroid_Exploding");
-            mediumAsteroidExploding = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\Medium_Asteroid_Exploding");
-            smallAsteroidExploding = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\Small_Asteroid_Exploding");
-            menuClick = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\Menu_Click");
-            spaceshipExploding = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\Small_Asteroid_Exploding");
-            spaceShipFiring = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\SpaceShip_Firing");
-            spaceShipThrustAlternative = content.Load<SoundEffect>("Audio\\Wave\\SoundEffects\\SpaceShip_Thrust_Alternative");
+            menuBackgroundMusic = content.Load<Song>("Audio\\BackgroundMusic\\Menu_Background");
+            gameplayBackgroundMusic = content.Load<Song>("Audio\\BackgroundMusic\\Game_Background");
+            AmbientBackgroundMusic = content.Load<Song>("Audio\\BackgroundMusic\\Ambient_Background");
+            largeAsteroidExploding = content.Load<SoundEffect>("Audio\\SoundEffects\\Large_Asteroid_Exploding");
+            mediumAsteroidExploding = content.Load<SoundEffect>("Audio\\SoundEffects\\Medium_Asteroid_Exploding");
+            smallAsteroidExploding = content.Load<SoundEffect>("Audio\\SoundEffects\\Small_Asteroid_Exploding");
+            menuClick = content.Load<SoundEffect>("Audio\\SoundEffects\\Menu_Click");
+            spaceshipExploding = content.Load<SoundEffect>("Audio\\SoundEffects\\Small_Asteroid_Exploding");
+            spaceShipFiring = content.Load<SoundEffect>("Audio\\SoundEffects\\SpaceShip_Firing");
+            spaceShipThrustAlternative = content.Load<SoundEffect>("Audio\\SoundEffects\\SpaceShip_Thrust_Alternative");
         }
 
         public override void Update(GameTime gameTime)

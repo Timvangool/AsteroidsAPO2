@@ -14,8 +14,6 @@ namespace Asteroids.Classes
 {
     class BasicBullet : Weapon
     {
-        Texture2D tempTexture;
-
         public BasicBullet()
         {
             speed = 10;
@@ -38,18 +36,6 @@ namespace Asteroids.Classes
         public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(texture, pos, Color.White);
-        }
-
-        public int GetTextureWidth()
-        {
-            tempTexture = texture;
-            return tempTexture.Width;
-        }
-
-        public int GetTextureHeight()
-        {
-            tempTexture = GetTexture();
-            return tempTexture.Height;
         }
     }
 }

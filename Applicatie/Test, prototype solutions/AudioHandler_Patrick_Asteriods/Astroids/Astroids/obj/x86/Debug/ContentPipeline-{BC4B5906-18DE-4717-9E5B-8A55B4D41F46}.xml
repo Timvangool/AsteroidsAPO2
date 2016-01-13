@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0523526+01:00</Time>
     </Item>
     <Item>
       <Source>placeholderas.jpg</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0773878+01:00</Time>
     </Item>
     <Item>
       <Source>RocketIdle.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0533708+01:00</Time>
     </Item>
     <Item>
       <Source>RocketBulllet.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0533708+01:00</Time>
     </Item>
     <Item>
       <Source>RocketFlying.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0533708+01:00</Time>
     </Item>
     <Item>
       <Source>LifeSprite.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.04935+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidLarge.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:50.4707185+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidMedium.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:50.4707185+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidSmall.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:50.4717192+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowLeft.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:50.4686987+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowRight.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:50.4697178+01:00</Time>
     </Item>
     <Item>
       <Source>Back.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0473486+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxFalse.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0473486+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxTrue.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.048363+01:00</Time>
     </Item>
     <Item>
       <Source>starfield.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0793892+01:00</Time>
     </Item>
     <Item>
       <Source>OptionsBG.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0513518+01:00</Time>
     </Item>
     <Item>
       <Source>ResolutionBar.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0523526+01:00</Time>
     </Item>
     <Item>
       <Source>SelectArrow.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0543732+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBar.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0543732+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBarCursor.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0543732+01:00</Time>
     </Item>
     <Item>
       <Source>Planet1.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0513518+01:00</Time>
     </Item>
     <Item>
       <Source>Planet2.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0513518+01:00</Time>
     </Item>
     <Item>
       <Source>Planet3.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0523526+01:00</Time>
     </Item>
     <Item>
       <Source>star1.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0773878+01:00</Time>
     </Item>
     <Item>
       <Source>star2.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0773878+01:00</Time>
     </Item>
     <Item>
       <Source>star3.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0773878+01:00</Time>
     </Item>
     <Item>
       <Source>loading-screen.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0733802+01:00</Time>
     </Item>
     <Item>
       <Source>SoundPlaceHolder.wav</Source>
@@ -251,119 +251,129 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0713835+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\BackgroundMusic\Intro_Ast.wav</Source>
-      <Name>Audio\Wave\BackgroundMusic\Intro_Ast</Name>
+      <Source>Audio\BackgroundMusic\Intro_Ast.wav</Source>
+      <Name>Audio\BackgroundMusic\Intro_Ast</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Intro_Ast.xnb</Output>
-      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Intro_Ast.wma</Extra>
-      <Time>2016-01-04T10:12:30.3560703+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Intro_Ast.xnb</Output>
+      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Intro_Ast.wma</Extra>
+      <Time>2016-01-13T10:45:52.2425187+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\BackgroundMusic\Gameplay_Ast.wav</Source>
-      <Name>Audio\Wave\BackgroundMusic\Gameplay_Ast</Name>
+      <Source>Audio\BackgroundMusic\Gameplay_Ast.wav</Source>
+      <Name>Audio\BackgroundMusic\Gameplay_Ast</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Gameplay_Ast.xnb</Output>
-      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Gameplay_Ast.wma</Extra>
-      <Time>2016-01-04T10:12:30.3900763+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Gameplay_Ast.xnb</Output>
+      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Gameplay_Ast.wma</Extra>
+      <Time>2016-01-13T10:45:51.6771068+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\SpaceShip_Thrust_Alternative.wav</Source>
-      <Name>Audio\Wave\SoundEffects\SpaceShip_Thrust_Alternative</Name>
+      <Source>Audio\SoundEffects\SpaceShip_Thrust_Alternative.wav</Source>
+      <Name>Audio\SoundEffects\SpaceShip_Thrust_Alternative</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\SpaceShip_Thrust_Alternative.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\SpaceShip_Thrust_Alternative.xnb</Output>
+      <Time>2016-01-13T10:45:53.0353401+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\BackgroundMusic\Upbeat_Background.wav</Source>
-      <Name>Audio\Wave\BackgroundMusic\Upbeat_Background</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Upbeat_Background.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Audio\Wave\BackgroundMusic\Game_Background.wav</Source>
-      <Name>Audio\Wave\BackgroundMusic\Game_Background</Name>
+      <Source>Audio\BackgroundMusic\Ambient_Background.wav</Source>
+      <Name>Audio\BackgroundMusic\Ambient_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Game_Background.xnb</Output>
-      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Game_Background.wma</Extra>
-      <Time>2016-01-08T12:15:06.0215207+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Ambient_Background.xnb</Output>
+      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Ambient_Background.wma</Extra>
+      <Time>2016-01-13T10:45:50.9000025+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\Large_Asteroid_Exploding.wav</Source>
-      <Name>Audio\Wave\SoundEffects\Large_Asteroid_Exploding</Name>
+      <Source>Audio\BackgroundMusic\Upbeat_Background.wav</Source>
+      <Name>Audio\BackgroundMusic\Upbeat_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\Large_Asteroid_Exploding.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Upbeat_Background.xnb</Output>
+      <Time>2016-01-13T10:45:53.0180685+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\Medium_Asteroid_Exploding.wav</Source>
-      <Name>Audio\Wave\SoundEffects\Medium_Asteroid_Exploding</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\Medium_Asteroid_Exploding.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Audio\Wave\BackgroundMusic\Menu_Background.wav</Source>
-      <Name>Audio\Wave\BackgroundMusic\Menu_Background</Name>
+      <Source>Audio\BackgroundMusic\Game_Background.wav</Source>
+      <Name>Audio\BackgroundMusic\Game_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Menu_Background.xnb</Output>
-      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Menu_Background.wma</Extra>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Game_Background.xnb</Output>
+      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Game_Background.wma</Extra>
+      <Time>2016-01-13T10:45:51.0901494+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\Menu_Click.wav</Source>
-      <Name>Audio\Wave\SoundEffects\Menu_Click</Name>
+      <Source>Audio\SoundEffects\Large_Asteroid_Exploding.wav</Source>
+      <Name>Audio\SoundEffects\Large_Asteroid_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\Menu_Click.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\Large_Asteroid_Exploding.xnb</Output>
+      <Time>2016-01-13T10:45:53.021074+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\Small_Asteroid_Exploding.wav</Source>
-      <Name>Audio\Wave\SoundEffects\Small_Asteroid_Exploding</Name>
+      <Source>Audio\SoundEffects\Medium_Asteroid_Exploding.wav</Source>
+      <Name>Audio\SoundEffects\Medium_Asteroid_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\Small_Asteroid_Exploding.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\Medium_Asteroid_Exploding.xnb</Output>
+      <Time>2016-01-13T10:45:53.0220747+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\Spaceship_Exploding.wav</Source>
-      <Name>Audio\Wave\SoundEffects\Spaceship_Exploding</Name>
+      <Source>Audio\BackgroundMusic\Menu_Background.wav</Source>
+      <Name>Audio\BackgroundMusic\Menu_Background</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Menu_Background.xnb</Output>
+      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\BackgroundMusic\Menu_Background.wma</Extra>
+      <Time>2016-01-13T10:45:52.692838+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\SoundEffects\Menu_Click.wav</Source>
+      <Name>Audio\SoundEffects\Menu_Click</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\Spaceship_Exploding.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\Menu_Click.xnb</Output>
+      <Time>2016-01-13T10:45:53.0313377+01:00</Time>
     </Item>
     <Item>
-      <Source>Audio\Wave\SoundEffects\SpaceShip_Firing.wav</Source>
-      <Name>Audio\Wave\SoundEffects\SpaceShip_Firing</Name>
+      <Source>Audio\SoundEffects\Small_Asteroid_Exploding.wav</Source>
+      <Name>Audio\SoundEffects\Small_Asteroid_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\SoundEffects\SpaceShip_Firing.xnb</Output>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\Small_Asteroid_Exploding.xnb</Output>
+      <Time>2016-01-13T10:45:53.0323499+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\SoundEffects\Spaceship_Exploding.wav</Source>
+      <Name>Audio\SoundEffects\Spaceship_Exploding</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\Spaceship_Exploding.xnb</Output>
+      <Time>2016-01-13T10:45:53.0463658+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\SoundEffects\SpaceShip_Firing.wav</Source>
+      <Name>Audio\SoundEffects\SpaceShip_Firing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\SoundEffects\SpaceShip_Firing.xnb</Output>
+      <Time>2016-01-13T10:45:53.0323499+01:00</Time>
     </Item>
     <Item>
       <Source>Score.spritefont</Source>
@@ -372,7 +382,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0543732+01:00</Time>
     </Item>
     <Item>
       <Source>Courier New.spritefont</Source>
@@ -381,7 +391,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.048363+01:00</Time>
     </Item>
     <Item>
       <Source>MenuFont.spritefont</Source>
@@ -390,7 +400,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0503516+01:00</Time>
     </Item>
     <Item>
       <Source>LoadingScreen.spritefont</Source>
@@ -399,7 +409,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
+      <Time>2016-01-13T10:45:53.0503516+01:00</Time>
     </Item>
     <Item>
       <Source>Font.spritefont</Source>
@@ -408,17 +418,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb</Output>
-      <Time>2016-01-04T00:19:00+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Audio\Wave\BackgroundMusic\Ambient_Background.wav</Source>
-      <Name>Audio\Wave\BackgroundMusic\Ambient_Background</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Ambient_Background.xnb</Output>
-      <Extra>C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\AudioHandler_Patrick_Asteriods\Astroids\Astroids\bin\x86\Debug\Content\Audio\Wave\BackgroundMusic\Ambient_Background.wma</Extra>
-      <Time>2016-01-08T01:14:26+01:00</Time>
+      <Time>2016-01-13T10:45:53.048363+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

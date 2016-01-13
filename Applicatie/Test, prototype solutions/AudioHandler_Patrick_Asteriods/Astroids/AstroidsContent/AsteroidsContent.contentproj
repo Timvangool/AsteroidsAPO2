@@ -128,70 +128,70 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\BackgroundMusic\Intro_Ast.wav">
+    <Compile Include="Audio\BackgroundMusic\Intro_Ast.wav">
       <Name>Intro_Ast</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Audio\Wave\BackgroundMusic\Gameplay_Ast.wav">
+    <Compile Include="Audio\BackgroundMusic\Gameplay_Ast.wav">
       <Name>Gameplay_Ast</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\SpaceShip_Thrust_Alternative.wav">
+    <Compile Include="Audio\SoundEffects\SpaceShip_Thrust_Alternative.wav">
       <Name>SpaceShip_Thrust_Alternative</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\BackgroundMusic\Ambient_Background.wav">
+    <Compile Include="Audio\BackgroundMusic\Ambient_Background.wav">
       <Name>Ambient_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Audio\Wave\BackgroundMusic\Upbeat_Background.wav">
+    <Compile Include="Audio\BackgroundMusic\Upbeat_Background.wav">
       <Name>Upbeat_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\BackgroundMusic\Game_Background.wav">
+    <Compile Include="Audio\BackgroundMusic\Game_Background.wav">
       <Name>Game_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\Large_Asteroid_Exploding.wav">
+    <Compile Include="Audio\SoundEffects\Large_Asteroid_Exploding.wav">
       <Name>Large_Asteroid_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\Medium_Asteroid_Exploding.wav">
+    <Compile Include="Audio\SoundEffects\Medium_Asteroid_Exploding.wav">
       <Name>Medium_Asteroid_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\BackgroundMusic\Menu_Background.wav">
+    <Compile Include="Audio\BackgroundMusic\Menu_Background.wav">
       <Name>Menu_Background</Name>
       <Importer>WavImporter</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\Menu_Click.wav">
+    <Compile Include="Audio\SoundEffects\Menu_Click.wav">
       <Name>Menu_Click</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\Small_Asteroid_Exploding.wav">
+    <Compile Include="Audio\SoundEffects\Small_Asteroid_Exploding.wav">
       <Name>Small_Asteroid_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\Spaceship_Exploding.wav">
+    <Compile Include="Audio\SoundEffects\Spaceship_Exploding.wav">
       <Name>Spaceship_Exploding</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="Audio\Wave\SoundEffects\SpaceShip_Firing.wav">
+    <Compile Include="Audio\SoundEffects\SpaceShip_Firing.wav">
       <Name>SpaceShip_Firing</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
