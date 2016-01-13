@@ -62,7 +62,8 @@ namespace Asteroids_GameOverTarik
         Rectangle recRetry;
 
         Color col;
-
+        int framesPassed;
+        int letterFirst = 0, letterSecond = 0, letterThirth = 0;
         bool mouseReleased = true;
 
         public GameOverMenu(GraphicsDeviceManager graphics, ContentManager Content, string textScore)
@@ -189,30 +190,91 @@ namespace Asteroids_GameOverTarik
             spriteBatch.Draw(txRetry, recRetry, col);
 
         }
+        public void OrderName()
+        {
+            Name = Alphabet[letterFirst] + Alphabet[letterSecond] + Alphabet[letterThirth];
+        }
         public void SelectName(MouseState mouse, Point mousePoint, GameTime gameTime)
         {
-            elapsed += gameTime.ElapsedGameTime.Milliseconds;
-            if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
+            framesPassed++;
+            if (framesPassed % 7 == 0)
             {
-                if (elapsed > 190)
+                if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
                 {
-                    elapsed = 0;
                     for (int i = 0; i < 3; i++)
                     {
                         if (recArrowDown[i].Contains(mousePoint))
                         {
-                            letter[i] = (counter[i]++) % Alphabet.Length;
+                            switch(i)
+                            {
+                                case 0:
+                                    {
+                                        if (letterFirst < 25)
+                                            letterFirst++;
+                                        else if (letterFirst == 25)
+                                            letterFirst = 0;
+                                        break;
+                                    }
+                                case 1:
+                                    {
+                                        if (letterSecond < 25)
+                                            letterSecond++;
+                                        else if (letterSecond == 25)
+                                            letterSecond = 0;
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        if (letterThirth < 25)
+                                            letterThirth++;
+                                        else if (letterThirth == 25)
+                                            letterThirth = 0;
+                                        break;
+                                    }
+                            }
+                            
+
                         }
                         else if (recArrowUp[i].Contains(mousePoint))
                         {
-                            if (counter[i] < 0)
-                                counter[i] = Alphabet.Length - 1;
-                            letter[i] = counter[i]-- % Alphabet.Length;
+                            switch(i)
+                            {
+                                case 0:
+                                    {
+                                    if (letterFirst > 0)
+                                        letterFirst--;
+                                    else if (letterFirst == 0)
+                                        letterFirst = 25;
+                                    break;
+                                }
+                                case 1:
+                                    {
+                                    if (letterSecond > 0)
+                                        letterSecond--;
+                                    else if (letterSecond == 0)
+                                        letterSecond = 25;
+                                    break;
+                                }
+                                case 2:
+                                    {
+                                    if (letterThirth > 0)
+                                        letterThirth--;
+                                    else if (letterThirth == 0)
+                                        letterThirth = 25;
+                                    break;
+                                }
+                            }
                         }
                     }
-                    Name = Alphabet[letter[0]] + Alphabet[letter[1]] + Alphabet[letter[2]];
+                    //Name = Alphabet[letter[0]] + Alphabet[letter[1]] + Alphabet[letter[2]];
+                }
+                if (mouse.LeftButton == ButtonState.Released)
+                {
+                    mouseReleased = true;
                 }
             }
+            OrderName();
+            framesPassed++;
         }
         public int getGameStateNumber()
         {

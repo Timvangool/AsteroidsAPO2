@@ -30,3 +30,5 @@ C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\As
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\obj\x86\Debug\Asteroids_GameOverTarik.pdb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonDown.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb
+C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonDown.xnb
+C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb
