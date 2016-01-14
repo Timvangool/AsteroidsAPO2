@@ -24,6 +24,11 @@ namespace Asteroids.Classes
         Vector2 fontOriginTitle;
         Vector2 fontOrigin;
 
+        public Credit()
+        {
+            
+        }
+
         public void Update()
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Down))
@@ -115,7 +120,7 @@ Press E to EXIT.
         public void Draw(SpriteBatch spriteBatch)
         {
             //Draw String
-            spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
+            //spriteBatch.DrawString(fontType, title, fontPosTitle, Color.Yellow, 0, fontOriginTitle, 1.0f, SpriteEffects.None, 0.65f);
             spriteBatch.DrawString(fontType, output, fontPos, Color.Yellow, 0, fontOrigin, 1.0f, SpriteEffects.None, 0.65f);
         }
     }

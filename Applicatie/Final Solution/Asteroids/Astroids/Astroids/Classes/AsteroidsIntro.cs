@@ -71,7 +71,7 @@ The aliens are planning to use their advanced
 technology to direct asteroids towards
 spacestation DS9.
 
-Now it´s Dimitri's job to destroy these astroids
+Now it's Dimitri's job to destroy these astroids
 and any alien blocking his path,
 before the astroids reach the spacestation.
 

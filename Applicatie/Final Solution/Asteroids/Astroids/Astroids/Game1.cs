@@ -28,6 +28,7 @@ namespace Asteroids
         Loader loader;
         LoadingScreen loadingScreen;
         AsteroidsIntro intro;
+        Credit credit;
         MainMenu mainMenu;
         List<Asteroid> asteroidKillList, asteroid, newAsteroidList;
         List<Weapon> killListWep;
@@ -62,13 +63,14 @@ namespace Asteroids
 
             oMenu = new OptionsMenu(graphics, Content);
             intro = new AsteroidsIntro();
+            credit = new Credit();
 
             
             screenHeight = graphics.PreferredBackBufferHeight;
             screenWidth = graphics.PreferredBackBufferWidth;
 
             numOfAsteroids = 3;
-            currentGameState = 3;
+            currentGameState = 1;
         }
 
         /// <summary>
@@ -158,6 +160,7 @@ namespace Asteroids
             p.SetPlayerPos(spriteBatch);
             hud.Load(Content);
             intro.Load(Content, graphics);
+            credit.Load(Content, graphics);
             oMenu.Load();
             mainMenu.Load(graphics.GraphicsDevice);
             background = new Background(GraphicsDevice, Content);
@@ -395,6 +398,19 @@ namespace Asteroids
                 }
             }
 
+            if (currentGameState == 9)
+            {
+                credit.Update();
+                if (Keyboard.GetState().IsKeyDown(Keys.E))
+                {
+                    currentGameState = 2;
+                }
+                else
+                {
+                    credit.IntroText();
+                }
+            }
+
             base.Update(gameTime);
         }
                     
@@ -467,6 +483,13 @@ namespace Asteroids
                     spriteBatch.Begin();
                     background.Draw(spriteBatch);
                     loadingScreen.Draw(spriteBatch);
+                    spriteBatch.End();
+                    break;
+                case 9:
+                    // credits
+                    spriteBatch.Begin();
+                    background.Draw(spriteBatch);
+                    credit.Draw(spriteBatch);
                     spriteBatch.End();
                     break;
                 default:
