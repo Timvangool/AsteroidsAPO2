@@ -49,13 +49,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TextGameOver.png">
-      <Name>TextGameOver</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="ArrowButtonDown.png">
       <Name>ArrowButtonDown</Name>
       <Importer>TextureImporter</Importer>
@@ -65,6 +58,20 @@
   <ItemGroup>
     <Compile Include="ArrowButtonUp.png">
       <Name>ArrowButtonUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BtnSubmit.png">
+      <Name>BtnSubmit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameOverText.png">
+      <Name>GameOverText</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

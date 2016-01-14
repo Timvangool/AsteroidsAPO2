@@ -20,15 +20,6 @@
       <Time>2016-01-07T09:05:23.9082819+01:00</Time>
     </Item>
     <Item>
-      <Source>TextGameOver.png</Source>
-      <Name>TextGameOver</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\TextGameOver.xnb</Output>
-      <Time>2016-01-07T09:05:24.1810479+01:00</Time>
-    </Item>
-    <Item>
       <Source>ArrowButtonDown.png</Source>
       <Name>ArrowButtonDown</Name>
       <Importer>TextureImporter</Importer>
@@ -54,6 +45,24 @@
       <Options>None</Options>
       <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb</Output>
       <Time>2016-01-07T09:05:23.9092847+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BtnSubmit.png</Source>
+      <Name>BtnSubmit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnSubmit.xnb</Output>
+      <Time>2016-01-13T12:02:24.7607766+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GameOverText.png</Source>
+      <Name>GameOverText</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\GameOverText.xnb</Output>
+      <Time>2016-01-14T10:10:52.1844279+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
