@@ -33,16 +33,16 @@ namespace Asteroids_GameOverTarik
         Vector2[] posArrowDown = new Vector2[3];
         Vector2 sizeArrows;
 
-        //string textUpHeader;
-        //Vector2 posUpHeader;
+        string textUpHeader;
+        Vector2 posUpHeader;
 
         Texture2D txHeader;
         Vector2 posHeader;
         Vector2 sizeHeader;
         Rectangle recHeader;
 
-        //string textDownHeader;
-        //Vector2 posDownHeader;
+        string textDownHeader;
+        Vector2 posDownHeader;
 
         string textUpScore;
         Vector2 posUpScore;
@@ -50,19 +50,10 @@ namespace Asteroids_GameOverTarik
         string textScore;
         Vector2 posScore;
 
-        string textSucces;
-        Vector2 posSucces;
-        bool Saved = false;
-
         Texture2D txMainMenu;
         Vector2 posMainMenu;
         Vector2 sizeMainMenu;
         Rectangle recMainMenu;
-
-        Texture2D txSubmit;
-        Vector2 posSubmit;
-        Vector2 sizeSubmit;
-        Rectangle recSubmit;
 
         Texture2D txRetry;
         Vector2 posRetry;
@@ -100,16 +91,15 @@ namespace Asteroids_GameOverTarik
                 new Vector2(1.45f,1.35f)
             };
             sizeArrows = new Vector2(13f, 40f);
-            
-            //textUpHeader = "Just Another";
-            //posUpHeader = new Vector2(2.5f, 13f);
+            textUpHeader = "Just Another";
+            posUpHeader = new Vector2(2.5f, 13f);
 
-            txHeader = Content.Load<Texture2D>("GameOverText");
+            txHeader = Content.Load<Texture2D>("TextGameOver");
             posHeader = new Vector2(3.4f, 7f);
             sizeHeader = new Vector2(220f, 300f);
 
-            //textDownHeader = "Screen";
-            //posDownHeader = new Vector2(2f, 2.2f);
+            textDownHeader = "Screen";
+            posDownHeader = new Vector2(2f, 2.2f);
 
             EnterName = "Enter your name here:";
             posEnterName = new Vector2(5.3f, 1.5f);
@@ -119,15 +109,8 @@ namespace Asteroids_GameOverTarik
             posName = new Vector2(1.55f,1.5f);
 
             textUpScore = "Your Score:";
-            posUpScore = new Vector2(2.5f, 1.8f);
-            posScore = new Vector2(1.55f, 1.775f);
-
-            textSucces = "Saved Succesfully!";
-            posSucces = new Vector2(5.5f, 2.05f);
-
-            txSubmit = Content.Load<Texture2D>("BtnSubmit");
-            posSubmit = new Vector2(1.35f, 1.5f);
-            sizeSubmit = new Vector2(80f, 60f);
+            posUpScore = new Vector2(2.5f, 1.7f);
+            posScore = new Vector2(1.55f, 1.675f);
 
             txMainMenu = Content.Load<Texture2D>("BtnMainMenu");
             posMainMenu = new Vector2(2f, 1.2f);
@@ -140,15 +123,13 @@ namespace Asteroids_GameOverTarik
             col = Color.White;
 
             //kor
-            //posUpHeader = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posUpHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posUpHeader.Y));
-            //posDownHeader = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posDownHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posDownHeader.Y));
+            posUpHeader = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posUpHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posUpHeader.Y));
+            posDownHeader = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posDownHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posDownHeader.Y));
             posUpScore = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posUpScore.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posUpScore.Y));
             posScore = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posScore.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posScore.Y));
             posEnterName = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posEnterName.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posEnterName.Y));
             posName = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posName.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posName.Y));
-            posSucces = new Vector2(Convert.ToInt32(graphics.PreferredBackBufferWidth / posSucces.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posSucces.Y));
 
-            recSubmit = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posSubmit.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posSubmit.Y), Convert.ToInt32(sizeSubmit.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeSubmit.Y / 900 * graphics.PreferredBackBufferHeight));
             recHeader = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posHeader.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posHeader.Y), Convert.ToInt32(sizeHeader.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeHeader.Y / 900 * graphics.PreferredBackBufferHeight));
             recMainMenu = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posMainMenu.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posMainMenu.Y), Convert.ToInt32(sizeMainMenu.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeMainMenu.Y / 900 * graphics.PreferredBackBufferHeight));
             recRetry = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posRetry.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posRetry.Y), Convert.ToInt32(sizeRetry.X / 500 * graphics.PreferredBackBufferWidth), Convert.ToInt32(sizeRetry.Y / 900 * graphics.PreferredBackBufferHeight));
@@ -181,15 +162,6 @@ namespace Asteroids_GameOverTarik
                     mouseReleased = false; 
                 }
             }
-            if (recSubmit.Contains(mousePoint))
-            {
-                if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
-                {
-                    //do stuff
-                    //saves highscores
-                    mouseReleased = false;
-                }
-            }
             if (mouse.LeftButton == ButtonState.Released)
             {
                 mouseReleased = true;
@@ -198,33 +170,20 @@ namespace Asteroids_GameOverTarik
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            //spriteBatch.DrawString(spriteFont, textUpHeader, posUpHeader, col);
-            spriteBatch.Draw(txHeader, recHeader, col);
-            //spriteBatch.DrawString(spriteFont, textDownHeader, posDownHeader, col, 0, new Vector2(0, 0), 0.7f, SpriteEffects.None, 0f);
 
-            spriteBatch.DrawString(spriteFont, textScore, posScore, col, 0, new Vector2(0, 0), 0.85f, SpriteEffects.None, 0f);
+            spriteBatch.DrawString(spriteFont, textUpHeader, posUpHeader, col);
+            spriteBatch.Draw(txHeader, recHeader, col);
+            for (int i = 0; i < 3; i++)
+            {
+                spriteBatch.Draw(BtnArrowUp, recArrowUp[i], col);
+                spriteBatch.Draw(BtnArrowDown, recArrowDown[i], col);
+            }
+            spriteBatch.DrawString(spriteFont, textDownHeader, posDownHeader, col, 0, new Vector2(0, 0), 0.7f, SpriteEffects.None, 0f); 
             spriteBatch.DrawString(spriteFont, EnterName, posEnterName, col);
             spriteBatch.DrawString(spriteFont, Name, posName, col);
             spriteBatch.DrawString(spriteFont, textUpScore, posUpScore, col);
-            if (Saved == true)
-            {
-                spriteBatch.DrawString(spriteFont, textSucces, posSucces, col);
-                spriteBatch.Draw(txSubmit, recSubmit, Color.Gray);
-                for (int i = 0; i < 3; i++)
-                {
-                    spriteBatch.Draw(BtnArrowUp, recArrowUp[i], Color.Gray);
-                    spriteBatch.Draw(BtnArrowDown, recArrowDown[i], Color.Gray);
-                }
-            }
-            else
-            {
-                spriteBatch.Draw(txSubmit, recSubmit, col);
-                for (int i = 0; i < 3; i++)
-                {
-                    spriteBatch.Draw(BtnArrowUp, recArrowUp[i], col);
-                    spriteBatch.Draw(BtnArrowDown, recArrowDown[i], col);
-                }
-            }
+            spriteBatch.DrawString(spriteFont, textScore, posScore, col, 0, new Vector2(0, 0), 0.85f, SpriteEffects.None, 0f);
+
             spriteBatch.Draw(txMainMenu, recMainMenu, col);
             spriteBatch.Draw(txRetry, recRetry, col);
 
@@ -235,10 +194,10 @@ namespace Asteroids_GameOverTarik
         }
         public void SelectName(MouseState mouse, Point mousePoint, GameTime gameTime)
         {
-            if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true && Saved != true)
+            framesPassed++;
+            if (framesPassed % 7 == 0)
             {
-                framesPassed++;
-                if (framesPassed % 7 == 0)
+                if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
                 {
                     for (int i = 0; i < 3; i++)
                     {
@@ -258,18 +217,10 @@ namespace Asteroids_GameOverTarik
                         }
                     }
                 }
-                if (recSubmit.Contains(mousePoint))
+                if (mouse.LeftButton == ButtonState.Released)
                 {
-                    if (Name == "AAA")
-                    {
-                        textSucces = "Very creative...Saved Succesful!";
-                    }
-                    Saved = true;
+                    mouseReleased = true;
                 }
-            }
-            if (mouse.LeftButton == ButtonState.Released)
-            {
-                mouseReleased = true;
             }
             OrderName();
             framesPassed++;
