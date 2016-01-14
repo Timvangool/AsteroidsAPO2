@@ -81,6 +81,7 @@
     <Compile Include="Classes\Background.cs" />
     <Compile Include="Classes\BasicBullet.cs" />
     <Compile Include="Classes\ControlHandler.cs" />
+    <Compile Include="Classes\Credit.cs" />
     <Compile Include="Classes\GamestateManager.cs" />
     <Compile Include="Classes\Highscores.cs" />
     <Compile Include="Classes\HUD.cs" />

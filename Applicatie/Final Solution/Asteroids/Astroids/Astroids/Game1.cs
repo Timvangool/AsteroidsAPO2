@@ -87,6 +87,8 @@ namespace Asteroids
             killListWep = new List<Weapon>();
             mainMenu = new MainMenu(Content, graphics.GraphicsDevice, ch);
             hud = new HUD(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
+            scores.LoadHighScores();
+            scores.SortHighScores();
 
             for (int i = 0; i < numOfAsteroids; i++)
             {
@@ -162,7 +164,7 @@ namespace Asteroids
             intro.Load(Content, graphics);
             credit.Load(Content, graphics);
             oMenu.Load();
-            mainMenu.Load(graphics.GraphicsDevice);
+            mainMenu.Load(graphics.GraphicsDevice, scores);
             background = new Background(GraphicsDevice, Content);
             loadingScreen = new LoadingScreen(Content, graphics.GraphicsDevice);
 
@@ -214,7 +216,6 @@ namespace Asteroids
                
                 mainMenu.Update(gameTime, graphics.GraphicsDevice);
                 mainMenu.PositionStrings(graphics.GraphicsDevice);
-                mainMenu.MoveHighscores(gameTime, graphics);
                 if (mainMenu.GetExit() == true)
                 {
                     this.Exit();
@@ -348,11 +349,10 @@ namespace Asteroids
                 playerLife = p.GetLife();
                 if (playerLife <= 0)
                 {
-
-                    scores.WriteHighscoreToFile(hud.GetScore(), "Skarin");
-                    scores.ReadHighscoresFromFile();
-                    scores.CutArray();
-                    scores.SortHighscores();
+                    scores.AddHighscore(hud.GetScore(), "Skarin");
+                    scores.SaveHighScores();
+                    scores.LoadHighScores();
+                    scores.SortHighScores();
                     currentGameState = 4;
                 }
             }
@@ -441,7 +441,6 @@ namespace Asteroids
                     background.Draw(spriteBatch);
                     mainMenu.Draw(spriteBatch);
                     mainMenu.PositionStrings(graphics.GraphicsDevice);
-                    mainMenu.MoveHighscores(gameTime, graphics);
                     currentGameState = mainMenu.GetCurrentGameState();
                     spriteBatch.End();
                     break;
