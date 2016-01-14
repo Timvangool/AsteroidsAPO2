@@ -1,0 +1,7 @@
+D:\School\Projecten\Asteroids\Implementing SOlution tijdelijk\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+D:\School\Projecten\Asteroids\Implementing solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dave\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\timmie\Desktop\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\keese_000\Desktop\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\Thom\Desktop\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Final Solution\Asteroids\Astroids\AstroidsContent\obj\x86\Debug\AsteroidsContent.contentprojResolveAssemblyReference.cache

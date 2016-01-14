@@ -1,0 +1,3 @@
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
+C:\Users\Thom\Desktop\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
+D:\School\Projecten\Asteroids\Implementing solution\Astroids\Astroids\AstroidsContent\obj\x86\Debug\AstroidsContent.contentprojResolveAssemblyReference.cache
