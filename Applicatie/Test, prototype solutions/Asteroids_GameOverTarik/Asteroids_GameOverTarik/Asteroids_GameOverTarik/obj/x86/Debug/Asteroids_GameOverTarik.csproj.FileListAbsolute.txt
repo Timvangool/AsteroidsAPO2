@@ -20,7 +20,6 @@ C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnMainMenu.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnRetry.xnb
-C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\TextGameOver.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\MenuFont.xnb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Asteroids_GameOverTarik.exe
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Asteroids_GameOverTarik.pdb
@@ -32,3 +31,5 @@ C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\As
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonDown.xnb
 C:\Users\Tarik\Desktop\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\ArrowButtonUp.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\BtnSubmit.xnb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Asteroids_GameOverTarik\Asteroids_GameOverTarik\Asteroids_GameOverTarik\bin\x86\Debug\Content\GameOverText.xnb
