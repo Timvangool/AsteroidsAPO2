@@ -1,71 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace Asteroids.Classes
 {
-    class Highscores
+    [Serializable()]
+   public class Highscores
     {
-        private string[] highScores;
-        private string[] temp;
-        private string lines;
-        private string filePath;
-        private int loops;
+        public int Score { get; set; }
+        public string Name { get; set; }
 
-       public Highscores()
-       {
-           filePath = @"Content\Highscores.txt";
-           loops = 0;
-       }
+        public List<Highscores> highscores = new List<Highscores>();
 
-       public void WriteHighscoreToFile(int score, string name)
-       {
-           highScores = System.IO.File.ReadAllLines(System.IO.Path.GetFullPath(filePath));
-           string temp = string.Empty;
+        public void AddHighscore(int score, string name)
+        {
+            var highscore = new Highscores() { Score = score, Name = name };
+            highscores.Add(highscore);
+        }
 
-           foreach (string line in highScores)
-           {
-               temp += line;
-           }
+        public void SaveHighScores()
+        {
+            var serializer = new XmlSerializer(highscores.GetType(), "HighScores.Scores");
+            using (var writer = new StreamWriter("Highscores.xml", false))
+            {
+                serializer.Serialize(writer.BaseStream, highscores);
+            }
+        }
 
-           string tempScore = score.ToString();
-           string tempName = name;
-           System.IO.File.WriteAllText(System.IO.Path.GetFullPath(filePath), temp + "Name: " + tempName + " " + "Score: " + tempScore + " >");
-       }
+        public void LoadHighScores()
+        {
+            var serializer = new XmlSerializer(highscores.GetType(), "HighScores.Scores");
+            object obj;
+            using (var reader = new StreamReader("highscores.xml"))
+            {
+                obj = serializer.Deserialize(reader.BaseStream);
+            }
+            highscores = (List<Highscores>)obj;
+        }
 
-       public void ReadHighscoresFromFile()
-       {
-           using (System.IO.StreamReader sr = new System.IO.StreamReader(System.IO.Path.GetFullPath(filePath)))
-           {
-               lines = sr.ReadToEnd();
-           }
-       }
+        public void SortHighScores()
+        {
+            highscores.Sort(
+            delegate(Highscores p1, Highscores p2)
+            {
+                return p1.Score.CompareTo(p2.Score);
+            }
+              );
+            highscores.Reverse();
 
-       public void CutArray()
-       {
-           string temp2 = string.Empty;
-           temp = new string[lines.Length];
-
-           for (int i = 0; i < temp.Length; i++)
-           {
-               if (lines[i] == '>')
-               {
-                   temp[loops] = temp2;
-                   loops++;
-                   temp2 = string.Empty;
-               }
-               else
-               {
-                   temp2 += lines[i];
-               }
-           }
-       }
-
-       public void SortHighscores()
-       {
-           List<string> sortingList = temp.ToList<string>();
-           sortingList.Sort();
-       }
+        }
     }
 }

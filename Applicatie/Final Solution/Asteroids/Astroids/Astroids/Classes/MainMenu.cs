@@ -109,13 +109,15 @@ namespace Asteroids.Classes
             txtTitleBottom = "game";
 
         //Top 10 HighscoreBox
-        SpriteFont fontTypeHighscores;
-        String highscores;
-        Vector2 posHighBox;
-        Vector2 posOriginHighBox;
-        Vector2 speedBox;
-        int[] highScores;
-        string[] highPlayers;
+        SpriteFont fontHighscores, fontTitle, fontMenu;
+        GameTime gameTime;
+        Vector2 posHighscoreBoard;
+        Vector2 velocityHighscores;
+        List<Highscores> scoreList;
+        string[] highscores;
+        string highscoreBoard;
+        int[] highscoreCounter;
+
 
         //Tarik Code
         Texture2D txSelectArrow;
@@ -169,18 +171,11 @@ namespace Asteroids.Classes
             boolExit = false;
 
             //Kees elsman:
-            highPlayers = new string[10];
-            highScores = new int[10];
 
-            for (int i = 0; i < 10; i++)
-            {
-                highPlayers[i] = "aaa";
-                highScores[i] = 0;
-            }
 
         }
 
-        public void Load(GraphicsDevice graphicsDevice)
+        public void Load(GraphicsDevice graphicsDevice, Highscores scores)
         {
             spriteBatch = new SpriteBatch(graphicsDevice);
 
@@ -189,7 +184,28 @@ namespace Asteroids.Classes
             txSelectArrow = Content.Load<Texture2D>("SelectArrow");
             fontType = Content.Load<SpriteFont>("Courier New");
             fontTypeTitle = Content.Load<SpriteFont>("Courier New");
-            fontTypeHighscores = Content.Load<SpriteFont>("Courier New");
+
+            fontHighscores = Content.Load<SpriteFont>("HighScores");
+            
+            velocityHighscores = new Vector2(2f, 2f);
+            scoreList = scores.highscores;
+            highscores = new string[10];
+            highscoreCounter = new int[10];
+            for (int i = 0; i < scoreList.Count; i++)
+            {
+                if (scoreList[i].Name != null)
+                {
+                    highscores[i] = scoreList[i].Name;
+                    highscoreCounter[i] = scoreList[i].Score;
+                }
+                else
+                {
+                    highscores[i] = "Empty";
+                    highscoreCounter[i] = 0;
+                }
+
+            }
+
             //Possitions Strings
         }
 
@@ -417,10 +433,11 @@ namespace Asteroids.Classes
                         }
                         //framesPassed++;
                         //Highscores
-                        highscores = string.Format("1. {0},{1} \n2. {2},{3}\n3. {4},{5}\n4. {6},{7}\n5. {8},{9}\n6. {10},{11}\n7. {12},{13}\n8. {14},{15}\n9. {16},{17}\n10. {18},{19}",
-                            highPlayers[0], highScores[0], highPlayers[1], highScores[1], highPlayers[2], highScores[2], highPlayers[3], highScores[3], highPlayers[4], highScores[4], highPlayers[5], highScores[5], highPlayers[6], highScores[6], highPlayers[7], highScores[7], highPlayers[8], highScores[9], highPlayers[9], highScores[9]);
-                        //Movement Highscore Box
-                        //MoveHighscores(gameTime, graphicsDevice);
+                        highscoreBoard = string.Format("TOP 10 PLAYERS \n1. {0} - {1} \n2. {2} - {3}\n3. {4} - {5}\n4. {6} - {7}\n5. {8} - {9}\n6. {10} - {11}\n7. {12} - {13}\n8. {14} - {15}\n9. {16} - {17}\n10. {18} - {19}",
+     highscoreCounter[0], highscores[0], highscoreCounter[1], highscores[1], highscoreCounter[2], highscores[2], highscoreCounter[3], highscores[3], highscoreCounter[4], highscores[4], highscoreCounter[5], highscores[5], highscoreCounter[6], highscores[6], highscoreCounter[7], highscores[7], highscoreCounter[8], highscores[9], highscoreCounter[9], highscores[9]);
+                        //Movement Highscores
+                        MoveHighscores(gameTime, graphicsDevice);
+
                         break;
                     }
                 case 3:
@@ -467,8 +484,7 @@ namespace Asteroids.Classes
                 case 2:
                     {
                         //Draw Highscore Box
-                        spriteBatch.DrawString(fontTypeHighscores, highscores, posHighBox, Color.White, 0, new Vector2(50, 50), 1.0f, SpriteEffects.None, 0.65f);
-
+                        spriteBatch.DrawString(fontHighscores, highscoreBoard, posHighscoreBoard, Color.White, 0f, new Vector2(0, 0), 1.0f, SpriteEffects.None, 0.65f);
                         //Draw Stings
                         spriteBatch.DrawString(fontType, txtTitleTop, posTitleTop, Color.Yellow, 0, posOriginTitleTop, 1.0f, SpriteEffects.None, 0.65f);
                         spriteBatch.DrawString(fontTypeTitle, txtTitleMiddle, posTitleMiddle, Color.Yellow, 0, posOriginTitleMiddle, 1.0f, SpriteEffects.None, 0.65f);
@@ -507,6 +523,43 @@ namespace Asteroids.Classes
             }
             //spriteBatch.End();
         }
+
+        public void MoveHighscores(GameTime gameTime, GraphicsDevice graphicsDevice)
+        {
+            posHighscoreBoard = posHighscoreBoard + velocityHighscores /** (float)gameTime.ElapsedGameTime.TotalSeconds*/;
+
+            int MaxX =
+                graphicsDevice.Viewport.Width - 120;
+            int MinX = 0;
+            int MaxY =
+                graphicsDevice.Viewport.Height - 243;
+            int MinY = 0;
+
+            if (posHighscoreBoard.X >= MaxX)
+            {
+                velocityHighscores.X *= -1;
+                posHighscoreBoard.X = MaxX;
+            }
+
+            else if (posHighscoreBoard.X < MinX)
+            {
+                velocityHighscores.X *= -1;
+                posHighscoreBoard.X = MinX;
+            }
+
+            if (posHighscoreBoard.Y >= MaxY)
+            {
+                velocityHighscores.Y *= -1;
+                posHighscoreBoard.Y = MaxY;
+            }
+
+            else if (posHighscoreBoard.Y < MinY)
+            {
+                velocityHighscores.Y *= -1;
+                posHighscoreBoard.Y = MinY;
+            }
+        }
+
 
         public void PositionStrings(GraphicsDevice graphicsDevice)
         {
@@ -551,46 +604,9 @@ namespace Asteroids.Classes
             posOriginExit.X = graphicsDevice.Viewport.Width / 2;
             posExit = new Vector2(graphicsDevice.Viewport.Width / 1.065f,
                graphicsDevice.Viewport.Height / 1.14f);
-            //HighScore Box
-            posHighBox.Y = 50f;
-            posOriginExit.X = graphicsDevice.Viewport.Width / 2;
-            posHighBox = new Vector2(50.0f, 50.0f);
-            speedBox = new Vector2(50.0f, 50.0f);
         }
 
-        public void MoveHighscores(GameTime gameTime, GraphicsDeviceManager graphics)
-        {
-            posHighBox +=
-                speedBox * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            int MaxX =
-                graphics.GraphicsDevice.Viewport.Width - 150;
-            int MinX = 0;
-            int MaxY =
-                graphics.GraphicsDevice.Viewport.Height - 280;
-            int MinY = 0;
-
-            // Check for bounce.
-            if (posHighBox.X > MaxX)
-            {
-                speedBox.X *= -1;
-                posHighBox.X = MaxX;
-            }
-            else if (posHighBox.X < MinX)
-            {
-                speedBox.X *= -1;
-                posHighBox.X = MinX;
-            }
-            if (posHighBox.Y > MaxY)
-            {
-                speedBox.Y *= -1;
-                posHighBox.Y = MaxY;
-            }
-            else if (posHighBox.Y < MinY)
-            {
-                speedBox.Y *= -1;
-                posHighBox.Y = MinY;
-            }
-        }
+       
 
         public int GetCurrentGameState()
         {

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Asteroids.Classes.Asteroid" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAQAgAAAAAAAKwCAgIQABIAFAkAAIQAECAAAwAACAAI=</HashCode>
+      <FileName>Classes\Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.AsteroidsIntro" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAggAAQARAAgAAAAAAAAAACAAAAAAAAEAABEAAAAA=</HashCode>
+      <FileName>Classes\AsteroidsIntro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.BasicBullet" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\BasicBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.ControlHandler" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAAAAAAAAAAAAAAABAAAAQBAAAAAAAgABAAAA=</HashCode>
+      <FileName>Classes\ControlHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.GamestateManager" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\GamestateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.Highscores" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCAACAAAAAAAAAAAAACAAAIABECAAAAAAAgAAAA=</HashCode>
+      <FileName>Classes\Highscores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.HUD" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAACAYAAACAAGgAABABAgA4AAAAAA=</HashCode>
+      <FileName>Classes\HUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.KeyboardHandler" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\KeyboardHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.Loader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAQCAAgAABAAgAAABAIEEEAAAgAEANAAAAAIAAA=</HashCode>
+      <FileName>Classes\Loader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Asteroids.Classes.LoadingScreen" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAAAAAAAgAAgADAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.MainMenu" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQBxMAAAloQQlEKYpwAFgQECAGACAgIAEjCAihBpiQ=</HashCode>
+      <FileName>Classes\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.Missile" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.Player" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LIUJiAACBIAILoFAIAAgDAiEFAIEAAAEAAQBAkAKAAA=</HashCode>
+      <FileName>Classes\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.SpritesheetLoader" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCASAAAAgGAAAABAAAEACAgAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SpritesheedLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.Weapon" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LIQAgAACAQBIIgAAABAAAIgAECAQAwAAEACAAAAAAAA=</HashCode>
+      <FileName>Classes\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Classes.WiimoteHandler" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAEAgAQABAAABAAEAAAAAABAQAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WiimoteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Background" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAgAMAAAAAAAIAAAAAAAECAAAAQAAAAA=</HashCode>
+      <FileName>Classes\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.OptionsMenu" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FxQAoCBCAgwROgAARiBOBAAEIAgUGIyZUCEECAhAEgE=</HashCode>
+      <FileName>Classes\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.OptionsText" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgwAQABCAAAQKgAIQCAApYCAAAAUEIiIACBCAAhgEhA=</HashCode>
+      <FileName>Classes\OptionsText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Planet" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAACAAAAAAAEAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Planet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Star" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAABCAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Star.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.TCheckBoxOption" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAABAIBAAQgAAAAAAAQABAAABAEiAAIAiAAAgQAA=</HashCode>
+      <FileName>Classes\TCheckBoxOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.TResolutionOption" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAABEACAgAAAAIEgQAAIAgQGAiBECBCAABAAAE=</HashCode>
+      <FileName>Classes\TResolutionOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.TSoundOption" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EA4AAAAABAAAEoAACAIMgRCAIEgQCQiAQBFCAABIAAA=</HashCode>
+      <FileName>Classes\TSoundOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Game1" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQAEEgBAKBAEyABGAAIQAAEAACAEAwAAEABSQBAIAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroids.Program" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

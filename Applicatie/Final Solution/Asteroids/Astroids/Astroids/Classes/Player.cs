@@ -20,7 +20,6 @@ namespace Asteroids.Classes
         private Vector2 playerPos, tempPos;
         private Vector2 origin;
         private Vector2 bulletDirection;
-        private SoundEffect sound;
         private Rectangle hitBox;
         // private Vector2 oldDirection;
         private int lives, hitBoxWidht, hitBoxHeight;
@@ -73,18 +72,10 @@ namespace Asteroids.Classes
 
         public void Move()
         {
-            //velocity.X += 0.05f;
             float mass = 100000;
-            // float r = 100;
-            //if (velocity.Length() == 0.0f)
-            //    r = 10000f;
-            //else
-            //    r = velocity.Length();
-            //r = r * r;
             float f = mass * 100.0001f;
             float a = f / mass;
             Vector2 dir = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
-            //dir.Normalize();
 
             velocity += dir * a;
             if (velocity.Length() > 3.0f)
@@ -151,8 +142,16 @@ namespace Asteroids.Classes
                     delay--;
                 }
 
+                if (IsInAnimation == true)
+                {
+                    hitBox = new Rectangle();
+                }
+                else
+                {
+                    hitBox = new Rectangle((int)(playerPos.X - (playerTextureIdle.Width / 2)), (int)(playerPos.Y - (playerTextureIdle.Height / 2)), playerTextureIdle.Width, playerTextureIdle.Height);
+                    
+                }
 
-                hitBox = new Rectangle((int)(playerPos.X - (playerTextureIdle.Width / 2)), (int)(playerPos.Y - (playerTextureIdle.Height / 2)), playerTextureIdle.Width, playerTextureIdle.Height);
                 playerPos += velocity;
                 contHand.SetWiimoteLeds(0, lives);
             }

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfHighscores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="HighScores.Scores">
+  <Highscores>
+    <highscores />
+    <Score>280</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
+    <Score>260</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
+    <Score>110</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
+    <Score>70</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
+    <Score>0</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
+    <Score>665</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+</ArrayOfHighscores>
