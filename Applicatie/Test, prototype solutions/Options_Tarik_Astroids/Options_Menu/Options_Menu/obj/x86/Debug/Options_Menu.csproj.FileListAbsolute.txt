@@ -82,21 +82,82 @@ C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Men
 C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.exe
 C:\Users\Tarik\Documents\GitHub\AsteroidsAPO2\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.pdb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxTrue.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxFalse.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowLeft.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowRight.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ResolutionBar.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBar.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBarCursor.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\OptionsBG.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Back.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\MenuFont.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.wma
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.exe
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.pdb
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.csprojResolveAssemblyReference.cache
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.exe
-C:\Users\Patrick\Documents\GitHub\AsteroidsAPO2\Applicatie\Test, prototype solutions\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.pdb
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\WiimoteLib.dll
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SelectArrow.xnb
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings.xnb
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Courier New Highscores.xnb
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Courier New Title.xnb
+C:\Users\Tarik\Desktop\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Courier New.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxTrue.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxFalse.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowLeft.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowRight.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ResolutionBar.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBar.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBarCursor.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\OptionsBG.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Back.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SelectArrow.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\MenuFont.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.wma
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.exe
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.pdb
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\WiimoteLib.dll
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.csprojResolveAssemblyReference.cache
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.exe
+C:\Users\Tarik\Desktop\Bureaublad\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.pdb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxTrue.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\CheckboxFalse.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowLeft.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ArrowRight.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\ResolutionBar.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBar.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SoundBarCursor.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\OptionsBG.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Back.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\SelectArrow.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\MenuFont.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Ismo_Kan_Niet_Hangen_Met_Je.wma
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings\KeyboardControls.txt
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.exe
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Options_Menu.pdb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.csprojResolveAssemblyReference.cache
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.exe
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\obj\x86\Debug\Options_Menu.pdb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Planet1.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Planet2.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\Planet3.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\star1.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\star2.xnb
+C:\Users\TARIK\Desktop\VS Projecten\Asteroids\Options_Tarik_Astroids\Options_Menu\Options_Menu\bin\x86\Debug\Content\star3.xnb
