@@ -402,7 +402,8 @@ namespace Asteroids
                 credit.Update();
                 if (Keyboard.GetState().IsKeyDown(Keys.E))
                 {
-                    currentGameState = 2;
+                    mainMenu.SetGameState(2);
+                    this.currentGameState = 2;
                 }
                 else
                 {

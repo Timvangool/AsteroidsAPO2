@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Threading;
 
-
+//new from taric
 namespace Asteroids.Classes
 {
     class MainMenu
@@ -124,22 +124,9 @@ namespace Asteroids.Classes
         Vector2 posSelectArrow;
         Vector2 sizeSelectArrow;
         Rectangle recSelectArrow;
+        int framesPassed, currentGameState, selectedNumber, selectState;
+        bool exit = false;
 
-
-        int framesPassed, sleepTimeUpDown, selectedNumber, currentGameState;
-        bool exit;
-        bool isMouseVisible;
-        bool boolPlay;
-        bool boolOptions;
-        bool boolHighscores;
-        bool boolCredits;
-        bool boolExit;
-        bool passed;
-
-        int timeSinceLastFrame = 0;
-        int millisecondsPerFrame = 50;
-
-        //STRUCT
 
 
         //Font Properties
@@ -152,41 +139,27 @@ namespace Asteroids.Classes
         public MainMenu(ContentManager Content, GraphicsDevice graphicsDevice, ControlHandler ch)
         {
             this.Content = Content;
-            this.ch = ch;       
-            passed = true;
+            this.ch = ch;
             background = new Background(graphicsDevice, Content);
-            //posSelectArrow = new Vector2((int)GraphicsDevice.Viewport.Width / 4.5f, (int)graphics.GraphicsDevice.Viewport.Height / 2.5f);
             sizeSelectArrow = new Vector2(graphicsDevice.Viewport.Width / 900 * 30, graphicsDevice.Viewport.Height / 500 * 30);
             posSelectArrow = new Vector2(4.5f, 2.6f);
             recSelectArrow = new Rectangle(graphicsDevice.Viewport.Width / (int)posSelectArrow.X, graphicsDevice.Viewport.Height / (int)posSelectArrow.Y, (int)sizeSelectArrow.X, (int)sizeSelectArrow.Y);
 
             framesPassed = 0;
-            sleepTimeUpDown = 4;
             selectedNumber = 0;
             currentGameState = 2;
-            boolPlay = true;
-            boolOptions = false;
-            boolHighscores = false;
-            boolCredits = false;
-            boolExit = false;
-
-            //Kees elsman:
-
-
         }
 
         public void Load(GraphicsDevice graphicsDevice, Highscores scores)
         {
             spriteBatch = new SpriteBatch(graphicsDevice);
 
-            isMouseVisible = true;
             //FontType
             txSelectArrow = Content.Load<Texture2D>("SelectArrow");
             fontType = Content.Load<SpriteFont>("Courier New");
             fontTypeTitle = Content.Load<SpriteFont>("Courier New");
 
             fontHighscores = Content.Load<SpriteFont>("HighScores");
-            
             velocityHighscores = new Vector2(2f, 2f);
             scoreList = scores.highscores;
             highscores = new string[10];
@@ -203,15 +176,12 @@ namespace Asteroids.Classes
                     highscores[i] = "Empty";
                     highscoreCounter[i] = 0;
                 }
-
             }
-
-            //Possitions Strings
         }
 
         public void UpdateSelect(int number, GraphicsDevice graphicsDevice)
         {
-
+            selectState = number;
             float newPos = posSelectArrow.Y;
             int newPosInt;
             int graphicsH = graphicsDevice.Viewport.Height;
@@ -250,225 +220,129 @@ namespace Asteroids.Classes
                     }
             }
             newPosInt = Convert.ToInt32(newPos);
-            //posSelectArrow = new Vector2((int)GraphicsDevice.Viewport.Width / 4.5f, (int)GraphicsDevice.Viewport.Height / newPos);
             recSelectArrow = new Rectangle(graphicsW / (int)posSelectArrow.X, newPosInt, (int)sizeSelectArrow.X, (int)sizeSelectArrow.Y);
         }
 
         public void Update(GameTime gameTime, GraphicsDevice graphicsDevice)
         {
-            switch (currentGameState)
+            //Keybindings
+            framesPassed++;
+            if (framesPassed % 7 == 0)
             {
-                case 2:
+                if (ch.GetInput().Contains("Up"))
+                {
+                    if (selectedNumber > 0)
                     {
-                        //Keybindings
-                        timeSinceLastFrame += gameTime.ElapsedGameTime.Milliseconds;
-                        if (timeSinceLastFrame > millisecondsPerFrame)
+                        selectedNumber--;
+                        switch (selectedNumber)
                         {
-                            timeSinceLastFrame -= millisecondsPerFrame;
-                            if (passed)
-                            {
-                                UpdateSelect(0, graphicsDevice);
-                                passed = false;
-                            }
-                            framesPassed = 0;
-                            if (ch.GetInput().Contains("Up"))
-                            {
-                                switch (selectedNumber)
+                            case 0:
                                 {
-                                    case 0:
-                                        {
-                                            boolPlay = true;
-                                            boolOptions = false;
-                                            boolHighscores = false;
-                                            boolCredits = false;
-                                            boolExit = false;
-                                            UpdateSelect(0, graphicsDevice);
+                                    UpdateSelect(0, graphicsDevice);
 
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 1:
-                                        {
-                                            selectedNumber--;
-                                            boolPlay = false;
-                                            boolOptions = true;
-                                            boolHighscores = false;
-                                            boolCredits = false;
-                                            boolExit = false;
-                                            UpdateSelect(1, graphicsDevice);
-                                            // Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 2:
-                                        {
-                                            selectedNumber--;
-                                            boolPlay = false;
-                                            boolOptions = false;
-                                            boolHighscores = true;
-                                            boolCredits = false;
-                                            boolExit = false;
-                                            UpdateSelect(2, graphicsDevice);
-                                            // Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 3:
-                                        {
-                                            selectedNumber--;
-                                            boolPlay = false;
-                                            boolOptions = false;
-                                            boolHighscores = false;
-                                            boolCredits = true;
-                                            boolExit = false;
-                                            UpdateSelect(3, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 4:
-                                        {
-                                            selectedNumber--;
-                                            boolPlay = false;
-                                            boolOptions = false;
-                                            boolHighscores = false;
-                                            boolCredits = false;
-                                            boolExit = true;
-                                            UpdateSelect(4, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
+                                    break;
                                 }
-                            }
-                            else if (ch.GetInput().Contains("Down"))
+                            case 1:
+                                {
+                                    UpdateSelect(1, graphicsDevice);
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    UpdateSelect(2, graphicsDevice);
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    UpdateSelect(3, graphicsDevice);
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    UpdateSelect(4, graphicsDevice);
+                                    break;
+                                }
+                        }
+                    }
+                }
+                else if (ch.GetInput().Contains("Down"))
+                {
+                    if (selectedNumber < 4)
+                    {
+                        selectedNumber++;
+                        switch (selectedNumber)
+                        {
+                            case 0:
+                                {
+                                    UpdateSelect(0, graphicsDevice);
+                                    break;
+                                }
+                            case 1:
+                                {
+                                    UpdateSelect(1, graphicsDevice);
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    UpdateSelect(2, graphicsDevice);
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    UpdateSelect(3, graphicsDevice);
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    UpdateSelect(4, graphicsDevice);
+                                    break;
+                                }
+                        }
+                    }
+                }
+                else if (ch.GetInput().Contains("Select"))
+                {
+                    switch (selectState)
+                    {
+                        case 0:
                             {
-                                switch (selectedNumber)
-                                {
-                                    case 0:
-                                        {
-                                            selectedNumber++;
-                                            boolPlay = true;
-                                            boolOptions = false;
-                                            boolHighscores = false;
-                                            boolCredits = false;
-                                            boolExit = false;
-                                            UpdateSelect(0, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 1:
-                                        {
-                                            selectedNumber++;
-                                            boolPlay = false;
-                                            boolOptions = true;
-                                            boolHighscores = false;
-                                            boolCredits = false;
-                                            boolExit = false;
-                                            UpdateSelect(1, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 2:
-                                        {
-                                            selectedNumber++;
-                                            boolPlay = false;
-                                            boolOptions = false;
-                                            boolHighscores = true;
-                                            boolCredits = false;
-                                            boolExit = false;
-                                            UpdateSelect(2, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 3:
-                                        {
-                                            selectedNumber++;
-                                            boolPlay = false;
-                                            boolOptions = false;
-                                            boolHighscores = false;
-                                            boolCredits = true;
-                                            boolExit = false;
-                                            UpdateSelect(3, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                    case 4:
-                                        {
-                                            boolPlay = false;
-                                            boolOptions = false;
-                                            boolHighscores = false;
-                                            boolCredits = false;
-                                            boolExit = true;
-                                            UpdateSelect(4, graphicsDevice);
-                                            //Thread.Sleep(sleepTimeUpDown);
-                                            break;
-                                        }
-                                }
+                                currentGameState = 3;
+                                break;
                             }
-                            else if (ch.GetInput().Contains("Select"))
+                        case 1:
                             {
-                                if (boolPlay)
-                                {
-                                    currentGameState = 3;
-                                }
-                                else if (boolOptions)
-                                {
-                                    currentGameState = 5;
-                                }
-                                else if (boolHighscores)
-                                {
-                                    currentGameState = 6;
-                                }
-                                else if (boolCredits)
-                                {
-                                    currentGameState = 9;
-                                }
-                                else if (boolExit)
-                                {
-                                    exit = true;
-                                }
+                                currentGameState = 5;
+                                break;
                             }
-                            else if (ch.GetInput().Contains("Back"))
+                        case 2:
+                            {
+                                currentGameState = 6;
+                                break;
+                            }
+                        case 3:
+                            {
+                                currentGameState = 9;
+                                break;
+                            }
+                        case 4:
                             {
                                 exit = true;
+                                break;
                             }
-
-                        }
-                        //framesPassed++;
-                        //Highscores
-                        highscoreBoard = string.Format("TOP 10 PLAYERS \n1. {0} - {1} \n2. {2} - {3}\n3. {4} - {5}\n4. {6} - {7}\n5. {8} - {9}\n6. {10} - {11}\n7. {12} - {13}\n8. {14} - {15}\n9. {16} - {17}\n10. {18} - {19}",
-     highscoreCounter[0], highscores[0], highscoreCounter[1], highscores[1], highscoreCounter[2], highscores[2], highscoreCounter[3], highscores[3], highscoreCounter[4], highscores[4], highscoreCounter[5], highscores[5], highscoreCounter[6], highscores[6], highscoreCounter[7], highscores[7], highscoreCounter[8], highscores[9], highscoreCounter[9], highscores[9]);
-                        //Movement Highscores
-                        MoveHighscores(gameTime, graphicsDevice);
-
-                        break;
                     }
-                case 3:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
-                case 4:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
-                case 5:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
-                case 6:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
-                case 7:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
-                case 8:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
-                case 9:
-                    {
-                        graphicsDevice.Clear(Color.White); break;
-                    }
+                }
+                else if (ch.GetInput().Contains("Back"))
+                {
+                    exit = true;
+                }
+                framesPassed++;
             }
+            //Highscores
+            highscoreBoard = string.Format("TOP 10 PLAYERS \n1. {0} - {1} \n2. {2} - {3}\n3. {4} - {5}\n4. {6} - {7}\n5. {8} - {9}\n6. {10} - {11}\n7. {12} - {13}\n8. {14} - {15}\n9. {16} - {17}\n10. {18} - {19}",
+highscoreCounter[0], highscores[0], highscoreCounter[1], highscores[1], highscoreCounter[2], highscores[2], highscoreCounter[3], highscores[3], highscoreCounter[4], highscores[4], highscoreCounter[5], highscores[5], highscoreCounter[6], highscores[6], highscoreCounter[7], highscores[7], highscoreCounter[8], highscores[9], highscoreCounter[9], highscores[9]);
+            //Movement Highscores
+            MoveHighscores(gameTime, graphicsDevice);
+
             PositionStrings(graphicsDevice);
         }
 
@@ -606,7 +480,7 @@ namespace Asteroids.Classes
                graphicsDevice.Viewport.Height / 1.14f);
         }
 
-       
+
 
         public int GetCurrentGameState()
         {
@@ -616,6 +490,11 @@ namespace Asteroids.Classes
         public bool GetExit()
         {
             return exit;
+        }
+
+        public void SetGameState(int gameState)
+        {
+            this.currentGameState = gameState;
         }
     }
 }
