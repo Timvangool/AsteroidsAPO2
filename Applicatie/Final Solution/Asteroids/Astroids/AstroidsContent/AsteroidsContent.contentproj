@@ -131,6 +131,11 @@
     <Content Include="Highscores.txt">
       <Name>Highscores</Name>
     </Content>
+    <Compile Include="Keybindings.png">
+      <Name>Keybindings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
     <Content Include="Keybindings\KeyboardControls.txt">
       <Name>KeyboardControls</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -151,11 +156,6 @@
     </Compile>
     <Compile Include="ResolutionBar.png">
       <Name>ResolutionBar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="SelectArrow.png">
-      <Name>SelectArrow</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -366,6 +366,11 @@
     </Compile>
     <Compile Include="SAExplosion\5.png">
       <Name>5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="SelectArrow.png">
+      <Name>SelectArrow</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

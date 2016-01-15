@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Asteroids.Classes;
-
+//main solution
 namespace Asteroids
 {
     /// <summary>
@@ -17,7 +17,84 @@ namespace Asteroids
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        #region StructOptionsMain
+        public struct StructOptionsMain
+        {
+            GraphicsDeviceManager _graphics;
+            ContentManager _Content;
+            SpriteBatch _spriteBatch;
+            SpriteFont _spriteFont;
+            ControlHandler _ch;
+
+            public GraphicsDeviceManager Graphics
+            {
+                get
+                {
+                    return _graphics;
+                }
+
+                set
+                {
+                    _graphics = value;
+                }
+            }
+
+            public ContentManager Content
+            {
+                get
+                {
+                    return _Content;
+                }
+
+                set
+                {
+                    _Content = value;
+                }
+            }
+
+            public SpriteBatch SpriteBatch
+            {
+                get
+                {
+                    return _spriteBatch;
+                }
+
+                set
+                {
+                    _spriteBatch = value;
+                }
+            }
+
+            public SpriteFont SpriteFont
+            {
+                get
+                {
+                    return _spriteFont;
+                }
+
+                set
+                {
+                    _spriteFont = value;
+                }
+            }
+
+            internal ControlHandler Ch
+            {
+                get
+                {
+                    return _ch;
+                }
+
+                set
+                {
+                    _ch = value;
+                }
+            }
+        }
+        #endregion
+
         GraphicsDeviceManager graphics;
+        StructOptionsMain structOptionsMain;
         SpriteBatch spriteBatch;
         ControlHandler ch;
         Player p;
@@ -47,11 +124,13 @@ namespace Asteroids
         int screenHeight;
         int screenWidth;
 
+
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             gsm = new GamestateManager();
-            //graphics.IsFullScreen = true;
+           // graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";
@@ -61,9 +140,10 @@ namespace Asteroids
             p = new Player(ch);
             scores = new Highscores();
 
-            oMenu = new OptionsMenu(graphics, Content);
+
             intro = new AsteroidsIntro();
             credit = new Credit();
+
 
             
             screenHeight = graphics.PreferredBackBufferHeight;
@@ -72,6 +152,8 @@ namespace Asteroids
             numOfAsteroids = 3;
             currentGameState = 1;
         }
+
+
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
@@ -157,16 +239,25 @@ namespace Asteroids
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            structOptionsMain = new StructOptionsMain();
+            structOptionsMain.Graphics = graphics;
+            structOptionsMain.Content = Content;
+            structOptionsMain.SpriteBatch = spriteBatch;
+            structOptionsMain.SpriteFont = Content.Load<SpriteFont>("MenuFont");
+            structOptionsMain.Ch = ch;
+            oMenu = new OptionsMenu(structOptionsMain);
 
             p.Load(Content);
             p.SetPlayerPos(spriteBatch);
             hud.Load(Content);
             intro.Load(Content, graphics);
             credit.Load(Content, graphics);
-            oMenu.Load();
+            oMenu.Init();
+
             mainMenu.Load(graphics.GraphicsDevice, scores);
             background = new Background(GraphicsDevice, Content);
             loadingScreen = new LoadingScreen(Content, graphics.GraphicsDevice);
+
 
             foreach (Weapon wep in p.weapList)
             {
@@ -371,13 +462,19 @@ namespace Asteroids
 
             if (currentGameState == 5)
             {
-                if (Keyboard.GetState().IsKeyDown(Keys.F))
+                oMenu.Update();
+                if (oMenu.GetCurrentGameState() == 2)
                 {
-                    currentGameState = 2;
+                    mainMenu.SetGameState(2);
+                    this.currentGameState = 2;
                 }
-                else
+                if (oMenu.GetCurrentGameState() == 5)
                 {
-                    oMenu.Update(ch);
+                    currentGameState = 5;
+                }
+                if (oMenu.GetCurrentGameState() == 7)
+                {
+                    currentGameState = 7;
                 }
             }
 
@@ -466,7 +563,9 @@ namespace Asteroids
                     break;
                 case 5:
                     //Options
+                    spriteBatch.Begin();
                     oMenu.Draw(spriteBatch);
+                    spriteBatch.End();
                     //currentGameState = oMenu.GetCurrentGameState();
                     break;
                 case 6:

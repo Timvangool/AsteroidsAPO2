@@ -379,3 +379,4 @@ C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids
 C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings\WiimoteControls.txt
 C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Astroids.exe
 C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Astroids.pdb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings.xnb

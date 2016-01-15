@@ -65,5 +65,6 @@ Content\MenuFont.xnb
 Content\LoadingScreen.xnb
 Content\Font.xnb
 Content\HighScores.xnb
+Content\Keybindings.xnb
 Content\Keybindings\KeyboardControls.txt
 Content\Keybindings\WiimoteControls.txt

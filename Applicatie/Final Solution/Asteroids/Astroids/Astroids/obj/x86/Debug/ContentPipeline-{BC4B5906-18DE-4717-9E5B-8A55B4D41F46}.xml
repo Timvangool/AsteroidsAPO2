@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
-      <Time>2016-01-15T09:32:14.5262098+01:00</Time>
+      <Time>2016-01-15T11:20:45.0112977+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowRight.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
-      <Time>2016-01-15T09:32:14.5292129+01:00</Time>
+      <Time>2016-01-15T11:20:45.6050784+01:00</Time>
     </Item>
     <Item>
       <Source>Back.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
-      <Time>2016-01-15T09:32:14.6562965+01:00</Time>
+      <Time>2016-01-15T11:20:46.1998841+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxFalse.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
-      <Time>2016-01-15T09:32:14.6653027+01:00</Time>
+      <Time>2016-01-15T11:20:46.7467863+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxTrue.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
-      <Time>2016-01-15T09:32:14.6693054+01:00</Time>
+      <Time>2016-01-15T11:20:47.2936885+01:00</Time>
     </Item>
     <Item>
       <Source>starfield.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
-      <Time>2016-01-15T09:32:14.9564961+01:00</Time>
+      <Time>2016-01-15T11:20:47.9030956+01:00</Time>
     </Item>
     <Item>
       <Source>SelectArrow.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
-      <Time>2016-01-15T09:32:15.1025934+01:00</Time>
+      <Time>2016-01-15T11:20:47.9187212+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBar.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
-      <Time>2016-01-15T09:32:15.1055989+01:00</Time>
+      <Time>2016-01-15T11:20:48.5021211+01:00</Time>
     </Item>
     <Item>
       <Source>SoundBarCursor.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
-      <Time>2016-01-15T09:32:15.1076003+01:00</Time>
+      <Time>2016-01-15T11:20:49.0646576+01:00</Time>
     </Item>
     <Item>
       <Source>Planet1.png</Source>
@@ -575,7 +575,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2016-01-15T09:32:14.9374845+01:00</Time>
+      <Time>2016-01-15T11:17:33.8256401+01:00</Time>
     </Item>
     <Item>
       <Source>LoadingScreen.spritefont</Source>
@@ -603,6 +603,15 @@
       <Options>None</Options>
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\HighScores.xnb</Output>
       <Time>2016-01-15T09:32:14.7403529+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Keybindings.png</Source>
+      <Name>Keybindings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings.xnb</Output>
+      <Time>2016-01-15T11:20:47.3093211+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
