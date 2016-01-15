@@ -1,7 +1,6 @@
 Content\BtnMainMenu.xnb
 Content\BtnRetry.xnb
+Content\TextGameOver.xnb
 Content\ArrowButtonDown.xnb
 Content\ArrowButtonUp.xnb
 Content\MenuFont.xnb
-Content\BtnSubmit.xnb
-Content\GameOverText.xnb
