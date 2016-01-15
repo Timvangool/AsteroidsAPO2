@@ -7,16 +7,6 @@ Content\SoundBar.xnb
 Content\SoundBarCursor.xnb
 Content\OptionsBG.xnb
 Content\Back.xnb
-Content\Keybindings.xnb
-Content\SelectArrow.xnb
 Content\MenuFont.xnb
 Content\Ismo_Kan_Niet_Hangen_Met_Je.xnb
 Content\Ismo_Kan_Niet_Hangen_Met_Je.wma
-Content\Planet1.xnb
-Content\Planet2.xnb
-Content\Planet3.xnb
-Content\star1.xnb
-Content\star2.xnb
-Content\star3.xnb
-Content\Keybindings\KeyboardControls.txt
-Content\Keybindings\WiimoteControls.txt

@@ -71,22 +71,12 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Net" />
-    <Reference Include="WiimoteLib">
-      <HintPath>..\..\..\WiimotLib_1.7\WiimoteLib.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Background.cs" />
-    <Compile Include="Controls\ControlHandler.cs" />
-    <Compile Include="Controls\KeyboardHandler.cs" />
-    <Compile Include="Controls\WiimoteHandler.cs" />
-    <Compile Include="OptionsMenu.cs" />
     <Compile Include="OptionsText.cs" />
-    <Compile Include="Planet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="Star.cs" />
     <Compile Include="TCheckBoxOption.cs" />
     <Compile Include="TResolutionOption.cs" />
     <Compile Include="TSoundOption.cs" />

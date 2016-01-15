@@ -12,9 +12,7 @@ namespace Options_Menu
     {
         GraphicsDeviceManager graphics;
         Texture2D txBackground;
-        Texture2D txSelectArrow;
         Texture2D txBack;
-        Texture2D txKeybindings;
         SpriteFont spriteFont;
 
         string textHeader;
@@ -24,10 +22,8 @@ namespace Options_Menu
         string textAliasOn;
         string textAliasOff;
 
-        Vector2 posHeader;
-        Vector2 posSelectArrow;
         Vector2 posBack;
-        Vector2 posKeybindings;
+        Vector2 posHeader;
         Vector2 posSound;
         Vector2 posResolution;
         Vector2 posAlias;
@@ -40,142 +36,80 @@ namespace Options_Menu
         Vector2 posAliasOnConverted;
         Vector2 posAliasOffConverted;
         Vector2 sizeBack;
-        Vector2 sizeKeybindings;
-        Vector2 sizeSelectArrow;
+
         Color col;
 
         Rectangle recBack;
-        Rectangle recSelectArrow;
-        Rectangle recKeybindings;
 
-        float sizeW;
-        float sizeH;
-        float scale;
-        float newPos;
+        bool mouseReleased = true;
 
-        int menuState;
-
-        public OptionsText(StructOptionsMain structOptionsMain, StructOptionsText structOptionsText)
+        public OptionsText(GraphicsDeviceManager graphics, Texture2D txBackground, Texture2D txBack, Vector2 posBack, Vector2 sizeBack, SpriteFont spriteFont, string textHeader, Vector2 posHeader, string textSound, Vector2 posSound, string textResolution, Vector2 posResolution, string textAlias, Vector2 posAlias, string textAliasOn, Vector2 posAliasOn, string textAliasOff, Vector2 posAliasOff, Color col)
         {
-            this.graphics = structOptionsMain.Graphics;
-            this.txBackground = structOptionsText.TxBackground;
-            this.txBack = structOptionsText.TxBack;
-            this.txKeybindings = structOptionsText.TxKeybindings;
-            this.txSelectArrow = structOptionsText.TxSelectArrow;
-            this.sizeSelectArrow = structOptionsText.SizeSelectArrow;
-            this.posBack = structOptionsText.PosBack;
-            this.posKeybindings = structOptionsText.PosKeybindings;
-            this.sizeBack = structOptionsText.SizeBack;
-            this.sizeKeybindings = structOptionsText.SizeKeybindings;
-            this.spriteFont = structOptionsMain.SpriteFont;
+            this.graphics = graphics;
+            this.txBackground = txBackground;
+            this.txBack = txBack;
+            this.posBack = posBack;
+            this.sizeBack = sizeBack;
+            this.spriteFont = spriteFont;
 
-            this.textHeader = structOptionsText.TextHeader;
-            this.textSound = structOptionsText.TextSound;
-            this.textResolution = structOptionsText.TextResolution;
-            this.textAlias = structOptionsText.TextAlias;
-            this.textAliasOn = structOptionsText.TextAliasOn;
-            this.textAliasOff = structOptionsText.TextAliasOff;
+            this.textHeader = textHeader;
+            this.textSound = textSound;
+            this.textResolution = textResolution;
+            this.textAlias = textAlias;
+            this.textAliasOn = textAliasOn;
+            this.textAliasOff = textAliasOff;
 
-            this.posSound = structOptionsText.PosSound;
-            this.posHeader = structOptionsText.PosHeader;
-            this.posSelectArrow = structOptionsText.PosSelectArrow;
-            this.posResolution = structOptionsText.PosResolution;
-            this.posAlias = structOptionsText.PosAlias;
-            this.posAliasOn = structOptionsText.PosAliasOn;
-            this.posAliasOff = structOptionsText.PosAliasOff;
+            this.posSound = posSound;
+            this.posHeader = posHeader;
+            this.posResolution = posResolution;
+            this.posAlias = posAlias;
+            this.posAliasOn = posAliasOn;
+            this.posAliasOff = posAliasOff;
 
-            this.col = Color.White;
-            newPos = posSelectArrow.Y;
+            this.col = col;
             Init();
         }
 
         public void Init()
         {
-            float graphicsW = graphics.PreferredBackBufferWidth;
-            float graphicsH = graphics.PreferredBackBufferHeight;
-            sizeW = (graphicsW / 900);
-            sizeH = (graphicsH / 500);
-
-            int recBackX = Convert.ToInt32(graphicsW / posBack.X);
-            int recBackY = Convert.ToInt32(graphicsH / posBack.Y);
-            int recBackWidth = Convert.ToInt32(sizeW * sizeBack.X);
-            int recBackHeight = Convert.ToInt32(sizeH * sizeBack.Y);
-            recBack = new Rectangle(recBackX, recBackY, recBackWidth, recBackHeight);
-
-            int recKeybidingsX = Convert.ToInt32(graphicsW / posKeybindings.X);
-            int recKeybindingsY = Convert.ToInt32(graphicsH / posKeybindings.Y);
-            int recKeybidingsWidth = Convert.ToInt32(sizeW * sizeKeybindings.X);
-            int recKeybindingsHeigth = Convert.ToInt32(sizeH * sizeKeybindings.Y);
-            recKeybindings = new Rectangle(recKeybidingsX, recKeybindingsY, recKeybidingsWidth, recKeybindingsHeigth);
-
-            int recSelectArrowX = Convert.ToInt32(graphicsW / posSelectArrow.X);
-            int recSelectArrowY = Convert.ToInt32(graphicsH / newPos);
-            int recSelectArrowWidth = Convert.ToInt32(sizeW * sizeSelectArrow.X);
-            int recSelectArrowHeigth = Convert.ToInt32(sizeH * sizeSelectArrow.Y);
-            recSelectArrow = new Rectangle(recSelectArrowX, recSelectArrowY, recSelectArrowWidth, recSelectArrowHeigth);
-
-            posSoundConverted = new Vector2(graphicsW / posSound.X, graphicsH / posSound.Y);
-            posHeaderConverted = new Vector2(graphicsW / posHeader.X, graphicsH / posHeader.Y);
-            posResolutionConverted = new Vector2(graphicsW / posResolution.X, graphicsH / posResolution.Y);
-            posAliasConverted = new Vector2(graphicsW / posAlias.X, graphicsH / posAlias.Y);
-            posAliasOnConverted = new Vector2(graphicsW / posAliasOn.X, graphicsH / posAliasOn.Y);
-            posAliasOffConverted = new Vector2(graphicsW / posAliasOff.X, graphicsH / posAliasOff.Y);
-            scale = sizeW * 0.4f;
+            recBack = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posBack.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posBack.Y), (int)sizeBack.X, (int)sizeBack.Y);
+            posSoundConverted = new Vector2(graphics.PreferredBackBufferWidth / posSound.X, graphics.PreferredBackBufferHeight / posSound.Y);
+            posHeaderConverted = new Vector2(graphics.PreferredBackBufferWidth / posHeader.X, graphics.PreferredBackBufferHeight / posHeader.Y);
+            posResolutionConverted = new Vector2(graphics.PreferredBackBufferWidth / posResolution.X, graphics.PreferredBackBufferHeight / posResolution.Y);
+            posAliasConverted = new Vector2(graphics.PreferredBackBufferWidth / posAlias.X, graphics.PreferredBackBufferHeight / posAlias.Y);
+            posAliasOnConverted = new Vector2(graphics.PreferredBackBufferWidth / posAliasOn.X, graphics.PreferredBackBufferHeight / posAliasOn.Y);
+            posAliasOffConverted = new Vector2(graphics.PreferredBackBufferWidth / posAliasOff.X, graphics.PreferredBackBufferHeight / posAliasOff.Y);
         }
 
-        public void UpdateSelect(int number)
+        public bool Update(MouseState mouse)
         {
-            menuState = number;
-            switch (number)
+            Rectangle mouseRec = new Rectangle((int)mouse.X, (int)mouse.Y, (int)sizeBack.X, (int)sizeBack.Y);
+            if (recBack.Intersects(mouseRec))
             {
-                case 0:
-                    {
-                        newPos = posSelectArrow.Y;
-                        break;
-                    }
-                case 1:
-                    {
-                        newPos = posSelectArrow.Y - 0.72f;
-                        break;
-                    }
-                case 2:
-                    {
-                        newPos = posSelectArrow.Y - 1.28f;
-                        break;
-                    }
-                case 3:
-                    {
-                        newPos = posSelectArrow.Y - 1.52f;
-                        break;
-                    }
-                case 4:
-                    {
-                        newPos = posSelectArrow.Y - 1.78f;
-                        break;
-                    }
+                if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
+                {
+                    mouseReleased = false;
+                    return true;
+                }
+
             }
-            int newPosition = Convert.ToInt32((float)graphics.PreferredBackBufferHeight / newPos);
-            recSelectArrow = new Rectangle(recSelectArrow.X, newPosition, recSelectArrow.Width, recSelectArrow.Height);
+            if (mouse.LeftButton == ButtonState.Released)
+            {
+                mouseReleased = true;
+            }
+            return false;
         }
-
-        public int GetMenuState()
-        {
-            return menuState;
-        }
-
 
         public void Draw(SpriteBatch sprite)
         {
-            //sprite.Draw(txBackground, new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
+            sprite.Draw(txBackground, new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
             sprite.Draw(txBack, recBack, Color.White);
-            sprite.Draw(txKeybindings, recKeybindings, Color.White);
-            sprite.Draw(txSelectArrow, recSelectArrow, Color.White);
-            sprite.DrawString(spriteFont, textHeader, posHeaderConverted, col, 0, Vector2.Zero, scale, SpriteEffects.None, 0f);
-            sprite.DrawString(spriteFont, textResolution, posResolutionConverted, col, 0, Vector2.Zero, scale, SpriteEffects.None, 0f);
-            sprite.DrawString(spriteFont, textSound, posSoundConverted, col, 0, Vector2.Zero, scale, SpriteEffects.None, 0f);
-            sprite.DrawString(spriteFont, textAlias, posAliasConverted, col, 0, Vector2.Zero, scale, SpriteEffects.None, 0f);
-            sprite.DrawString(spriteFont, textAliasOn, posAliasOnConverted, col, 0, Vector2.Zero, scale, SpriteEffects.None, 0f);
-            sprite.DrawString(spriteFont, textAliasOff, posAliasOffConverted, col, 0, Vector2.Zero, scale, SpriteEffects.None, 0f);
+            sprite.DrawString(spriteFont, textHeader, posHeaderConverted, col);
+            sprite.DrawString(spriteFont, textResolution, posResolutionConverted, col);
+            sprite.DrawString(spriteFont, textSound, posSoundConverted, col);
+            sprite.DrawString(spriteFont, textAlias, posAliasConverted, col);
+            sprite.DrawString(spriteFont, textAliasOn, posAliasOnConverted, col);
+            sprite.DrawString(spriteFont, textAliasOff, posAliasOffConverted, col);
         }
     }
 }

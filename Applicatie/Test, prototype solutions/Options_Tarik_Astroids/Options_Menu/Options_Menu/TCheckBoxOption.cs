@@ -18,25 +18,27 @@ namespace Options_Menu
         Texture2D txCheckBoxLeft;
         Texture2D txCheckBoxRight;
 
-        Vector2 PosCheckBoxLeft;
-        Vector2 PosCheckBoxRight;
-        Vector2 vecSizeCheckBox;
+        Vector2 posLeftCheckBox;
+        Vector2 posRightCheckBox;
+        Vector2 vecSize;
 
         Color col;
 
         Rectangle recCheckBoxLeft;
         Rectangle recCheckBoxRight;
-        float sizeW;
-        float sizeH;
-        bool stateCheckBoxLeft = false;
 
-        public TCheckBoxOption(StructOptionsMain structOptionsMain, StructCheckBox structCheckBox)
+        bool stateCheckBoxLeft = false;
+        bool stateCheckBoxRight = true;
+        bool mouseReleased = true;
+
+        public TCheckBoxOption(GraphicsDeviceManager graphics,Texture2D txCheckedBox, Texture2D txUnCheckedBox, Vector2 posLeftCheckBox, Vector2 posRightCheckBox, Vector2 vecSize, bool stateCheckBoxLeft, Color col)
         {
-            this.graphics = structOptionsMain.Graphics;
-            this.txCheckedBox = structCheckBox.TxCheckedBox;
-            this.txUnCheckedBox = structCheckBox.TxUnCheckedBox;
+            this.graphics = graphics;
+            this.txCheckedBox = txCheckedBox;
+            this.txUnCheckedBox = txUnCheckedBox;
             if (stateCheckBoxLeft)
             {
+                stateCheckBoxRight = false;
                 this.txCheckBoxLeft = txCheckedBox;
                 this.txCheckBoxRight = txUnCheckedBox;
             }
@@ -46,34 +48,19 @@ namespace Options_Menu
                 this.txCheckBoxLeft = txUnCheckedBox;
                 this.txCheckBoxRight = txCheckedBox;
             }
-            this.PosCheckBoxLeft = structCheckBox.PosCheckBoxLeft;
-            this.PosCheckBoxRight = structCheckBox.PosCheckBoxRight;
-            this.vecSizeCheckBox = structCheckBox.VecSizeCheckBox;
-            this.col = Color.White;
+            this.posLeftCheckBox = posLeftCheckBox;
+            this.posRightCheckBox = posRightCheckBox;
+            this.vecSize = vecSize;
+            this.col = col;
             Init();
+
+
         }
 
         public void Init()
         {
-
-            float graphicsW = graphics.PreferredBackBufferWidth;
-            float graphicsH = graphics.PreferredBackBufferHeight;
-            sizeW = (graphicsW / 900);
-            sizeH = (graphicsH/ 500);
-
-            int recCheckBoxLeftX = Convert.ToInt32(graphicsW / PosCheckBoxLeft.X);
-            int recCheckBoxY = Convert.ToInt32(graphicsH / PosCheckBoxLeft.Y);
-            int recCheckBoxWidth = Convert.ToInt32(sizeW * vecSizeCheckBox.X);
-            int recCheckBoxHeigth = Convert.ToInt32(sizeH * vecSizeCheckBox.Y);
-            int recCheckBoxRightX = Convert.ToInt32(graphicsW / PosCheckBoxRight.X);
-            
-            recCheckBoxLeft = new Rectangle(recCheckBoxLeftX, recCheckBoxY, recCheckBoxWidth, recCheckBoxHeigth);
-            recCheckBoxRight = new Rectangle(recCheckBoxRightX,recCheckBoxY, recCheckBoxWidth, recCheckBoxHeigth);
-        }
-
-        public void SelectLeftRight()
-        {
-            CheckBoxClick();
+            recCheckBoxLeft = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posLeftCheckBox.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posLeftCheckBox.Y), (int)vecSize.X, (int)vecSize.Y);
+            recCheckBoxRight = new Rectangle(Convert.ToInt32(graphics.PreferredBackBufferWidth / posRightCheckBox.X), Convert.ToInt32(graphics.PreferredBackBufferHeight / posRightCheckBox.Y), (int)vecSize.X, (int)vecSize.Y);
         }
 
         public void AntiAliasingCheck()
@@ -88,6 +75,7 @@ namespace Options_Menu
             if (stateCheckBoxLeft == true)
             {
                 stateCheckBoxLeft = false;
+                stateCheckBoxRight = true;
                 txCheckBoxLeft = txUnCheckedBox;
                 txCheckBoxRight = txCheckedBox;
                 AntiAliasingCheck();
@@ -95,18 +83,29 @@ namespace Options_Menu
             else
             {
                 stateCheckBoxLeft = true;
+                stateCheckBoxRight = false;
                 txCheckBoxLeft = txCheckedBox;
                 txCheckBoxRight = txUnCheckedBox;
                 AntiAliasingCheck();
             }
 
+                
         }
-
-        public void SelectedCheck(bool isSelected)
+        public void Update(MouseState mouse)
         {
-            if (isSelected)
+            Rectangle mouseRec = new Rectangle((int)mouse.X, (int)mouse.Y, (int)vecSize.X, (int)vecSize.Y);
+            if (recCheckBoxLeft.Intersects(mouseRec) || recCheckBoxRight.Intersects(mouseRec))
             {
-                CheckBoxClick();
+                if (mouse.LeftButton == ButtonState.Pressed && mouseReleased == true)
+                {
+                    CheckBoxClick();
+                    mouseReleased = false;
+                }
+
+            }
+            if (mouse.LeftButton == ButtonState.Released)
+            {
+                mouseReleased = true;
             }
         }
 
