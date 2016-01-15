@@ -52,7 +52,7 @@ namespace Asteroids.Classes
 
             fontOrigin.Y = -graphics.GraphicsDevice.Viewport.Height / 2 - 40;
             fontOrigin.X = graphics.GraphicsDevice.Viewport.Width / 2.6f;
-            fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 75,
+            fontPosTitle = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 50,
                 graphics.GraphicsDevice.Viewport.Height / 2);
             fontPos = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2 - 30,
                 graphics.GraphicsDevice.Viewport.Height / 2);

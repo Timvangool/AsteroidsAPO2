@@ -11,7 +11,7 @@ namespace Asteroids.Classes
 
         enum GameState
         {
-            IntroScreen, MainMenu, PlayScreen, GameOverScreen, OptionScreen, Highscores, Keybindings, LoadingScreen,
+            IntroScreen, MainMenu, PlayScreen, GameOverScreen, OptionScreen, Highscores, Keybindings, LoadingScreen, CreditScreen
         }
 
         public GamestateManager()
@@ -54,6 +54,10 @@ namespace Asteroids.Classes
                 case 8:
                     //Loading Screen
                     currentGameState = GameState.LoadingScreen;
+                    break;
+                case 9:
+                    //Credits
+                    currentGameState = GameState.CreditScreen;
                     break;
             }
         }

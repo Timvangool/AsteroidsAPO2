@@ -213,7 +213,6 @@ namespace Asteroids
 
             if (currentGameState == 2)
             {
-               
                 mainMenu.Update(gameTime, graphics.GraphicsDevice);
                 mainMenu.PositionStrings(graphics.GraphicsDevice);
                 if (mainMenu.GetExit() == true)
