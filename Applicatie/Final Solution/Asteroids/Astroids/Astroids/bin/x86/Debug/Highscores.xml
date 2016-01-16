@@ -2,6 +2,16 @@
 <ArrayOfHighscores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="HighScores.Scores">
   <Highscores>
     <highscores />
+    <Score>2280</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
+    <Score>2050</Score>
+    <Name>Skarin</Name>
+  </Highscores>
+  <Highscores>
+    <highscores />
     <Score>665</Score>
     <Name>Skarin</Name>
   </Highscores>
@@ -32,7 +42,7 @@
   </Highscores>
   <Highscores>
     <highscores />
-    <Score>2050</Score>
+    <Score>85</Score>
     <Name>Skarin</Name>
   </Highscores>
 </ArrayOfHighscores>

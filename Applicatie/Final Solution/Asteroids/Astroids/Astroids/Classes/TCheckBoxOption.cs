@@ -10,29 +10,40 @@ namespace Asteroids
 {
     class TCheckBoxOption
     {
+        //GRAPHICS
         GraphicsDeviceManager graphics;
 
+        //TEXTURES
         Texture2D txCheckedBox;
         Texture2D txUnCheckedBox;
-
         Texture2D txCheckBoxLeft;
         Texture2D txCheckBoxRight;
 
+        //TEXTURES POSITIONS
         Vector2 PosCheckBoxLeft;
         Vector2 PosCheckBoxRight;
+
+        //TEXTURES SIZES
         Vector2 vecSizeCheckBox;
 
+        //COLOUR
         Color col;
 
+        //TEXTURES RECTANGLES
         Rectangle recCheckBoxLeft;
         Rectangle recCheckBoxRight;
+
+        //VARIABLES
         float sizeW;
         float sizeH;
         bool stateCheckBoxLeft = false;
 
         public TCheckBoxOption(Game1.StructOptionsMain structOptionsMain, StructCheckBox structCheckBox)
         {
+            //GRAPHICS
             this.graphics = structOptionsMain.Graphics;
+
+            //TEXTURES
             this.txCheckedBox = structCheckBox.TxCheckedBox;
             this.txUnCheckedBox = structCheckBox.TxUnCheckedBox;
             if (stateCheckBoxLeft)
@@ -46,27 +57,35 @@ namespace Asteroids
                 this.txCheckBoxLeft = txUnCheckedBox;
                 this.txCheckBoxRight = txCheckedBox;
             }
+
+            //TEXTURES POSITIONS
             this.PosCheckBoxLeft = structCheckBox.PosCheckBoxLeft;
             this.PosCheckBoxRight = structCheckBox.PosCheckBoxRight;
+
+            //TEXTURES SIZES
             this.vecSizeCheckBox = structCheckBox.VecSizeCheckBox;
+
+            //COLOUR
             this.col = Color.White;
+
+            //INITIALIZE
             Init();
         }
 
         public void Init()
         {
-
+            //SCREEN SCALE
             float graphicsW = graphics.PreferredBackBufferWidth;
             float graphicsH = graphics.PreferredBackBufferHeight;
             sizeW = (graphicsW / 900);
             sizeH = (graphicsH / 500);
 
+            //RECTANGLES
             int recCheckBoxLeftX = Convert.ToInt32(graphicsW / PosCheckBoxLeft.X);
             int recCheckBoxY = Convert.ToInt32(graphicsH / PosCheckBoxLeft.Y);
             int recCheckBoxWidth = Convert.ToInt32(sizeW * vecSizeCheckBox.X);
             int recCheckBoxHeigth = Convert.ToInt32(sizeH * vecSizeCheckBox.Y);
             int recCheckBoxRightX = Convert.ToInt32(graphicsW / PosCheckBoxRight.X);
-
             recCheckBoxLeft = new Rectangle(recCheckBoxLeftX, recCheckBoxY, recCheckBoxWidth, recCheckBoxHeigth);
             recCheckBoxRight = new Rectangle(recCheckBoxRightX, recCheckBoxY, recCheckBoxWidth, recCheckBoxHeigth);
         }

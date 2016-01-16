@@ -12,10 +12,10 @@ Content\ArrowRight.xnb
 Content\Back.xnb
 Content\CheckboxFalse.xnb
 Content\CheckboxTrue.xnb
+Content\Keybindings.xnb
 Content\starfield.xnb
 Content\OptionsBG.xnb
 Content\ResolutionBar.xnb
-Content\SelectArrow.xnb
 Content\SoundBar.xnb
 Content\SoundBarCursor.xnb
 Content\Planet1.xnb
@@ -58,6 +58,7 @@ Content\SAExplosion\2.xnb
 Content\SAExplosion\3.xnb
 Content\SAExplosion\4.xnb
 Content\SAExplosion\5.xnb
+Content\SelectArrow.xnb
 Content\SoundPlaceHolder.xnb
 Content\Score.xnb
 Content\Courier New.xnb
@@ -65,6 +66,5 @@ Content\MenuFont.xnb
 Content\LoadingScreen.xnb
 Content\Font.xnb
 Content\HighScores.xnb
-Content\Keybindings.xnb
 Content\Keybindings\KeyboardControls.txt
 Content\Keybindings\WiimoteControls.txt

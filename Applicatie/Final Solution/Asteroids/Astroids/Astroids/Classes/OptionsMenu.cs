@@ -12,6 +12,7 @@ using Asteroids.Classes;
 
 namespace Asteroids
 {
+    //STRUCT SOUND
     #region StructSound
     public struct StructSound
     {
@@ -172,6 +173,7 @@ namespace Asteroids
     }
     #endregion
 
+    //STRUCT RESOLUTION
     #region StructResolution
     struct StructResolution
     {
@@ -290,6 +292,7 @@ namespace Asteroids
     }
     #endregion
 
+    //STRUCT CHECKBOX
     #region StructCheckBox
 
     public struct StructCheckBox
@@ -381,6 +384,7 @@ namespace Asteroids
     }
     #endregion
 
+    //STRUCT OPTIONS TEXTS
     #region StructOptionsTexts
     public struct StructOptionsText
     {
@@ -694,27 +698,37 @@ namespace Asteroids
         }
     }
     #endregion
+
     class OptionsMenu
     {
-        int currentGameState;
+        //STRUCTS
         Game1.StructOptionsMain structOptionsMain;
-        GraphicsDeviceManager graphics;
-        ContentManager Content;
-        SpriteFont spriteFont;
-        Song song;
-        ControlHandler ch;
-        int selectedNumber;
         StructSound strucSound;
         StructResolution structResolution;
         StructCheckBox structCheckBox;
         StructOptionsText structOptionsText;
-        MouseState mouse;
+
+        //GRAPHICS
+        GraphicsDeviceManager graphics;
+
+        //CONTENT
+        ContentManager Content;
+        SpriteFont spriteFont;
+
+        //CLASSES
         TResolutionOption tResolution;
         TCheckBoxOption cbAlias;
-        TSoundOption tSound;
         OptionsText oText;
-        int framesPassed;
+        TSoundOption tSound;
         Background bg;
+
+        //VARIABLES
+        Song song;
+        ControlHandler ch;
+        MouseState mouse;
+        int selectedNumber;
+        int framesPassed;
+        int currentGameState;
 
         public OptionsMenu(Game1.StructOptionsMain structOptionsMain)
         {
@@ -729,16 +743,21 @@ namespace Asteroids
 
         public void Init()
         {
+            
+            //STRUCT CHECKBOX
             structCheckBox = new StructCheckBox();
             graphics.PreferMultiSampling = structCheckBox.StateCheckBox;
             graphics.ApplyChanges();
-            //song = Content.Load<Song>("Ismo_Kan_Niet_Hangen_Met_Je");
-            //MediaPlayer.Play(song);
-            //MediaPlayer.Volume = 1f;
             this.spriteFont = structOptionsMain.SpriteFont;
 
-            strucSound = new StructSound();
+            //SONG CONFIG
+            //song = Content.Load<Song>("Ismo_Kan_Niet_Hangen_Met_Je");
+            //MediaPlayer.Play(song);
+            MediaPlayer.Volume = 1f;
 
+
+            //STRUCT SOUND
+            strucSound = new StructSound();
             strucSound.PosArrowLeft = new Vector2(2.64f, 3.17f);
             strucSound.TxSoundBar = Content.Load<Texture2D>("SoundBar");
             strucSound.TxSoundBarCursor = Content.Load<Texture2D>("SoundBarCursor");
@@ -751,9 +770,9 @@ namespace Asteroids
             strucSound.SizeArrow = new Vector2(43, 35);
             strucSound.SizeSoundBar = new Vector2(200, 10);
             strucSound.SizeSoundBarCursor = new Vector2(22, 35);
-
             tSound = new TSoundOption(structOptionsMain, strucSound);
 
+            //STRUCT RESOLUTION
             structResolution = new StructResolution();
             structResolution.TxResolutionBar = Content.Load<Texture2D>("ResolutionBar");
             structResolution.TxArrowLeft = Content.Load<Texture2D>("ArrowLeft");
@@ -766,6 +785,7 @@ namespace Asteroids
             tResolution = new TResolutionOption(structOptionsMain, structResolution);
             //R.I.P. -> tResolution = new TResolutionOption(graphics, txResolutionBar, txArrowLeft, txArrowRight, posResolutionBar, sizeResolutionBar, posArrowLeft, posArrowRight, sizeArrow, Color.White);
 
+            //STRUCT CHECKBOX
             structCheckBox.TxCheckedBox = Content.Load<Texture2D>("CheckboxTrue");
             structCheckBox.TxUnCheckedBox = Content.Load<Texture2D>("CheckboxFalse");
             structCheckBox.PosCheckBoxLeft = new Vector2(2.63f, 2);
@@ -774,8 +794,7 @@ namespace Asteroids
             cbAlias = new TCheckBoxOption(structOptionsMain, structCheckBox);
             //R.I.P. -> cbAlias = new TCheckBoxOption(graphics, checkedBox, unCheckedBox, posCheckBoxLeft, posCheckBoxRight, vecSizeCheckBox, stateCheckBox, Color.White);
 
-            structOptionsText.TxBackground = Content.Load<Texture2D>("OptionsBG");
-
+            //STRUCT OPTIONS TEXT
             structOptionsText.TxBack = Content.Load<Texture2D>("Back");
             structOptionsText.TxKeybindings = Content.Load<Texture2D>("Keybindings");
             structOptionsText.TxSelectArrow = Content.Load<Texture2D>("SelectArrow");
@@ -799,10 +818,14 @@ namespace Asteroids
             structOptionsText.SizeSelectArrow = new Vector2(46, 46);
             oText = new OptionsText(structOptionsMain, structOptionsText);
             //R.I.P. -> oText = new OptionsText(graphics, txBackground, txBack, posBack, sizeBack, txSelectArrow, posSelectArrow, sizeSelectArrow, spriteFont, textHeader, posHeader, textSound, posSound, textResolution, posResolution, textAlias, posAlias, textAliasOn, posAliasOn, textAliasOff, posAliasOff, Color.White);
+
+            //BACKGROUND
+            bg = new Background(graphics.GraphicsDevice, Content);
+
+            //INITIALIZE
             framesPassed = 0;
             selectedNumber = 0;
             tResolution.ChangeResolution(new Vector2(1024, 576));
-            bg = new Background(graphics.GraphicsDevice, Content);
         }
 
         public void Update()
@@ -842,6 +865,11 @@ namespace Asteroids
                                     oText.UpdateSelect(4);
                                     break;
                                 }
+                            default:
+                                {
+                                    System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
+                                    break;
+                                }
                         }
                     }
                 }
@@ -878,6 +906,11 @@ namespace Asteroids
                                     oText.UpdateSelect(4);
                                     break;
                                 }
+                            default:
+                                {
+                                    System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
+                                    break;
+                                }
                         }
                     }
 
@@ -899,6 +932,11 @@ namespace Asteroids
                         case 2:
                             {
                                 cbAlias.SelectLeftRight();
+                                break;
+                            }
+                        default:
+                            {
+                                System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                 break;
                             }
                     }
@@ -923,6 +961,11 @@ namespace Asteroids
                                 cbAlias.SelectLeftRight();
                                 break;
                             }
+                        default:
+                            {
+                                System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
+                                break;
+                            }
                     }
                 }
                 else if (ch.GetInput().Contains("Select"))
@@ -937,6 +980,11 @@ namespace Asteroids
                         case 4:
                             {
                                 currentGameState = 2;
+                                break;
+                            }
+                        default:
+                            {
+                                System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                 break;
                             }
                     }

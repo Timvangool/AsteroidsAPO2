@@ -130,7 +130,7 @@ namespace Asteroids
         {
             graphics = new GraphicsDeviceManager(this);
             gsm = new GamestateManager();
-           // graphics.IsFullScreen = true;
+            graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";

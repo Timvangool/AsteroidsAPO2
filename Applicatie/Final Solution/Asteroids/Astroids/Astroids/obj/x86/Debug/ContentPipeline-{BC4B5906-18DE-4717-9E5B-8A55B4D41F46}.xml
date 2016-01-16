@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
-      <Time>2016-01-15T09:32:14.9544956+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PlayerPlaceHolder.xnb</Output>
+      <Time>2016-01-15T10:07:14.8014534+01:00</Time>
     </Item>
     <Item>
       <Source>placeholderas.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
-      <Time>2016-01-15T09:32:15.6199387+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\placeholderas.xnb</Output>
+      <Time>2016-01-15T10:07:15.0496802+01:00</Time>
     </Item>
     <Item>
       <Source>RocketIdle.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
-      <Time>2016-01-15T09:32:15.0485595+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketIdle.xnb</Output>
+      <Time>2016-01-15T10:07:14.8034548+01:00</Time>
     </Item>
     <Item>
       <Source>RocketBulllet.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
-      <Time>2016-01-15T09:32:14.9585007+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketBulllet.xnb</Output>
+      <Time>2016-01-15T10:07:14.8024673+01:00</Time>
     </Item>
     <Item>
       <Source>RocketFlying.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
-      <Time>2016-01-15T09:32:15.0465569+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketFlying.xnb</Output>
+      <Time>2016-01-15T10:07:14.8034548+01:00</Time>
     </Item>
     <Item>
       <Source>LifeSprite.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
-      <Time>2016-01-15T09:32:14.8524276+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LifeSprite.xnb</Output>
+      <Time>2016-01-15T10:07:14.7904584+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidLarge.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
-      <Time>2016-01-15T09:32:14.531213+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidLarge.xnb</Output>
+      <Time>2016-01-15T10:07:14.7784478+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidMedium.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
-      <Time>2016-01-15T09:32:14.5342156+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidMedium.xnb</Output>
+      <Time>2016-01-15T10:07:14.7794378+01:00</Time>
     </Item>
     <Item>
       <Source>AsteroidSmall.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
-      <Time>2016-01-15T09:32:14.5382174+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\AsteroidSmall.xnb</Output>
+      <Time>2016-01-15T10:07:14.7794378+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowLeft.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
-      <Time>2016-01-15T11:20:45.0112977+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowLeft.xnb</Output>
+      <Time>2016-01-15T10:07:14.7774364+01:00</Time>
     </Item>
     <Item>
       <Source>ArrowRight.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
-      <Time>2016-01-15T11:20:45.6050784+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowRight.xnb</Output>
+      <Time>2016-01-15T10:07:14.7784478+01:00</Time>
     </Item>
     <Item>
       <Source>Back.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
-      <Time>2016-01-15T11:20:46.1998841+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2016-01-16T11:00:50.2894429+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxFalse.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
-      <Time>2016-01-15T11:20:46.7467863+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxFalse.xnb</Output>
+      <Time>2016-01-15T10:07:14.7844422+01:00</Time>
     </Item>
     <Item>
       <Source>CheckboxTrue.png</Source>
@@ -124,485 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
-      <Time>2016-01-15T11:20:47.2936885+01:00</Time>
-    </Item>
-    <Item>
-      <Source>starfield.png</Source>
-      <Name>starfield</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
-      <Time>2016-01-15T09:32:15.6429539+01:00</Time>
-    </Item>
-    <Item>
-      <Source>OptionsBG.png</Source>
-      <Name>OptionsBG</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
-      <Time>2016-01-15T09:32:14.9414875+01:00</Time>
-    </Item>
-    <Item>
-      <Source>ResolutionBar.png</Source>
-      <Name>ResolutionBar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
-      <Time>2016-01-15T11:20:47.9030956+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SelectArrow.png</Source>
-      <Name>SelectArrow</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
-      <Time>2016-01-15T11:20:47.9187212+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundBar.png</Source>
-      <Name>SoundBar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
-      <Time>2016-01-15T11:20:48.5021211+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundBarCursor.png</Source>
-      <Name>SoundBarCursor</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
-      <Time>2016-01-15T11:20:49.0646576+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Planet1.png</Source>
-      <Name>Planet1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
-      <Time>2016-01-15T09:32:14.9444897+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Planet2.png</Source>
-      <Name>Planet2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
-      <Time>2016-01-15T09:32:14.9474907+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Planet3.png</Source>
-      <Name>Planet3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
-      <Time>2016-01-15T09:32:14.9504925+01:00</Time>
-    </Item>
-    <Item>
-      <Source>star1.png</Source>
-      <Name>star1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
-      <Time>2016-01-15T09:32:15.6229409+01:00</Time>
-    </Item>
-    <Item>
-      <Source>star2.png</Source>
-      <Name>star2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
-      <Time>2016-01-15T09:32:15.625946+01:00</Time>
-    </Item>
-    <Item>
-      <Source>star3.png</Source>
-      <Name>star3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
-      <Time>2016-01-15T09:32:15.6289441+01:00</Time>
-    </Item>
-    <Item>
-      <Source>loading-screen.png</Source>
-      <Name>loading-screen</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
-      <Time>2016-01-15T09:32:15.413801+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LAExplosion\AE1.png</Source>
-      <Name>LAExplosion\AE1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE1.xnb</Output>
-      <Time>2016-01-15T09:32:14.7543618+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LAExplosion\AE2.png</Source>
-      <Name>LAExplosion\AE2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE2.xnb</Output>
-      <Time>2016-01-15T09:32:14.7573636+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LAExplosion\AE3.png</Source>
-      <Name>LAExplosion\AE3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE3.xnb</Output>
-      <Time>2016-01-15T09:32:14.7603658+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LAExplosion\AE4.png</Source>
-      <Name>LAExplosion\AE4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE4.xnb</Output>
-      <Time>2016-01-15T09:32:14.7623672+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LAExplosion\AE5.png</Source>
-      <Name>LAExplosion\AE5</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE5.xnb</Output>
-      <Time>2016-01-15T09:32:14.7643685+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LAExplosion\AE6.png</Source>
-      <Name>LAExplosion\AE6</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE6.xnb</Output>
-      <Time>2016-01-15T09:32:14.7733747+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MAExplosion\MAE1.png</Source>
-      <Name>MAExplosion\MAE1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE1.xnb</Output>
-      <Time>2016-01-15T09:32:14.8584308+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MAExplosion\MAE2.png</Source>
-      <Name>MAExplosion\MAE2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE2.xnb</Output>
-      <Time>2016-01-15T09:32:14.8614346+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MAExplosion\MAE3.png</Source>
-      <Name>MAExplosion\MAE3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE3.xnb</Output>
-      <Time>2016-01-15T09:32:14.8644356+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MAExplosion\MAE4.png</Source>
-      <Name>MAExplosion\MAE4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE4.xnb</Output>
-      <Time>2016-01-15T09:32:14.8664373+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MAExplosion\MAE5.png</Source>
-      <Name>MAExplosion\MAE5</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE5.xnb</Output>
-      <Time>2016-01-15T09:32:14.87044+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R01.png</Source>
-      <Name>RocketExplosion\R01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R01.xnb</Output>
-      <Time>2016-01-15T09:32:14.9615029+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R02.png</Source>
-      <Name>RocketExplosion\R02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R02.xnb</Output>
-      <Time>2016-01-15T09:32:14.9635043+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R03.png</Source>
-      <Name>RocketExplosion\R03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R03.xnb</Output>
-      <Time>2016-01-15T09:32:14.9655027+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R04.png</Source>
-      <Name>RocketExplosion\R04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R04.xnb</Output>
-      <Time>2016-01-15T09:32:14.9695074+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R05.png</Source>
-      <Name>RocketExplosion\R05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R05.xnb</Output>
-      <Time>2016-01-15T09:32:14.9715067+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R06.png</Source>
-      <Name>RocketExplosion\R06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R06.xnb</Output>
-      <Time>2016-01-15T09:32:14.9745097+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R07.png</Source>
-      <Name>RocketExplosion\R07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R07.xnb</Output>
-      <Time>2016-01-15T09:32:14.9775107+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R08.png</Source>
-      <Name>RocketExplosion\R08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R08.xnb</Output>
-      <Time>2016-01-15T09:32:14.9795116+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R09.png</Source>
-      <Name>RocketExplosion\R09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R09.xnb</Output>
-      <Time>2016-01-15T09:32:14.9815142+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R10.png</Source>
-      <Name>RocketExplosion\R10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R10.xnb</Output>
-      <Time>2016-01-15T09:32:14.9855165+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R11.png</Source>
-      <Name>RocketExplosion\R11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R11.xnb</Output>
-      <Time>2016-01-15T09:32:14.9885195+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R12.png</Source>
-      <Name>RocketExplosion\R12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R12.xnb</Output>
-      <Time>2016-01-15T09:32:14.9905204+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R13.png</Source>
-      <Name>RocketExplosion\R13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R13.xnb</Output>
-      <Time>2016-01-15T09:32:14.9935214+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R14.png</Source>
-      <Name>RocketExplosion\R14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R14.xnb</Output>
-      <Time>2016-01-15T09:32:14.9955223+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R15.png</Source>
-      <Name>RocketExplosion\R15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R15.xnb</Output>
-      <Time>2016-01-15T09:32:14.9975232+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R16.png</Source>
-      <Name>RocketExplosion\R16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R16.xnb</Output>
-      <Time>2016-01-15T09:32:15.0015271+01:00</Time>
-    </Item>
-    <Item>
-      <Source>RocketExplosion\R17.png</Source>
-      <Name>RocketExplosion\R17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R17.xnb</Output>
-      <Time>2016-01-15T09:32:15.0055298+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SAExplosion\1.png</Source>
-      <Name>SAExplosion\1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\1.xnb</Output>
-      <Time>2016-01-15T09:32:15.0535639+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SAExplosion\2.png</Source>
-      <Name>SAExplosion\2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\2.xnb</Output>
-      <Time>2016-01-15T09:32:15.0565636+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SAExplosion\3.png</Source>
-      <Name>SAExplosion\3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\3.xnb</Output>
-      <Time>2016-01-15T09:32:15.0585666+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SAExplosion\4.png</Source>
-      <Name>SAExplosion\4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\4.xnb</Output>
-      <Time>2016-01-15T09:32:15.0605679+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SAExplosion\5.png</Source>
-      <Name>SAExplosion\5</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\5.xnb</Output>
-      <Time>2016-01-15T09:32:15.0615667+01:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundPlaceHolder.wav</Source>
-      <Name>SoundPlaceHolder</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
-      <Time>2016-01-15T09:32:15.2016605+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Score.spritefont</Source>
-      <Name>Score</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
-      <Time>2016-01-15T09:32:15.0885845+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Courier New.spritefont</Source>
-      <Name>Courier New</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
-      <Time>2016-01-15T09:32:14.6863165+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MenuFont.spritefont</Source>
-      <Name>MenuFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2016-01-15T11:17:33.8256401+01:00</Time>
-    </Item>
-    <Item>
-      <Source>LoadingScreen.spritefont</Source>
-      <Name>LoadingScreen</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
-      <Time>2016-01-15T09:32:14.8554323+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Font.spritefont</Source>
-      <Name>Font</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb</Output>
-      <Time>2016-01-15T09:32:14.6893191+01:00</Time>
-    </Item>
-    <Item>
-      <Source>HighScores.spritefont</Source>
-      <Name>HighScores</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\HighScores.xnb</Output>
-      <Time>2016-01-15T09:32:14.7403529+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\CheckboxTrue.xnb</Output>
+      <Time>2016-01-15T10:07:14.7844422+01:00</Time>
     </Item>
     <Item>
       <Source>Keybindings.png</Source>
@@ -610,8 +133,485 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings.xnb</Output>
-      <Time>2016-01-15T11:20:47.3093211+01:00</Time>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Keybindings.xnb</Output>
+      <Time>2016-01-16T11:00:50.3214694+01:00</Time>
+    </Item>
+    <Item>
+      <Source>starfield.png</Source>
+      <Name>starfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\starfield.xnb</Output>
+      <Time>2016-01-15T10:07:15.0646618+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OptionsBG.png</Source>
+      <Name>OptionsBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\OptionsBG.xnb</Output>
+      <Time>2016-01-15T10:07:14.7974505+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ResolutionBar.png</Source>
+      <Name>ResolutionBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ResolutionBar.xnb</Output>
+      <Time>2016-01-15T10:07:14.8024673+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundBar.png</Source>
+      <Name>SoundBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBar.xnb</Output>
+      <Time>2016-01-15T10:07:14.8074683+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundBarCursor.png</Source>
+      <Name>SoundBarCursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundBarCursor.xnb</Output>
+      <Time>2016-01-15T10:07:14.8084583+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet1.png</Source>
+      <Name>Planet1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet1.xnb</Output>
+      <Time>2016-01-15T10:07:14.7974505+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet2.png</Source>
+      <Name>Planet2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet2.xnb</Output>
+      <Time>2016-01-15T10:07:14.7984645+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Planet3.png</Source>
+      <Name>Planet3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Planet3.xnb</Output>
+      <Time>2016-01-15T10:07:14.7984645+01:00</Time>
+    </Item>
+    <Item>
+      <Source>star1.png</Source>
+      <Name>star1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star1.xnb</Output>
+      <Time>2016-01-15T10:07:15.0516816+01:00</Time>
+    </Item>
+    <Item>
+      <Source>star2.png</Source>
+      <Name>star2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star2.xnb</Output>
+      <Time>2016-01-15T10:07:15.0536548+01:00</Time>
+    </Item>
+    <Item>
+      <Source>star3.png</Source>
+      <Name>star3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\star3.xnb</Output>
+      <Time>2016-01-15T10:07:15.0556571+01:00</Time>
+    </Item>
+    <Item>
+      <Source>loading-screen.png</Source>
+      <Name>loading-screen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\loading-screen.xnb</Output>
+      <Time>2016-01-15T10:07:14.8955712+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LAExplosion\AE1.png</Source>
+      <Name>LAExplosion\AE1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE1.xnb</Output>
+      <Time>2016-01-15T10:44:18.0513849+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LAExplosion\AE2.png</Source>
+      <Name>LAExplosion\AE2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE2.xnb</Output>
+      <Time>2016-01-15T10:44:18.0513849+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LAExplosion\AE3.png</Source>
+      <Name>LAExplosion\AE3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE3.xnb</Output>
+      <Time>2016-01-15T10:44:18.0523852+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LAExplosion\AE4.png</Source>
+      <Name>LAExplosion\AE4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE4.xnb</Output>
+      <Time>2016-01-15T10:44:18.0533863+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LAExplosion\AE5.png</Source>
+      <Name>LAExplosion\AE5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE5.xnb</Output>
+      <Time>2016-01-15T10:44:18.0533863+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LAExplosion\AE6.png</Source>
+      <Name>LAExplosion\AE6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LAExplosion\AE6.xnb</Output>
+      <Time>2016-01-15T10:44:18.0543857+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MAExplosion\MAE1.png</Source>
+      <Name>MAExplosion\MAE1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE1.xnb</Output>
+      <Time>2016-01-15T10:44:18.0613915+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MAExplosion\MAE2.png</Source>
+      <Name>MAExplosion\MAE2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE2.xnb</Output>
+      <Time>2016-01-15T10:44:18.0613915+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MAExplosion\MAE3.png</Source>
+      <Name>MAExplosion\MAE3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE3.xnb</Output>
+      <Time>2016-01-15T10:44:18.0623905+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MAExplosion\MAE4.png</Source>
+      <Name>MAExplosion\MAE4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE4.xnb</Output>
+      <Time>2016-01-15T10:44:18.063393+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MAExplosion\MAE5.png</Source>
+      <Name>MAExplosion\MAE5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MAExplosion\MAE5.xnb</Output>
+      <Time>2016-01-15T10:44:18.063393+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R01.png</Source>
+      <Name>RocketExplosion\R01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R01.xnb</Output>
+      <Time>2016-01-15T10:44:18.0904142+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R02.png</Source>
+      <Name>RocketExplosion\R02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R02.xnb</Output>
+      <Time>2016-01-15T10:44:18.0914119+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R03.png</Source>
+      <Name>RocketExplosion\R03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R03.xnb</Output>
+      <Time>2016-01-15T10:44:18.0924131+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R04.png</Source>
+      <Name>RocketExplosion\R04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R04.xnb</Output>
+      <Time>2016-01-15T10:44:18.0924131+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R05.png</Source>
+      <Name>RocketExplosion\R05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R05.xnb</Output>
+      <Time>2016-01-15T10:44:18.0934133+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R06.png</Source>
+      <Name>RocketExplosion\R06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R06.xnb</Output>
+      <Time>2016-01-15T10:44:18.0944153+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R07.png</Source>
+      <Name>RocketExplosion\R07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R07.xnb</Output>
+      <Time>2016-01-15T10:44:18.095416+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R08.png</Source>
+      <Name>RocketExplosion\R08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R08.xnb</Output>
+      <Time>2016-01-15T10:44:18.095416+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R09.png</Source>
+      <Name>RocketExplosion\R09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R09.xnb</Output>
+      <Time>2016-01-15T10:44:18.096415+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R10.png</Source>
+      <Name>RocketExplosion\R10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R10.xnb</Output>
+      <Time>2016-01-15T10:44:18.097417+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R11.png</Source>
+      <Name>RocketExplosion\R11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R11.xnb</Output>
+      <Time>2016-01-15T10:44:18.0984173+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R12.png</Source>
+      <Name>RocketExplosion\R12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R12.xnb</Output>
+      <Time>2016-01-15T10:44:18.0984173+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R13.png</Source>
+      <Name>RocketExplosion\R13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R13.xnb</Output>
+      <Time>2016-01-15T10:44:18.0994176+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R14.png</Source>
+      <Name>RocketExplosion\R14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R14.xnb</Output>
+      <Time>2016-01-15T10:44:18.1004191+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R15.png</Source>
+      <Name>RocketExplosion\R15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R15.xnb</Output>
+      <Time>2016-01-15T10:44:18.1004191+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R16.png</Source>
+      <Name>RocketExplosion\R16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R16.xnb</Output>
+      <Time>2016-01-15T10:44:18.1014194+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketExplosion\R17.png</Source>
+      <Name>RocketExplosion\R17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\RocketExplosion\R17.xnb</Output>
+      <Time>2016-01-15T10:44:18.1014194+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SAExplosion\1.png</Source>
+      <Name>SAExplosion\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\1.xnb</Output>
+      <Time>2016-01-15T10:44:18.1094259+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SAExplosion\2.png</Source>
+      <Name>SAExplosion\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\2.xnb</Output>
+      <Time>2016-01-15T10:44:18.1104279+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SAExplosion\3.png</Source>
+      <Name>SAExplosion\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\3.xnb</Output>
+      <Time>2016-01-15T10:44:18.1114265+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SAExplosion\4.png</Source>
+      <Name>SAExplosion\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\4.xnb</Output>
+      <Time>2016-01-15T10:44:18.1114265+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SAExplosion\5.png</Source>
+      <Name>SAExplosion\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SAExplosion\5.xnb</Output>
+      <Time>2016-01-15T10:44:18.1124268+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SelectArrow.png</Source>
+      <Name>SelectArrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SelectArrow.xnb</Output>
+      <Time>2016-01-16T11:00:50.5214583+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundPlaceHolder.wav</Source>
+      <Name>SoundPlaceHolder</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\SoundPlaceHolder.xnb</Output>
+      <Time>2016-01-15T10:07:14.827485+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Score.spritefont</Source>
+      <Name>Score</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Score.xnb</Output>
+      <Time>2016-01-15T10:07:14.8064672+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Courier New.spritefont</Source>
+      <Name>Courier New</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Courier New.xnb</Output>
+      <Time>2016-01-15T10:44:18.0453798+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuFont.spritefont</Source>
+      <Name>MenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2016-01-16T11:00:50.4374476+01:00</Time>
+    </Item>
+    <Item>
+      <Source>LoadingScreen.spritefont</Source>
+      <Name>LoadingScreen</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\LoadingScreen.xnb</Output>
+      <Time>2016-01-15T10:07:14.793461+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2016-01-15T10:07:14.7874567+01:00</Time>
+    </Item>
+    <Item>
+      <Source>HighScores.spritefont</Source>
+      <Name>HighScores</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\HighScores.xnb</Output>
+      <Time>2016-01-15T10:44:18.0503838+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -620,10 +620,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\AstroidsContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\AstroidsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -652,7 +652,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-03-19T10:54:50.0759335+01:00</Value>
+        <Value>2016-01-14T09:34:21.3489281+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
