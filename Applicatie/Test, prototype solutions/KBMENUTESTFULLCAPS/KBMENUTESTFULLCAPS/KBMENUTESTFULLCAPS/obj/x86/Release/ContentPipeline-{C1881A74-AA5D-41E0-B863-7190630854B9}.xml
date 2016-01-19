@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>KBMenuFont.spritefont</Source>
+      <Name>KBMenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Yannick\Desktop\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\bin\x86\Release\Content\KBMenuFont.xnb</Output>
+      <Time>2016-01-05T12:20:30.4287598+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketIdle.png</Source>
+      <Name>RocketIdle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Yannick\Desktop\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\bin\x86\Release\Content\RocketIdle.xnb</Output>
+      <Time>2016-01-05T11:55:48.7134076+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{C1881A74-AA5D-41E0-B863-7190630854B9}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Yannick\Desktop\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPSContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Yannick\Desktop\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Yannick\Desktop\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Yannick\Desktop\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\KBMENUTESTFULLCAPS\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-11-17T10:28:38.8957833+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

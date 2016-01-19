@@ -1,0 +1,4 @@
+Content\KBMenuFont.xnb
+Content\RocketIdle.xnb
+Content\Keybindings\KeyboardControls.txt
+Content\Keybindings\WiimoteControls.txt

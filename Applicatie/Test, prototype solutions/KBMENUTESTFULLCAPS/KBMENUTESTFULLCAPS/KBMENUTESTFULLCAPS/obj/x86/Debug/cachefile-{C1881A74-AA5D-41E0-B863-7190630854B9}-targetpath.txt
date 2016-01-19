@@ -1,0 +1,10 @@
+Content\KBMenuFont.xnb
+Content\RocketIdle.xnb
+Content\Planet1.xnb
+Content\Planet2.xnb
+Content\Planet3.xnb
+Content\star1.xnb
+Content\star2.xnb
+Content\star3.xnb
+Content\Keybindings\KeyboardControls.txt
+Content\Keybindings\WiimoteControls.txt

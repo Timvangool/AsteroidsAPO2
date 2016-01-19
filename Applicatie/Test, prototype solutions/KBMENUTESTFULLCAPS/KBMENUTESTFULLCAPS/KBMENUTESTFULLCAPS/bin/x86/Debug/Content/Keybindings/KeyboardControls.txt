@@ -1,0 +1,10 @@
+Up:W
+Down:S
+Left:A
+Right:D
+Select:Enter
+Back:Backspace
+Shoot:Space
+VolUp:Add
+VolDown:Scroll
+Pause:Escape

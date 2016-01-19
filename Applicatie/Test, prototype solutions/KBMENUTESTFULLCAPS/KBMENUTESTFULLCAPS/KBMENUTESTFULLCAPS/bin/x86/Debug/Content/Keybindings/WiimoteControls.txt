@@ -1,0 +1,10 @@
+Up:Right
+Down:Left
+Left:Up
+Right:Down
+Select:A
+Back:One
+Shoot:Two
+VolUp:Plus
+VolDown:Minus
+Pause:Home
