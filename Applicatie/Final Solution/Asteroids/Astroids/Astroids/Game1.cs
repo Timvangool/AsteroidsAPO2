@@ -104,6 +104,7 @@ namespace Asteroids
         OptionsMenu oMenu;
         Loader loader;
         LoadingScreen loadingScreen;
+        GameOverMenu gameOverMenu;
         AsteroidsIntro intro;
         Credit credit;
         MainMenu mainMenu;
@@ -130,7 +131,7 @@ namespace Asteroids
         {
             graphics = new GraphicsDeviceManager(this);
             gsm = new GamestateManager();
-            graphics.IsFullScreen = true;
+            //graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 500;
             graphics.PreferredBackBufferWidth = 900;
             Content.RootDirectory = "Content";
@@ -150,7 +151,7 @@ namespace Asteroids
             screenWidth = graphics.PreferredBackBufferWidth;
 
             numOfAsteroids = 3;
-            currentGameState = 1;
+            currentGameState = 4;
         }
 
 
@@ -168,6 +169,7 @@ namespace Asteroids
             newAsteroidList = new List<Asteroid>();
             killListWep = new List<Weapon>();
             mainMenu = new MainMenu(Content, graphics.GraphicsDevice, ch);
+            gameOverMenu = new GameOverMenu(graphics, Content);
             hud = new HUD(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
             scores.LoadHighScores();
             scores.SortHighScores();
@@ -253,6 +255,7 @@ namespace Asteroids
             intro.Load(Content, graphics);
             credit.Load(Content, graphics);
             oMenu.Init();
+            gameOverMenu.Load();
 
             mainMenu.Load(graphics.GraphicsDevice, scores);
             background = new Background(GraphicsDevice, Content);
@@ -439,25 +442,14 @@ namespace Asteroids
                 playerLife = p.GetLife();
                 if (playerLife <= 0)
                 {
-                    scores.AddHighscore(hud.GetScore(), "Skarin");
-                    scores.SaveHighScores();
-                    scores.LoadHighScores();
-                    scores.SortHighScores();
                     currentGameState = 4;
                 }
             }
 
             if (currentGameState == 4)
             {
-                if (Keyboard.GetState().IsKeyDown(Keys.Enter))
-                {
-                    numOfAsteroids = 5;
-                    r = new Random();
-                    p = new Player(ch);
-                    hud = new HUD(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
-                    Initialize();
-                    currentGameState = 3;
-                }
+                gameOverMenu.Update(gameTime, hud, scores, ch);
+                IsMouseVisible = true;
             }
 
             if (currentGameState == 5)
@@ -559,7 +551,9 @@ namespace Asteroids
                     break;
                 case 4:
                     //Game Over
-
+                    spriteBatch.Begin();
+                    gameOverMenu.Draw(spriteBatch);
+                    spriteBatch.End();
                     break;
                 case 5:
                     //Options

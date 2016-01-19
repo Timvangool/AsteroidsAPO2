@@ -164,7 +164,7 @@ namespace Asteroids.Classes
             scoreList = scores.highscores;
             highscores = new string[10];
             highscoreCounter = new int[10];
-            for (int i = 0; i < scoreList.Count; i++)
+            for (int i = 0; i < highscores.Length; i++)
             {
                 if (scoreList[i].Name != null)
                 {
