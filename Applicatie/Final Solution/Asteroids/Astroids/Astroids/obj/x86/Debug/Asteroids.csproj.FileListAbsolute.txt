@@ -466,3 +466,10 @@ C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\obj\x86\Debug\
 C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.exe
 C:\Users\TARIK\Desktop\Final Solution\Asteroids\Astroids\Astroids\obj\x86\Debug\Astroids.pdb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\BtnMainMenu.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\BtnRetry.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\BtnSubmit.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\GameOverText.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowButtonDown.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ArrowButtonUp.xnb
+C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\GameOverFont.xnb

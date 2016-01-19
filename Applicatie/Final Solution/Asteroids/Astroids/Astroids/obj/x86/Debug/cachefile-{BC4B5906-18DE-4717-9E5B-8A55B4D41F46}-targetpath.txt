@@ -66,5 +66,12 @@ Content\MenuFont.xnb
 Content\LoadingScreen.xnb
 Content\Font.xnb
 Content\HighScores.xnb
+Content\BtnMainMenu.xnb
+Content\BtnRetry.xnb
+Content\BtnSubmit.xnb
+Content\GameOverText.xnb
+Content\ArrowButtonDown.xnb
+Content\ArrowButtonUp.xnb
+Content\GameOverFont.xnb
 Content\Keybindings\KeyboardControls.txt
 Content\Keybindings\WiimoteControls.txt

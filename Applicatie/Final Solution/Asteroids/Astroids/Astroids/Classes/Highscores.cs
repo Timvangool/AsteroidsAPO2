@@ -50,7 +50,6 @@ namespace Asteroids.Classes
             }
               );
             highscores.Reverse();
-
         }
     }
 }

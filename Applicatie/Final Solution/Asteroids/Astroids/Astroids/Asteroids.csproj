@@ -82,9 +82,12 @@
     <Compile Include="Classes\BasicBullet.cs" />
     <Compile Include="Classes\ControlHandler.cs" />
     <Compile Include="Classes\Credit.cs" />
+    <Compile Include="Classes\GameOverMenu.cs" />
     <Compile Include="Classes\GamestateManager.cs" />
     <Compile Include="Classes\Highscores.cs" />
     <Compile Include="Classes\HUD.cs" />
+    <Compile Include="Classes\KeyBindingsContent.cs" />
+    <Compile Include="Classes\KeyBindingsMenu.cs" />
     <Compile Include="Classes\KeyboardHandler.cs" />
     <Compile Include="Classes\Loader.cs" />
     <Compile Include="Classes\LoadingScreen.cs" />

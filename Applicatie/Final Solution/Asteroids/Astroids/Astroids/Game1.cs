@@ -151,7 +151,7 @@ namespace Asteroids
             screenWidth = graphics.PreferredBackBufferWidth;
 
             numOfAsteroids = 3;
-            currentGameState = 4;
+            currentGameState = 1;
         }
 
 
