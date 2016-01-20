@@ -6,5 +6,5 @@ Select:A
 Back:B
 Shoot:Two
 VolUp:Plus
-volDown:Minus
+VolDown:Minus
 Pause:Home

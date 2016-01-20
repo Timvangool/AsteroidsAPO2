@@ -31,6 +31,7 @@ namespace Asteroids.Classes
         private bool GetHit;
         private bool IsInAnimation;
         private Vector2 velocity;
+        private float maxSpeed;
 
         //Texture2D test;
 
@@ -45,6 +46,7 @@ namespace Asteroids.Classes
             delay = maxDelay;
             r = new Random();
             GetHit = false;
+            maxSpeed = 3.0f;
             IsInAnimation = false;
             this.contHand = contHand;
         }
@@ -78,10 +80,10 @@ namespace Asteroids.Classes
             Vector2 dir = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle));
 
             velocity += dir * a;
-            if (velocity.Length() > 3.0f)
+            if (velocity.Length() > maxSpeed)
             {
                 velocity.Normalize();
-                velocity *= 3.0f;
+                velocity *= maxSpeed;
             }
         }
 
@@ -149,7 +151,7 @@ namespace Asteroids.Classes
                 else
                 {
                     hitBox = new Rectangle((int)(playerPos.X - (playerTextureIdle.Width / 2)), (int)(playerPos.Y - (playerTextureIdle.Height / 2)), playerTextureIdle.Width, playerTextureIdle.Height);
-                    
+
                 }
 
                 playerPos += velocity;
@@ -247,9 +249,34 @@ namespace Asteroids.Classes
             return lives;
         }
 
+        public Vector2 GetPos()
+        {
+            return playerPos;
+        }
+
+        public void SetMaxDelay(float maxDelay)
+        {
+            this.maxDelay = maxDelay;
+        }
+
+        public void SetMaxSpeed(float maxSpeed)
+        {
+            this.maxSpeed = maxSpeed;
+        }
+
         public void SetGetHit(bool getHit)
         {
             this.GetHit = getHit;
+        }
+
+        public void SetLives(int lives)
+        {
+            this.lives = lives;
+        }
+
+        public void SetTexture(Texture2D texture)
+        {
+            this.playerTextureMoving = texture;
         }
     }
 }

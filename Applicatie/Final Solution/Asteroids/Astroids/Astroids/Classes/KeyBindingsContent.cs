@@ -34,6 +34,7 @@ namespace Asteroids.Classes
         Background bg;
         Color col;
         Color promptColor;
+        bool backKeyPress;
 
         bool savePrompt;
         int promptTimer;
@@ -54,7 +55,7 @@ namespace Asteroids.Classes
             this.graphics = graphics;
             this.Content = Content;
             scale = graphics.GraphicsDevice.Viewport.Width / 1600.0f;
-
+            backKeyPress = false;
             Initialize();
             Load();
         }
@@ -92,17 +93,16 @@ namespace Asteroids.Classes
 
         public void Update()
         {
-            //Returning to Options Menu
-            if (controlHandler.GetInput().Contains("Back"))
-            {
-                
-            }
-
             count++;
             if (count % 5 == 0)
             {
                 if (controlsEnabled)
                 {
+                    if(controlHandler.GetInput().Contains("Back"))
+                    {
+                        backKeyPress = true;
+                    }
+
                     if (controlHandler.GetInput().Contains("Right") || controlHandler.GetInput().Contains("Left"))
                     {
                         if (posX < xPositions.Length - 1)
@@ -250,8 +250,6 @@ namespace Asteroids.Classes
                 spriteBatch.DrawString(font, "Cannot save with unbound keys.", new Vector2(20 * scale, 850 * scale), promptColor, 0, Vector2.Zero, 0.20f * scale, SpriteEffects.None, 0.0f);
             if(reset)
                 spriteBatch.DrawString(font, "Keybindings have been reset.", new Vector2(20 * scale, 850 * scale), promptColor, 0, Vector2.Zero, 0.20f * scale, SpriteEffects.None, 0.0f);
-
-
         }
 
         private void EmptyKeybind()
@@ -364,6 +362,11 @@ namespace Asteroids.Classes
                 }
             }
             return true;            
+        }
+
+        public bool GetBackKeyPress()
+        {
+            return backKeyPress;
         }
     }
 }

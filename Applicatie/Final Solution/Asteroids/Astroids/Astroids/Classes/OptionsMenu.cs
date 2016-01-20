@@ -867,13 +867,11 @@ namespace Asteroids
                                 }
                             default:
                                 {
-                                    System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                     break;
                                 }
                         }
                     }
                 }
-
                 else if (ch.GetInput().Contains("Down"))
                 {
                     if (selectedNumber < 4)
@@ -908,7 +906,6 @@ namespace Asteroids
                                 }
                             default:
                                 {
-                                    System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                     break;
                                 }
                         }
@@ -936,7 +933,6 @@ namespace Asteroids
                             }
                         default:
                             {
-                                System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                 break;
                             }
                     }
@@ -963,7 +959,6 @@ namespace Asteroids
                             }
                         default:
                             {
-                                System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                 break;
                             }
                     }
@@ -984,7 +979,6 @@ namespace Asteroids
                             }
                         default:
                             {
-                                System.Windows.Forms.MessageBox.Show("Oops, something failed with the Selection.");
                                 break;
                             }
                     }
@@ -1019,8 +1013,5 @@ namespace Asteroids
         {
             return currentGameState;
         }
-
     }
-
-
 }

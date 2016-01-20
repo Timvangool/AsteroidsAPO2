@@ -95,6 +95,12 @@
     <Compile Include="Classes\Missile.cs" />
     <Compile Include="Classes\OptionsMenu.cs" />
     <Compile Include="Classes\OptionsText.cs" />
+    <Compile Include="Classes\Perks\ExtraLifePerk.cs" />
+    <Compile Include="Classes\Perks\MachineGunPerk.cs" />
+    <Compile Include="Classes\Perks\Perk.cs" />
+    <Compile Include="Classes\Perks\ShieldPerk.cs" />
+    <Compile Include="Classes\Perks\SpeedUpPerk.cs" />
+    <Compile Include="Classes\Pickup.cs" />
     <Compile Include="Classes\Planet.cs" />
     <Compile Include="Classes\Player.cs" />
     <Compile Include="Classes\SpritesheedLoader.cs" />

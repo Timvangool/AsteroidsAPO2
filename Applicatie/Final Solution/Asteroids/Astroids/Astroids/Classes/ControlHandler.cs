@@ -21,6 +21,12 @@ namespace Asteroids.Classes
             kbHandler = new KeyboardHandler();
             wmHandler = new WiimoteHandler();
             wiimoteIsConnected = wmHandler.CheckConnection();
+
+            for (int i = 0; i < 10; i++)
+            {
+                keyBindings[i, 1] = kbHandler.GetKeyBind(i);
+                keyBindings[i, 2] = wmHandler.getKeyBind(i);
+            }
         }
 
         public List<string> GetInput()
@@ -40,7 +46,7 @@ namespace Asteroids.Classes
             {
                 allInput.Add(input);
             }
-            
+
             return allInput;
         }
 
@@ -48,6 +54,18 @@ namespace Asteroids.Classes
         {
             if (wiimoteIsConnected)
                 wmHandler.SetLeds(wmIndex, lives);
+        }
+        public string[,] GetKeyBindings()
+        {
+            return keyBindings;
+        }
+        public WiimoteLib.Wiimote GetWiimote(int wiimoteNumber)
+        {
+            return wmHandler.wmList[wiimoteNumber];
+        }
+        public int GetNumberOfWiimotes()
+        {
+            return wmHandler.wmList.Count();
         }
     }
 }

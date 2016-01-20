@@ -48,5 +48,10 @@ namespace Asteroids.Classes
         {
             keyBindingsContent.Draw(spriteBatch);
         }
+
+        public bool GetBackKeyPress()
+        {
+            return keyBindingsContent.GetBackKeyPress();
+        }
     }
 }

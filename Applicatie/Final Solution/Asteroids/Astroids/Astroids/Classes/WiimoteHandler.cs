@@ -12,7 +12,7 @@ namespace Asteroids.Classes
 {
     public class WiimoteHandler
     {
-        List<Wiimote> wmList = new List<Wiimote>();
+        public List<Wiimote> wmList = new List<Wiimote>();
         WiimoteCollection WMC = new WiimoteCollection();
         public bool[] connectedWMS = new bool[4];
         string[,] keyBinds = new string[10, 2] { { "Up", ""}, {"Down", ""}, {"Left", ""}, {"Right", ""}, {"Select",""}, 
@@ -41,7 +41,7 @@ namespace Asteroids.Classes
             }
             catch (WiimoteNotFoundException ex)
             {
-                System.Windows.Forms.MessageBox.Show("Wiimote not found: ", ex.Message);
+                //System.Windows.Forms.MessageBox.Show("Wiimote not found ", ex.Message);
             }
             catch (WiimoteException ex)
             {
@@ -56,9 +56,9 @@ namespace Asteroids.Classes
         public bool CheckConnection()
         {
             WiimoteCollection wmc = new WiimoteCollection();
-            bool connected = false ;
+            bool connected = false;
 
-            foreach(Wiimote wm in wmList)
+            foreach (Wiimote wm in wmList)
             {
                 wmc.Add(wm);
 
@@ -135,6 +135,7 @@ namespace Asteroids.Classes
                 string[] tempArray = temp.Split(separator);
                 keyBinds[i, 1] = tempArray[1];
             }
+            sr.Dispose();
         }
 
         public void SetLeds(int wmIndex, int lives)
@@ -157,6 +158,43 @@ namespace Asteroids.Classes
                     wmList[wmIndex].SetLEDs(false, false, false, false);
                     break;
             }
+        }
+
+        public string getKeyBind(int index)
+        {
+            return keyBinds[index, 1];
+        }
+
+        public List<string> GetRawInput()
+        {
+            List<string> wmButtonsPressed = new List<string>();
+
+            foreach (Wiimote wm in wmList)
+            {
+                if (wm.WiimoteState.ButtonState.Up)
+                    wmButtonsPressed.Add("Up");
+                if (wm.WiimoteState.ButtonState.Down)
+                    wmButtonsPressed.Add("Down");
+                if (wm.WiimoteState.ButtonState.Left)
+                    wmButtonsPressed.Add("Left");
+                if (wm.WiimoteState.ButtonState.Right)
+                    wmButtonsPressed.Add("Right");
+                if (wm.WiimoteState.ButtonState.A)
+                    wmButtonsPressed.Add("A");
+                if (wm.WiimoteState.ButtonState.B)
+                    wmButtonsPressed.Add("B");
+                if (wm.WiimoteState.ButtonState.One)
+                    wmButtonsPressed.Add("One");
+                if (wm.WiimoteState.ButtonState.Two)
+                    wmButtonsPressed.Add("Two");
+                if (wm.WiimoteState.ButtonState.Plus)
+                    wmButtonsPressed.Add("Plus");
+                if (wm.WiimoteState.ButtonState.Minus)
+                    wmButtonsPressed.Add("Minus");
+                if (wm.WiimoteState.ButtonState.Home)
+                    wmButtonsPressed.Add("Home");
+            }
+            return wmButtonsPressed;
         }
     }
 }

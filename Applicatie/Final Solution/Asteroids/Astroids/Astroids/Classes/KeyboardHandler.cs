@@ -20,8 +20,8 @@ namespace Asteroids.Classes
         public KeyboardHandler()
         {
             GetKBControls();
-        }        
-        
+        }
+
         public List<string> GetButtonsPressed(/*string[,] keyBinds*/)
         {
             List<string> btnsPressed = new List<string>();
@@ -45,14 +45,19 @@ namespace Asteroids.Classes
         private void GetKBControls()
         {
             StreamReader sr = new StreamReader(@"Content\Keybindings\KeyboardControls.txt");
-
             char separator = ':';
+
             for (int i = 0; i <= 9; i++)
             {
                 string temp = sr.ReadLine();
                 string[] tempArray = temp.Split(separator);
                 keyBinds[i, 1] = tempArray[1];
             }
+            sr.Dispose();
+        }
+        public string GetKeyBind(int index)
+        {
+            return keyBinds[index, 1];
         }
     }
 }

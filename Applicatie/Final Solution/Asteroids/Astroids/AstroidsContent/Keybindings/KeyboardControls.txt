@@ -3,7 +3,7 @@ Down:S
 Left:A
 Right:D
 Select:Enter
-Back:Backspace
+Back:Back
 Shoot:Space
 VolUp:Add
 VolDown:Subtract

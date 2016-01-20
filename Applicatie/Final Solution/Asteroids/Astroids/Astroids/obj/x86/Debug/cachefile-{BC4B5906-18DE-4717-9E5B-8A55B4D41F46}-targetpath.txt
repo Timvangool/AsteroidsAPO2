@@ -73,5 +73,9 @@ Content\GameOverText.xnb
 Content\ArrowButtonDown.xnb
 Content\ArrowButtonUp.xnb
 Content\GameOverFont.xnb
+Content\KBMenuFont.xnb
+Content\PickupItem.xnb
+Content\Shield.xnb
+Content\ShieldBar.xnb
 Content\Keybindings\KeyboardControls.txt
 Content\Keybindings\WiimoteControls.txt

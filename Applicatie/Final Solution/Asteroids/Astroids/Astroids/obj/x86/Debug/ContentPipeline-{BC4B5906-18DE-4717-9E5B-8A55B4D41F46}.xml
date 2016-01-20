@@ -676,6 +676,42 @@
       <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\GameOverFont.xnb</Output>
       <Time>2016-01-18T10:12:09.1747841+01:00</Time>
     </Item>
+    <Item>
+      <Source>KBMenuFont.spritefont</Source>
+      <Name>KBMenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\KBMenuFont.xnb</Output>
+      <Time>2016-01-19T11:37:03.7668568+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PickupItem.png</Source>
+      <Name>PickupItem</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\PickupItem.xnb</Output>
+      <Time>2016-01-20T09:04:39.1070136+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Shield.png</Source>
+      <Name>Shield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\Shield.xnb</Output>
+      <Time>2016-01-20T09:04:39.1382665+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ShieldBar.png</Source>
+      <Name>ShieldBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thom\Documents\GitHub\AsteroidsAPO2\Applicatie\Final Solution\Asteroids\Astroids\Astroids\bin\x86\Debug\Content\ShieldBar.xnb</Output>
+      <Time>2016-01-20T09:04:39.1382665+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{BC4B5906-18DE-4717-9E5B-8A55B4D41F46}</ContentProjectGUID>
